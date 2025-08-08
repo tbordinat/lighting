@@ -22,6 +22,7 @@ Feel free to explore, suggest improvements, or reach out if you have questions!
 
 - 2025-08-08 - Kolbsheim 🇫🇷 - Demi-Lune Festival III - Yurodivy
 - 2025-06-12 - Strasbourg 🇫🇷 - Molodoi - Itawak Fest VI - Yarostan + Wormrot + Bleachdrinker + The Man And The Abyss + Oak + more
+- 2025-04-25 - Dinsheim-sur-Bruche 🇫🇷 - Ruby's Burlesque Club #2
 - 2025-03-27 - Strasbourg 🇫🇷 - Itawak Show - LMDA + Gummo + Insane Order + Pilon
 - 2025-03-08 - Strasbourg 🇫🇷 - Kawati Studios - Yurodivy
 - 2024-06-06 - Strasbourg 🇫🇷 - Molodoi - Itawak Fest V - Another Five Minutes + Yurodivy + more
