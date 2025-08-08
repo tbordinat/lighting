@@ -1,0 +1,2851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.14.3</Version>
+  <Author>Thomas Bordinat</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
+   <Universe Name="Universe 1" ID="0">
+    <Input Plugin="MIDI" UID="Midi Through Port-0" Line="0"/>
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
+    <Feedback Plugin="MIDI" UID="input" Line="1"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1">
+    <Input Plugin="ArtNet" UID="172.18.0.1" Line="2"/>
+   </Universe>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>COLORdash Batten H12X IP</Model>
+   <Mode>DMX Mode 42Ch</Mode>
+   <ID>0</ID>
+   <Name>COLORdash Batten H12X IP #1</Name>
+   <Universe>0</Universe>
+   <Address>250</Address>
+   <Channels>42</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>COLORdash Batten H12X IP</Model>
+   <Mode>DMX Mode 42Ch</Mode>
+   <ID>1</ID>
+   <Name>COLORdash Batten H12X IP #2</Name>
+   <Universe>0</Universe>
+   <Address>292</Address>
+   <Channels>42</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>COLORdash Batten H12X IP</Model>
+   <Mode>DMX Mode 42Ch</Mode>
+   <ID>2</ID>
+   <Name>COLORdash Batten H12X IP #3</Name>
+   <Universe>0</Universe>
+   <Address>334</Address>
+   <Channels>42</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>COLORdash Batten H12X IP</Model>
+   <Mode>DMX Mode 42Ch</Mode>
+   <ID>3</ID>
+   <Name>COLORdash Batten H12X IP #4</Name>
+   <Universe>0</Universe>
+   <Address>376</Address>
+   <Channels>42</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>AF-40 DMX</Model>
+   <Mode>Normal</Mode>
+   <ID>4</ID>
+   <Name>Smoke</Name>
+   <Universe>0</Universe>
+   <Address>180</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED CLS-9 QCL RGBW 9x8W 12</Model>
+   <Mode>6-Channel</Mode>
+   <ID>5</ID>
+   <Name>LED CLS-9 QCL RGBW 9x8W 12</Name>
+   <Universe>0</Universe>
+   <Address>160</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>Wild Wash 9x3W LED UV</Model>
+   <Mode>2 Channel 1</Mode>
+   <ID>12</ID>
+   <Name>Wild Wash 9x3W LED UV</Name>
+   <Universe>0</Universe>
+   <Address>445</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Botex</Manufacturer>
+   <Model>SP-1500</Model>
+   <Mode>Default</Mode>
+   <ID>13</ID>
+   <Name>SP-1500</Name>
+   <Universe>0</Universe>
+   <Address>116</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>26</ID>
+   <Name>PAR Yuro #1</Name>
+   <Universe>0</Universe>
+   <Address>441</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>27</ID>
+   <Name>PAR Yuro #2</Name>
+   <Universe>0</Universe>
+   <Address>442</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>28</ID>
+   <Name>PAR Yuro #3</Name>
+   <Universe>0</Universe>
+   <Address>443</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>29</ID>
+   <Name>PAR Yuro #4</Name>
+   <Universe>0</Universe>
+   <Address>444</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Starway</Manufacturer>
+   <Model>SuperKolor</Model>
+   <Mode>Tour 12ch</Mode>
+   <ID>33</ID>
+   <Name>SuperKolor #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>12</Channels>
+   <ForcedHTP>6,9</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Starway</Manufacturer>
+   <Model>SuperKolor</Model>
+   <Mode>Tour 12ch</Mode>
+   <ID>34</ID>
+   <Name>SuperKolor #2</Name>
+   <Universe>0</Universe>
+   <Address>12</Address>
+   <Channels>12</Channels>
+   <ForcedHTP>6,9</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Starway</Manufacturer>
+   <Model>SuperKolor</Model>
+   <Mode>Tour 12ch</Mode>
+   <ID>35</ID>
+   <Name>SuperKolor #3</Name>
+   <Universe>0</Universe>
+   <Address>24</Address>
+   <Channels>12</Channels>
+   <ForcedHTP>6,9</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Starway</Manufacturer>
+   <Model>SuperKolor</Model>
+   <Mode>Tour 12ch</Mode>
+   <ID>36</ID>
+   <Name>SuperKolor #4</Name>
+   <Universe>0</Universe>
+   <Address>36</Address>
+   <Channels>12</Channels>
+   <ForcedHTP>6,9</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Starway</Manufacturer>
+   <Model>SuperKolor</Model>
+   <Mode>Tour 12ch</Mode>
+   <ID>37</ID>
+   <Name>SuperKolor #5</Name>
+   <Universe>0</Universe>
+   <Address>48</Address>
+   <Channels>12</Channels>
+   <ForcedHTP>6,9</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Starway</Manufacturer>
+   <Model>SuperKolor</Model>
+   <Mode>Tour 12ch</Mode>
+   <ID>38</ID>
+   <Name>SuperKolor #6</Name>
+   <Universe>0</Universe>
+   <Address>60</Address>
+   <Channels>12</Channels>
+   <ForcedHTP>6,9</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Starway</Manufacturer>
+   <Model>SuperKolor</Model>
+   <Mode>Tour 12ch</Mode>
+   <ID>39</ID>
+   <Name>SuperKolor #7</Name>
+   <Universe>0</Universe>
+   <Address>72</Address>
+   <Channels>12</Channels>
+   <ForcedHTP>6,9</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Starway</Manufacturer>
+   <Model>SuperKolor</Model>
+   <Mode>Tour 12ch</Mode>
+   <ID>40</ID>
+   <Name>SuperKolor #8</Name>
+   <Universe>0</Universe>
+   <Address>84</Address>
+   <Channels>12</Channels>
+   <ForcedHTP>6,9</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>Wild Wash 132 RGB LED</Model>
+   <Mode>3 Channel 2</Mode>
+   <ID>41</ID>
+   <Name>Wild Wash 132 RGB LED Jerem</Name>
+   <Universe>0</Universe>
+   <Address>447</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>Wild Wash 132 RGB LED</Model>
+   <Mode>3 Channel 2</Mode>
+   <ID>42</ID>
+   <Name>Wild Wash 132 RGB LED David</Name>
+   <Universe>0</Universe>
+   <Address>450</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>Wild Wash 132 RGB LED</Model>
+   <Mode>3 Channel 2</Mode>
+   <ID>43</ID>
+   <Name>Wild Wash 132 RGB LED Julien</Name>
+   <Universe>0</Universe>
+   <Address>453</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <FixtureGroup ID="4">
+   <Name>PAR Yuro</Name>
+   <Size X="4" Y="1"/>
+   <Head X="0" Y="0" Fixture="26">0</Head>
+   <Head X="1" Y="0" Fixture="27">0</Head>
+   <Head X="2" Y="0" Fixture="28">0</Head>
+   <Head X="3" Y="0" Fixture="29">0</Head>
+  </FixtureGroup>
+  <ChannelsGroup ID="0" Name="Contre" Value="0"/>
+  <Function ID="0" Type="Collection" Name="Pessimist - C - Chant 2" Path="Yurodivy/B - Pessimist">
+   <Step Number="0">17</Step>
+   <Step Number="1">157</Step>
+   <Step Number="2">296</Step>
+   <Step Number="3">302</Step>
+   <Step Number="4">373</Step>
+   <Step Number="5">308</Step>
+   <Step Number="6">374</Step>
+   <Step Number="7">314</Step>
+   <Step Number="8">377</Step>
+   <Step Number="9">332</Step>
+   <Step Number="10">378</Step>
+   <Step Number="11">338</Step>
+   <Step Number="12">347</Step>
+   <Step Number="13">348</Step>
+  </Function>
+  <Function ID="1" Type="Scene" Name="Sunstrip" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="2" Type="Scene" Name="CLS9 - Orange" Path="Demi-Lune/CLS9">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,255,1,120,2,0,3,104</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="empty" Hidden="True" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">6,0</FixtureVal>
+  </Function>
+  <Function ID="4" Type="RGBMatrix" Name="Intimidator Fire" Path="Epinal - Souris Verte">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fireworks</Algorithm>
+   <Color Index="0">4290295992</Color>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>5</FixtureGroup>
+   <Property Name="particleCount" Value="11"/>
+   <Property Name="particleSteps" Value="15"/>
+   <Property Name="rocketCount" Value="3"/>
+  </Function>
+  <Function ID="5" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="6" Type="Scene" Name="E - Pont" Path="Yurodivy/B - Pessimist">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="42">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="43">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="F - Incoming solo" Path="Yurodivy/B - Pessimist">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="42">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="43">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="Yurodivy - 0 - Commun - Tout strob" Path="Yurodivy/0 - Commun">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,255,1,230,2,116</FixtureVal>
+   <FixtureVal ID="42">0,255,1,230,2,116</FixtureVal>
+   <FixtureVal ID="43">0,255,1,230,2,116</FixtureVal>
+   <FixtureVal ID="12">0,255,1,230</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="10" Type="Collection" Name="Parasite - J - Final #2" Path="Yurodivy/I - Parasite">
+   <Step Number="0">220</Step>
+   <Step Number="1">14</Step>
+   <Step Number="2">265</Step>
+  </Function>
+  <Function ID="11" Type="Scene" Name="A - D - Intro" Path="Yurodivy/B - Pessimist">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">1,0,2,18</FixtureVal>
+   <FixtureVal ID="42">1,0,2,18</FixtureVal>
+   <FixtureVal ID="43">1,0,2,18</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Collection" Name="Pessimist - A - D - Intro - Tpo" Path="Yurodivy/B - Pessimist">
+   <Step Number="0">11</Step>
+   <Step Number="1">259</Step>
+   <Step Number="2">14</Step>
+   <Step Number="3">254</Step>
+   <Step Number="4">96</Step>
+   <Step Number="5">296</Step>
+   <Step Number="6">302</Step>
+   <Step Number="7">308</Step>
+   <Step Number="8">314</Step>
+   <Step Number="9">332</Step>
+   <Step Number="10">338</Step>
+  </Function>
+  <Function ID="13" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Sequence" Name="Wash RGB - Alternance 0-100 - 1 par 1" Path="Yuro - Effets/Wash" BoundScene="13">
+   <Speed FadeIn="84" FadeOut="84" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="1" Hold="0" FadeOut="0" Values="2">0:0,255</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="2">1:0,255</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="2"/>
+  </Function>
+  <Function ID="15" Type="Scene" Name="B - Chant" Path="Yurodivy/B - Pessimist">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,255,1,225,2,117</FixtureVal>
+   <FixtureVal ID="42">0,255,1,225,2,117</FixtureVal>
+   <FixtureVal ID="43">0,255,1,225,2,117</FixtureVal>
+   <FixtureVal ID="12">0,255,1,225</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Collection" Name="Pessimist - B - Chant" Path="Yurodivy/B - Pessimist">
+   <Step Number="0">15</Step>
+   <Step Number="1">249</Step>
+   <Step Number="2">387</Step>
+  </Function>
+  <Function ID="17" Type="Scene" Name="C - Chant 2" Path="Yurodivy/B - Pessimist">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,144,1,0,2,18</FixtureVal>
+   <FixtureVal ID="42">0,255,1,0,2,18</FixtureVal>
+   <FixtureVal ID="43">0,144,1,0,2,18</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="G - C la guerre" Path="Yurodivy/B - Pessimist">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="42">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="43">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="12">0,255,1,225</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="H - J - Re chant" Path="Yurodivy/B - Pessimist">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,255,1,225,2,18</FixtureVal>
+   <FixtureVal ID="42">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="43">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="12">0,255,1,225</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="I - Ding" Path="Yurodivy/B - Pessimist">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="42">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="43">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Collection" Name="Pessimist - E - Pont" Path="Yurodivy/B - Pessimist">
+   <Step Number="0">6</Step>
+   <Step Number="1">259</Step>
+   <Step Number="2">388</Step>
+   <Step Number="3">389</Step>
+   <Step Number="4">390</Step>
+   <Step Number="5">391</Step>
+   <Step Number="6">394</Step>
+   <Step Number="7">395</Step>
+   <Step Number="8">296</Step>
+   <Step Number="9">302</Step>
+   <Step Number="10">308</Step>
+   <Step Number="11">314</Step>
+   <Step Number="12">332</Step>
+   <Step Number="13">338</Step>
+  </Function>
+  <Function ID="22" Type="Collection" Name="Pessimist - F - Incoming solo" Path="Yurodivy/B - Pessimist">
+   <Step Number="0">7</Step>
+   <Step Number="1">159</Step>
+  </Function>
+  <Function ID="23" Type="Collection" Name="Pessimist - G - C la guerre" Path="Yurodivy/B - Pessimist">
+   <Step Number="0">18</Step>
+   <Step Number="1">265</Step>
+  </Function>
+  <Function ID="24" Type="Collection" Name="Pessimist - H - J - Re chant" Path="Yurodivy/B - Pessimist">
+   <Step Number="0">19</Step>
+   <Step Number="1">246</Step>
+  </Function>
+  <Function ID="25" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="26" Type="Collection" Name="Pessimist - I - Ding" Path="Yurodivy/B - Pessimist">
+   <Step Number="0">20</Step>
+   <Step Number="1">259</Step>
+   <Step Number="2">339</Step>
+   <Step Number="3">293</Step>
+   <Step Number="4">340</Step>
+   <Step Number="5">299</Step>
+  </Function>
+  <Function ID="27" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="28" Type="Scene" Name="K - Break" Path="Yurodivy/B - Pessimist">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="42">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="43">0,20,1,0,2,18</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="30" Type="Scene" Name="L - Final" Path="Yurodivy/B - Pessimist">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">1,0,2,117</FixtureVal>
+   <FixtureVal ID="42">1,0,2,117</FixtureVal>
+   <FixtureVal ID="43">1,0,2,117</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="32" Type="Collection" Name="Pessimist - K - Break" Path="Yurodivy/B - Pessimist">
+   <Step Number="0">28</Step>
+   <Step Number="1">217</Step>
+  </Function>
+  <Function ID="33" Type="Collection" Name="Pessimist - L - Final" Path="Yurodivy/B - Pessimist">
+   <Step Number="0">30</Step>
+   <Step Number="1">14</Step>
+   <Step Number="2">238</Step>
+   <Step Number="3">96</Step>
+   <Step Number="4">296</Step>
+   <Step Number="5">302</Step>
+   <Step Number="6">308</Step>
+   <Step Number="7">314</Step>
+   <Step Number="8">332</Step>
+   <Step Number="9">338</Step>
+  </Function>
+  <Function ID="34" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="35" Type="Scene" Name="M - STOP" Path="Yurodivy/B - Pessimist">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,10,1,0,2,117</FixtureVal>
+   <FixtureVal ID="42">0,10,1,0,2,117</FixtureVal>
+   <FixtureVal ID="43">0,10,1,0,2,117</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Scene" Name="A - Intro" Path="Yurodivy/C - 7 2 Table">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,255,1,0,2,26</FixtureVal>
+   <FixtureVal ID="42">0,255,1,0,2,64</FixtureVal>
+   <FixtureVal ID="43">0,255,1,0,2,26</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="B - All instru" Path="Yurodivy/C - 7 2 Table">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">1,0,2,26</FixtureVal>
+   <FixtureVal ID="42">1,0,2,64</FixtureVal>
+   <FixtureVal ID="43">1,0,2,26</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Sequence" Name="Wash RGB - Alternance 50-100" Path="Yuro - Effets/Wash" BoundScene="39">
+   <Speed FadeIn="84" FadeOut="84" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="1" Hold="0" FadeOut="0" Values="2">0:0,255:1:0,191</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="2">0:0,127:1:0,255</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="2">0:0,191:1:0,127</Step>
+  </Function>
+  <Function ID="39" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Collection" Name="7 2 Table - A - Intro" Path="Yurodivy/C - 7 2 Table">
+   <Step Number="0">36</Step>
+   <Step Number="1">259</Step>
+  </Function>
+  <Function ID="41" Type="Collection" Name="7 2 Table - B - All intru" Path="Yurodivy/C - 7 2 Table">
+   <Step Number="0">37</Step>
+   <Step Number="1">38</Step>
+   <Step Number="2">262</Step>
+  </Function>
+  <Function ID="42" Type="Collection" Name="Pessimist - M - STOP" Path="Yurodivy/B - Pessimist">
+   <Step Number="0">35</Step>
+   <Step Number="1">264</Step>
+   <Step Number="2">379</Step>
+   <Step Number="3">380</Step>
+   <Step Number="4">381</Step>
+   <Step Number="5">382</Step>
+   <Step Number="6">385</Step>
+   <Step Number="7">386</Step>
+  </Function>
+  <Function ID="43" Type="Scene" Name="C - Pont - Alternance contre" Path="Yurodivy/C - 7 2 Table">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,78,1,0,2,26</FixtureVal>
+   <FixtureVal ID="42">0,255,1,0,2,64</FixtureVal>
+   <FixtureVal ID="43">0,78,1,0,2,26</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="44" Type="Scene" Name="D - Retour" Path="Yurodivy/C - 7 2 Table">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="41">0,10,1,0,2,26</FixtureVal>
+   <FixtureVal ID="42">0,255,1,0,2,64</FixtureVal>
+   <FixtureVal ID="43">0,10,1,0,2,26</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="E - Soon" Path="Yurodivy/C - 7 2 Table">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="46" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="47" Type="Sequence" Name="Wash RGB - Sine - 2/3" Path="Yuro - Effets/Wash" BoundScene="48">
+   <Speed FadeIn="128" FadeOut="128" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="1" Hold="0" FadeOut="0" Values="2">0:0,255:1:0,255</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="2">0:0,255:1:0,191</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="2">0:0,255:1:0,127</Step>
+   <Step Number="3" FadeIn="84" Hold="183" FadeOut="84" Values="2">0:0,191:1:0,191</Step>
+   <Step Number="4" FadeIn="84" Hold="183" FadeOut="84" Values="2">0:0,127:1:0,255</Step>
+   <Step Number="5" FadeIn="84" Hold="183" FadeOut="84" Values="2">0:0,191:1:0,255</Step>
+  </Function>
+  <Function ID="48" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+  </Function>
+  <Function ID="49" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="50" Type="Collection" Name="7 2 Table - C - Pont - Alternance contre" Path="Yurodivy/C - 7 2 Table">
+   <Step Number="0">43</Step>
+  </Function>
+  <Function ID="51" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="52" Type="Collection" Name="7 2 Table - D - Retour" Path="Yurodivy/C - 7 2 Table">
+   <Step Number="0">44</Step>
+   <Step Number="1">238</Step>
+  </Function>
+  <Function ID="53" Type="Collection" Name="7 2 Table - E - Soon" Path="Yurodivy/C - 7 2 Table">
+   <Step Number="0">45</Step>
+   <Step Number="1">47</Step>
+  </Function>
+  <Function ID="54" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="55" Type="Scene" Name="F - Outro" Path="Yurodivy/C - 7 2 Table">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="12">0,70,1,0</FixtureVal>
+  </Function>
+  <Function ID="56" Type="Scene" Name="Circle" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="57" Type="Collection" Name="7 2 Table - F - Outro" Path="Yurodivy/C - 7 2 Table">
+   <Step Number="0">55</Step>
+  </Function>
+  <Function ID="58" Type="Scene" Name="A - E - Intro" Path="Yurodivy/E - Fougasse">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">1,0,2,84</FixtureVal>
+   <FixtureVal ID="42">1,0,2,64</FixtureVal>
+   <FixtureVal ID="43">1,0,2,84</FixtureVal>
+   <FixtureVal ID="12">0,127,1,0</FixtureVal>
+  </Function>
+  <Function ID="59" Type="Scene" Name="Circle" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="60" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+  </Function>
+  <Function ID="61" Type="Scene" Name="Circle" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="62" Type="Sequence" Name="PAR Sine" Path="Yuro - Effets/PAR" BoundScene="60">
+   <Speed FadeIn="0" FadeOut="0" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,25:27:0,70:28:0,70:29:0,25</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,42:27:0,60:28:0,60:29:0,42</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,62:27:0,50:28:0,50:29:0,62</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,50:27:0,62:28:0,62:29:0,50</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,60:27:0,42:28:0,42:29:0,60</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,70:27:0,25:28:0,25:29:0,70</Step>
+  </Function>
+  <Function ID="63" Type="Collection" Name="40 days - A - C - E - Intro" Path="Yurodivy/F - 40 days">
+   <Step Number="0">73</Step>
+   <Step Number="1">246</Step>
+   <Step Number="2">294</Step>
+   <Step Number="3">300</Step>
+   <Step Number="4">305</Step>
+   <Step Number="5">312</Step>
+   <Step Number="6">330</Step>
+   <Step Number="7">335</Step>
+  </Function>
+  <Function ID="64" Type="Sequence" Name="Wash RGB - Alternance 10 - 50" Path="Yuro - Effets/Wash" BoundScene="65">
+   <Speed FadeIn="84" FadeOut="84" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="1" Hold="0" FadeOut="0" Values="2">0:0,92:1:0,28</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="2">0:0,28:1:0,92</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="2">0:0,28:1:0,28</Step>
+  </Function>
+  <Function ID="65" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+  </Function>
+  <Function ID="66" Type="Collection" Name="Fougasse - A - E - Intro" Path="Yurodivy/E - Fougasse">
+   <Step Number="0">58</Step>
+   <Step Number="1">14</Step>
+   <Step Number="2">81</Step>
+  </Function>
+  <Function ID="67" Type="Scene" Name="B - Début chant - contre manuel" Path="Yurodivy/E - Fougasse">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">1,0,2,84</FixtureVal>
+   <FixtureVal ID="42">1,0,2,64</FixtureVal>
+   <FixtureVal ID="43">1,0,2,84</FixtureVal>
+   <FixtureVal ID="12">0,127,1,0</FixtureVal>
+  </Function>
+  <Function ID="68" Type="Scene" Name="C - F - Couplet" Path="Yurodivy/E - Fougasse">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,120,1,0,2,84</FixtureVal>
+   <FixtureVal ID="42">0,120,1,0,2,64</FixtureVal>
+   <FixtureVal ID="43">0,120,1,0,2,84</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="69" Type="Scene" Name="D - Bordel - Strob" Path="Yurodivy/E - Fougasse">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,130,1,227,2,84</FixtureVal>
+   <FixtureVal ID="42">0,130,1,227,2,64</FixtureVal>
+   <FixtureVal ID="43">0,130,1,227,2,84</FixtureVal>
+   <FixtureVal ID="12">0,255,1,206</FixtureVal>
+  </Function>
+  <Function ID="70" Type="Scene" Name="G - Pont" Path="Yurodivy/E - Fougasse">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,15,1,0,2,84</FixtureVal>
+   <FixtureVal ID="42">0,15,1,0,2,64</FixtureVal>
+   <FixtureVal ID="43">0,30,1,0,2,84</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="71" Type="Scene" Name="H - Outro 1 - Attention, long / Début du bazar" Path="Yurodivy/E - Fougasse">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,85,1,0,2,84</FixtureVal>
+   <FixtureVal ID="42">0,85,1,0,2,64</FixtureVal>
+   <FixtureVal ID="43">0,85,1,0,2,84</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Scene" Name="I - Outro 2 - Stroooob - Attention toute fin" Path="Yurodivy/E - Fougasse">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,255,1,221,2,118</FixtureVal>
+   <FixtureVal ID="42">0,255,1,221,2,118</FixtureVal>
+   <FixtureVal ID="43">0,255,1,221,2,118</FixtureVal>
+   <FixtureVal ID="12">0,255,1,221</FixtureVal>
+  </Function>
+  <Function ID="73" Type="Scene" Name="A - C - E - Intro" Path="Yurodivy/F - 40 days">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="74" Type="Collection" Name="Fougasse - C - F - Couplet" Path="Yurodivy/E - Fougasse">
+   <Step Number="0">68</Step>
+   <Step Number="1">238</Step>
+  </Function>
+  <Function ID="75" Type="Collection" Name="Fougasse - D - Bordel - Strob" Path="Yurodivy/E - Fougasse">
+   <Step Number="0">69</Step>
+   <Step Number="1">8</Step>
+  </Function>
+  <Function ID="76" Type="Collection" Name="Fougasse - G - Pont" Path="Yurodivy/E - Fougasse">
+   <Step Number="0">70</Step>
+   <Step Number="1">262</Step>
+  </Function>
+  <Function ID="77" Type="Collection" Name="Fougasse - H - Outro 1 - Début du bazar" Path="Yurodivy/E - Fougasse">
+   <Step Number="0">71</Step>
+   <Step Number="1">238</Step>
+  </Function>
+  <Function ID="78" Type="Collection" Name="Fougasse - I - Outro 3 - Stroooob - Attention toute fin" Path="Yurodivy/E - Fougasse">
+   <Step Number="0">72</Step>
+   <Step Number="1">238</Step>
+  </Function>
+  <Function ID="79" Type="Collection" Name="Fougasse - B - Début chant - contre manuel" Path="Yurodivy/E - Fougasse">
+   <Step Number="0">67</Step>
+   <Step Number="1">64</Step>
+   <Step Number="2">265</Step>
+  </Function>
+  <Function ID="80" Type="Scene" Name="A - Intro" Path="Yurodivy/G - Year of the Light">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,106,1,0,2,24</FixtureVal>
+   <FixtureVal ID="42">0,106,1,0,2,24</FixtureVal>
+   <FixtureVal ID="43">0,106,1,0,2,24</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="81" Type="Sequence" Name="PAR Sine low - 28-46" Path="Yuro - Effets/PAR" BoundScene="82">
+   <Speed FadeIn="0" FadeOut="0" Duration="570"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="PerStep"/>
+   <Step Number="0" FadeIn="1000" Hold="0" FadeOut="1000" Values="4">26:0,40:27:0,16:28:0,16:29:0,40</Step>
+   <Step Number="1" FadeIn="1000" Hold="0" FadeOut="1000" Values="4">26:0,78:27:0,48:28:0,48:29:0,78</Step>
+   <Step Number="2" FadeIn="1000" Hold="0" FadeOut="1000" Values="4">26:0,90:27:0,80:28:0,80:29:0,90</Step>
+   <Step Number="3" FadeIn="1000" Hold="0" FadeOut="1000" Values="4">26:0,48:27:0,78:28:0,78:29:0,48</Step>
+   <Step Number="4" FadeIn="1000" Hold="0" FadeOut="1000" Values="4">26:0,16:27:0,40:28:0,40:29:0,16</Step>
+  </Function>
+  <Function ID="82" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+  </Function>
+  <Function ID="83" Type="Scene" Name="Opti #1 - #6" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="84" Type="Scene" Name="empty" Hidden="True" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">6,0</FixtureVal>
+  </Function>
+  <Function ID="85" Type="Scene" Name="B - D - F - Lourd" Path="Yurodivy/F - 40 days">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,26,1,0,2,58</FixtureVal>
+   <FixtureVal ID="42">0,26,1,0,2,58</FixtureVal>
+   <FixtureVal ID="43">0,26,1,0,2,58</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="86" Type="Collection" Name="40 days - B - D - F - Lourd" Path="Yurodivy/F - 40 days">
+   <Step Number="0">85</Step>
+   <Step Number="1">238</Step>
+   <Step Number="2">294</Step>
+   <Step Number="3">347</Step>
+   <Step Number="4">348</Step>
+   <Step Number="5">300</Step>
+   <Step Number="6">373</Step>
+   <Step Number="7">306</Step>
+   <Step Number="8">378</Step>
+   <Step Number="9">336</Step>
+   <Step Number="10">391</Step>
+   <Step Number="11">312</Step>
+   <Step Number="12">394</Step>
+   <Step Number="13">330</Step>
+  </Function>
+  <Function ID="87" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="88" Type="Collection" Name="Tout Strob 128" Path="Yurodivy/0 - Commun">
+   <Step Number="0">347</Step>
+   <Step Number="1">355</Step>
+   <Step Number="2">293</Step>
+   <Step Number="3">348</Step>
+   <Step Number="4">357</Step>
+   <Step Number="5">299</Step>
+   <Step Number="6">349</Step>
+   <Step Number="7">359</Step>
+   <Step Number="8">305</Step>
+   <Step Number="9">350</Step>
+   <Step Number="10">361</Step>
+   <Step Number="11">311</Step>
+   <Step Number="12">353</Step>
+   <Step Number="13">367</Step>
+   <Step Number="14">329</Step>
+   <Step Number="15">354</Step>
+   <Step Number="16">369</Step>
+   <Step Number="17">335</Step>
+  </Function>
+  <Function ID="89" Type="Scene" Name="Sunstrip" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="90" Type="Scene" Name="H - Pont" Path="Yurodivy/F - 40 days">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,16,1,0,2,58</FixtureVal>
+   <FixtureVal ID="42">0,16,1,0,2,58</FixtureVal>
+   <FixtureVal ID="43">0,16,1,0,2,58</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="91" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">0,0</FixtureVal>
+   <FixtureVal ID="34">0,0</FixtureVal>
+   <FixtureVal ID="35">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0</FixtureVal>
+   <FixtureVal ID="39">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+  </Function>
+  <Function ID="92" Type="Scene" Name="Opti #1 - #6" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="93" Type="RGBMatrix" Name="Nouvelle matrice RVB 93">
+   <Speed FadeIn="0" FadeOut="0" Duration="55"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Fill Row</Algorithm>
+   <Color Index="0">4294967295</Color>
+   <Color Index="1">4281479730</Color>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>5</FixtureGroup>
+  </Function>
+  <Function ID="94" Type="Scene" Name="Intimidator" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="95" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+  </Function>
+  <Function ID="96" Type="Sequence" Name="SuperKolor 1/2/3/4/7/8 Back-forth triolet" BoundScene="91">
+   <Speed FadeIn="0" FadeOut="0" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0" Values="6">33:0,128:34:0,128</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="6">35:0,128:40:0,128</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="6">36:0,128:39:0,128</Step>
+  </Function>
+  <Function ID="97" Type="Scene" Name="G - Strooooooob" Path="Yurodivy/F - 40 days">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,255,1,221,2,116</FixtureVal>
+   <FixtureVal ID="42">0,255,1,221,2,116</FixtureVal>
+   <FixtureVal ID="43">0,255,1,221,2,116</FixtureVal>
+   <FixtureVal ID="12">0,255,1,230</FixtureVal>
+  </Function>
+  <Function ID="98" Type="Sequence" Name="PAR Chase 1" Path="Yuro - Effets/PAR" BoundScene="95">
+   <Speed FadeIn="0" FadeOut="0" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,100:27:0,70:28:0,40:29:0,10</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,10:27:0,100:28:0,70:29:0,40</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,40:27:0,10:28:0,100:29:0,70</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,70:27:0,40:28:0,10:29:0,100</Step>
+  </Function>
+  <Function ID="99" Type="RGBMatrix" Name="Waves out" Path="PAR Yuro">
+   <Speed FadeIn="0" FadeOut="0" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Waves</Algorithm>
+   <Color Index="0">4286545791</Color>
+   <Color Index="1">4278190080</Color>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+   <Property Name="direction" Value="Out"/>
+   <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="100"/>
+  </Function>
+  <Function ID="100" Type="Scene" Name="I - Ca pète wesh" Path="Yurodivy/F - 40 days">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,127,1,0,2,58</FixtureVal>
+   <FixtureVal ID="42">0,127,1,0,2,58</FixtureVal>
+   <FixtureVal ID="43">0,127,1,0,2,58</FixtureVal>
+   <FixtureVal ID="12">0,255,1,192</FixtureVal>
+  </Function>
+  <Function ID="101" Type="RGBMatrix" Name="Waves in" Path="PAR Yuro">
+   <Speed FadeIn="0" FadeOut="0" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Waves</Algorithm>
+   <Color Index="0">4286545791</Color>
+   <Color Index="1">4278190080</Color>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+   <Property Name="direction" Value="In"/>
+   <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="100"/>
+  </Function>
+  <Function ID="102" Type="RGBMatrix" Name="Waves right" Path="PAR Yuro">
+   <Speed FadeIn="0" FadeOut="0" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Waves</Algorithm>
+   <Color Index="0">4286545791</Color>
+   <Color Index="1">4278190080</Color>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+   <Property Name="direction" Value="Right"/>
+   <Property Name="tailfade" Value="Yes"/>
+   <Property Name="taillength" Value="100"/>
+  </Function>
+  <Function ID="103" Type="Collection" Name="40 days - G - Strooooooob" Path="Yurodivy/F - 40 days">
+   <Step Number="0">97</Step>
+   <Step Number="1">8</Step>
+   <Step Number="2">238</Step>
+   <Step Number="3">253</Step>
+  </Function>
+  <Function ID="104" Type="RGBMatrix" Name="Waves left" Path="PAR Yuro">
+   <Speed FadeIn="0" FadeOut="0" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Waves</Algorithm>
+   <Color Index="0">4286545791</Color>
+   <Color Index="1">4280558628</Color>
+   <ControlMode>Dimmer</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+   <Property Name="tailfade" Value="No"/>
+   <Property Name="taillength" Value="100"/>
+  </Function>
+  <Function ID="105" Type="Collection" Name="40 days - H - Pont" Path="Yurodivy/F - 40 days">
+   <Step Number="0">90</Step>
+   <Step Number="1">217</Step>
+  </Function>
+  <Function ID="106" Type="Collection" Name="40 days - I - Ca pète wesh" Path="Yurodivy/F - 40 days">
+   <Step Number="0">100</Step>
+   <Step Number="1">238</Step>
+  </Function>
+  <Function ID="107" Type="Scene" Name="J - STOP" Path="Yurodivy/F - 40 days">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="108" Type="Collection" Name="40 days - J - STOP" Path="Yurodivy/F - 40 days">
+   <Step Number="0">107</Step>
+   <Step Number="1">259</Step>
+  </Function>
+  <Function ID="109" Type="Collection" Name="Year of the Light - A - Intro" Path="Yurodivy/G - Year of the Light">
+   <Step Number="0">80</Step>
+   <Step Number="1">81</Step>
+  </Function>
+  <Function ID="110" Type="Scene" Name="B- Ca démarre" Path="Yurodivy/G - Year of the Light">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="111" Type="Collection" Name="Year of the Light - B - Ca démarre" Path="Yurodivy/G - Year of the Light">
+   <Step Number="0">110</Step>
+   <Step Number="1">64</Step>
+   <Step Number="2">217</Step>
+  </Function>
+  <Function ID="112" Type="Scene" Name="C - Calme" Path="Yurodivy/G - Year of the Light">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="113" Type="Scene" Name="D - 2eme partie" Path="Yurodivy/G - Year of the Light">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="114" Type="Scene" Name="E - Bientôt le chant" Path="Yurodivy/G - Year of the Light">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="115" Type="Scene" Name="F - Chant - manuel pas mal" Path="Yurodivy/G - Year of the Light">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="116" Type="Scene" Name="G - Blackout - Attention pas tout de suite" Path="Yurodivy/G - Year of the Light">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="117" Type="Scene" Name="H - Outro" Path="Yurodivy/G - Year of the Light">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="118" Type="Scene" Name="Yurodivy - 0 - Commun - Wash - Color - White" Path="Yurodivy/0 - Commun/Wash/Color">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="119" Type="Scene" Name="J - End" Path="Yurodivy/G - Year of the Light">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="120" Type="Sequence" Name="Wash RGB - Alternance 10 - 50 - Cour/Jardin" Path="Yuro - Effets/Wash" BoundScene="121">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="1" Hold="0" FadeOut="0" Values="1">0:0,207</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="1">0:0,28</Step>
+  </Function>
+  <Function ID="121" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+  </Function>
+  <Function ID="122" Type="Collection" Name="Year of the Light - C - Calme" Path="Yurodivy/G - Year of the Light">
+   <Step Number="0">112</Step>
+   <Step Number="1">120</Step>
+   <Step Number="2">246</Step>
+   <Step Number="3">81</Step>
+  </Function>
+  <Function ID="123" Type="Collection" Name="Year of the Light - D - 2eme partie" Path="Yurodivy/G - Year of the Light">
+   <Step Number="0">113</Step>
+   <Step Number="1">259</Step>
+  </Function>
+  <Function ID="124" Type="Collection" Name="Year of the Light - E - Bientôt le chant" Path="Yurodivy/G - Year of the Light">
+   <Step Number="0">114</Step>
+   <Step Number="1">217</Step>
+  </Function>
+  <Function ID="125" Type="Collection" Name="Year of the Light - F - Chant - manuel pas mal" Path="Yurodivy/G - Year of the Light">
+   <Step Number="0">115</Step>
+   <Step Number="1">217</Step>
+  </Function>
+  <Function ID="126" Type="Collection" Name="Year of the Light - G - Blackout - Attention pas tout de suite" Path="Yurodivy/G - Year of the Light">
+   <Step Number="0">116</Step>
+   <Step Number="1">262</Step>
+  </Function>
+  <Function ID="127" Type="Collection" Name="Year of the Light - H - Outro" Path="Yurodivy/G - Year of the Light">
+   <Step Number="0">217</Step>
+   <Step Number="1">242</Step>
+   <Step Number="2">244</Step>
+   <Step Number="3">120</Step>
+   <Step Number="4">118</Step>
+  </Function>
+  <Function ID="129" Type="Collection" Name="Year of the Light - J - End" Path="Yurodivy/G - Year of the Light">
+   <Step Number="0">119</Step>
+   <Step Number="1">217</Step>
+  </Function>
+  <Function ID="130" Type="Scene" Name="A - Intro" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="131" Type="Scene" Name="B - Pêche" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="132" Type="Scene" Name="Yurodivy - 0 - Commun - Wash - Color - Warm Yellow" Path="Yurodivy/0 - Commun/Wash/Color">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="133" Type="Collection" Name="Anonyme - A - Intro" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">130</Step>
+   <Step Number="1">249</Step>
+  </Function>
+  <Function ID="134" Type="Collection" Name="Anonyme - B - Pêche" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">131</Step>
+  </Function>
+  <Function ID="135" Type="Collection" Name="Anonyme - C - F - M - Strob" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">142</Step>
+   <Step Number="1">81</Step>
+  </Function>
+  <Function ID="136" Type="Scene" Name="D - Calme" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="137" Type="Collection" Name="Anonyme - D - Calme" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">136</Step>
+   <Step Number="1">238</Step>
+  </Function>
+  <Function ID="138" Type="Scene" Name="E - Reprise" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="139" Type="Collection" Name="Anonyme - E - Reprise" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">138</Step>
+   <Step Number="1">140</Step>
+   <Step Number="2">249</Step>
+  </Function>
+  <Function ID="140" Type="Sequence" Name="Wash RGB - Alternance 0-100 - Front - Back" Path="Yuro - Effets/Wash" BoundScene="141">
+   <Speed FadeIn="84" FadeOut="84" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="1" Hold="0" FadeOut="0" Values="1">0:0,255</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="1">1:0,255</Step>
+  </Function>
+  <Function ID="141" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+  </Function>
+  <Function ID="142" Type="Scene" Name="C - F - M - Strob" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,221</FixtureVal>
+  </Function>
+  <Function ID="143" Type="Scene" Name="G - Basse" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="144" Type="Collection" Name="Anonyme - G - Basse" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">143</Step>
+   <Step Number="1">217</Step>
+  </Function>
+  <Function ID="145" Type="Scene" Name="H - Patate #1" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,70</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="146" Type="Scene" Name="H - Patate #2" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,70</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="147" Type="Scene" Name="H - Patate #3" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,70</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="148" Type="Scene" Name="H - Patate #4" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,70</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="149" Type="Scene" Name="H - Patate #5" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,70</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="150" Type="Scene" Name="H - Patate #6" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,70</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="151" Type="Scene" Name="H - Patate #7" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,70</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="152" Type="Scene" Name="H - Patate #8" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="153" Type="Scene" Name="H - Wait for it" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="154" Type="Scene" Name="I - Stroooob" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,221</FixtureVal>
+  </Function>
+  <Function ID="155" Type="Collection" Name="Anonyme - H - Patate #1" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">145</Step>
+  </Function>
+  <Function ID="156" Type="Collection" Name="Anonyme - H - Patate #2" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">146</Step>
+  </Function>
+  <Function ID="157" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 38 27 27 38" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,38</FixtureVal>
+   <FixtureVal ID="27">0,27</FixtureVal>
+   <FixtureVal ID="28">0,27</FixtureVal>
+   <FixtureVal ID="29">0,38</FixtureVal>
+  </Function>
+  <Function ID="158" Type="Collection" Name="Anonyme - H - Patate #3" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">147</Step>
+  </Function>
+  <Function ID="159" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 0 60 60 0" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,60</FixtureVal>
+   <FixtureVal ID="28">0,60</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+  </Function>
+  <Function ID="161" Type="Collection" Name="Anonyme - H - Patate #5" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">149</Step>
+  </Function>
+  <Function ID="162" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 80 0 0 80" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,80</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,80</FixtureVal>
+  </Function>
+  <Function ID="163" Type="Collection" Name="Anonyme - H - Patate #4" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">148</Step>
+  </Function>
+  <Function ID="164" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 105 83 83 105" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,73</FixtureVal>
+   <FixtureVal ID="27">0,46</FixtureVal>
+   <FixtureVal ID="28">0,46</FixtureVal>
+   <FixtureVal ID="29">0,73</FixtureVal>
+  </Function>
+  <Function ID="165" Type="Collection" Name="Anonyme - H - Patate #7" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">151</Step>
+  </Function>
+  <Function ID="168" Type="Collection" Name="Anonyme - H - Patate #8" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">152</Step>
+   <Step Number="1">259</Step>
+  </Function>
+  <Function ID="170" Type="Collection" Name="Anonyme - H - Patate #6" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">150</Step>
+  </Function>
+  <Function ID="171" Type="Collection" Name="Anonyme - H - Wait for it" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">153</Step>
+   <Step Number="1">238</Step>
+  </Function>
+  <Function ID="173" Type="Collection" Name="Anonyme - I - Stroooob" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">154</Step>
+   <Step Number="1">259</Step>
+  </Function>
+  <Function ID="174" Type="Scene" Name="J - Pont" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="175" Type="Collection" Name="Anonyme - J - Pont" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">174</Step>
+   <Step Number="1">64</Step>
+   <Step Number="2">162</Step>
+  </Function>
+  <Function ID="176" Type="Scene" Name="K - Pont 2" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="177" Type="Scene" Name="A - Intro" Path="Yurodivy/A - Where The Dogs">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,66,1,0,2,24</FixtureVal>
+   <FixtureVal ID="42">0,66,1,0,2,24</FixtureVal>
+   <FixtureVal ID="43">0,66,1,0,2,24</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="178" Type="Collection" Name="Where The Dogs - A - Intro" Path="Yurodivy/A - Where The Dogs">
+   <Step Number="0">177</Step>
+   <Step Number="1">262</Step>
+   <Step Number="2">254</Step>
+   <Step Number="3">245</Step>
+   <Step Number="4">244</Step>
+   <Step Number="5">296</Step>
+   <Step Number="6">302</Step>
+   <Step Number="7">339</Step>
+   <Step Number="8">340</Step>
+  </Function>
+  <Function ID="179" Type="Chaser" Name="Set" Path="Yurodivy">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">178</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">180</Step>
+   <Step Number="2" FadeIn="0" Hold="4294967294" FadeOut="0">183</Step>
+   <Step Number="3" FadeIn="0" Hold="4294967294" FadeOut="0">187</Step>
+   <Step Number="4" FadeIn="0" Hold="4294967294" FadeOut="0">183</Step>
+   <Step Number="5" FadeIn="0" Hold="4294967294" FadeOut="0">189</Step>
+   <Step Number="6" FadeIn="0" Hold="4294967294" FadeOut="0">191</Step>
+   <Step Number="7" FadeIn="0" Hold="4294967294" FadeOut="0">193</Step>
+   <Step Number="8" FadeIn="0" Hold="4294967294" FadeOut="0">195</Step>
+   <Step Number="9" FadeIn="0" Hold="4294967294" FadeOut="0">12</Step>
+   <Step Number="10" FadeIn="0" Hold="4294967294" FadeOut="0">16</Step>
+   <Step Number="11" FadeIn="0" Hold="4294967294" FadeOut="0">0</Step>
+   <Step Number="12" FadeIn="0" Hold="4294967294" FadeOut="0">12</Step>
+   <Step Number="13" FadeIn="0" Hold="4294967294" FadeOut="0">21</Step>
+   <Step Number="14" FadeIn="0" Hold="4294967294" FadeOut="0">22</Step>
+   <Step Number="15" FadeIn="0" Hold="4294967294" FadeOut="0">23</Step>
+   <Step Number="16" FadeIn="0" Hold="4294967294" FadeOut="0">24</Step>
+   <Step Number="17" FadeIn="0" Hold="4294967294" FadeOut="0">26</Step>
+   <Step Number="18" FadeIn="0" Hold="4294967294" FadeOut="0">24</Step>
+   <Step Number="19" FadeIn="0" Hold="4294967294" FadeOut="0">32</Step>
+   <Step Number="20" FadeIn="0" Hold="4294967294" FadeOut="0">33</Step>
+   <Step Number="21" FadeIn="0" Hold="4294967294" FadeOut="0">42</Step>
+   <Step Number="22" FadeIn="0" Hold="4294967294" FadeOut="0">40</Step>
+   <Step Number="23" FadeIn="0" Hold="4294967294" FadeOut="0">41</Step>
+   <Step Number="24" FadeIn="0" Hold="4294967294" FadeOut="0">50</Step>
+   <Step Number="25" FadeIn="0" Hold="4294967294" FadeOut="0">52</Step>
+   <Step Number="26" FadeIn="0" Hold="4294967294" FadeOut="0">53</Step>
+   <Step Number="27" FadeIn="0" Hold="4294967294" FadeOut="0">57</Step>
+   <Step Number="28" FadeIn="0" Hold="4294967294" FadeOut="0">396</Step>
+   <Step Number="29" FadeIn="0" Hold="4294967294" FadeOut="0">398</Step>
+   <Step Number="30" FadeIn="0" Hold="4294967294" FadeOut="0">406</Step>
+   <Step Number="31" FadeIn="0" Hold="4294967294" FadeOut="0">407</Step>
+   <Step Number="32" FadeIn="0" Hold="4294967294" FadeOut="0">396</Step>
+   <Step Number="33" FadeIn="0" Hold="4294967294" FadeOut="0">408</Step>
+   <Step Number="34" FadeIn="0" Hold="4294967294" FadeOut="0">398</Step>
+   <Step Number="35" FadeIn="0" Hold="4294967294" FadeOut="0">406</Step>
+   <Step Number="36" FadeIn="0" Hold="4294967294" FadeOut="0">407</Step>
+   <Step Number="37" FadeIn="0" Hold="4294967294" FadeOut="0">409</Step>
+   <Step Number="38" FadeIn="0" Hold="4294967294" FadeOut="0">410</Step>
+   <Step Number="39" FadeIn="0" Hold="4294967294" FadeOut="0">411</Step>
+   <Step Number="40" FadeIn="0" Hold="4294967294" FadeOut="0">413</Step>
+   <Step Number="41" FadeIn="0" Hold="4294967294" FadeOut="0">66</Step>
+   <Step Number="42" FadeIn="0" Hold="4294967294" FadeOut="0">79</Step>
+   <Step Number="43" FadeIn="0" Hold="4294967294" FadeOut="0">74</Step>
+   <Step Number="44" FadeIn="0" Hold="4294967294" FadeOut="0">75</Step>
+   <Step Number="45" FadeIn="0" Hold="4294967294" FadeOut="0">66</Step>
+   <Step Number="46" FadeIn="0" Hold="4294967294" FadeOut="0">74</Step>
+   <Step Number="47" FadeIn="0" Hold="4294967294" FadeOut="0">76</Step>
+   <Step Number="48" FadeIn="0" Hold="4294967294" FadeOut="0">77</Step>
+   <Step Number="49" FadeIn="0" Hold="4294967294" FadeOut="0">275</Step>
+   <Step Number="50" FadeIn="0" Hold="4294967294" FadeOut="0">78</Step>
+   <Step Number="51" FadeIn="0" Hold="4294967294" FadeOut="0">63</Step>
+   <Step Number="52" FadeIn="0" Hold="4294967294" FadeOut="0">86</Step>
+   <Step Number="53" FadeIn="0" Hold="4294967294" FadeOut="0">63</Step>
+   <Step Number="54" FadeIn="0" Hold="4294967294" FadeOut="0">86</Step>
+   <Step Number="55" FadeIn="0" Hold="4294967294" FadeOut="0">63</Step>
+   <Step Number="56" FadeIn="0" Hold="4294967294" FadeOut="0">86</Step>
+   <Step Number="57" FadeIn="0" Hold="4294967294" FadeOut="0">103</Step>
+   <Step Number="58" FadeIn="0" Hold="4294967294" FadeOut="0">105</Step>
+   <Step Number="59" FadeIn="0" Hold="4294967294" FadeOut="0">106</Step>
+   <Step Number="60" FadeIn="0" Hold="4294967294" FadeOut="0">108</Step>
+   <Step Number="61" FadeIn="0" Hold="4294967294" FadeOut="0">109</Step>
+   <Step Number="62" FadeIn="0" Hold="4294967294" FadeOut="0">111</Step>
+   <Step Number="63" FadeIn="0" Hold="4294967294" FadeOut="0">122</Step>
+   <Step Number="64" FadeIn="0" Hold="4294967294" FadeOut="0">123</Step>
+   <Step Number="65" FadeIn="0" Hold="4294967294" FadeOut="0">124</Step>
+   <Step Number="66" FadeIn="0" Hold="4294967294" FadeOut="0">125</Step>
+   <Step Number="67" FadeIn="0" Hold="4294967294" FadeOut="0">126</Step>
+   <Step Number="68" FadeIn="0" Hold="4294967294" FadeOut="0">127</Step>
+   <Step Number="69" FadeIn="0" Hold="4294967294" FadeOut="0">129</Step>
+   <Step Number="70" FadeIn="0" Hold="4294967294" FadeOut="0">133</Step>
+   <Step Number="71" FadeIn="0" Hold="4294967294" FadeOut="0">134</Step>
+   <Step Number="72" FadeIn="0" Hold="4294967294" FadeOut="0">135</Step>
+   <Step Number="73" FadeIn="0" Hold="4294967294" FadeOut="0">137</Step>
+   <Step Number="74" FadeIn="0" Hold="4294967294" FadeOut="0">139</Step>
+   <Step Number="75" FadeIn="0" Hold="4294967294" FadeOut="0">135</Step>
+   <Step Number="76" FadeIn="0" Hold="4294967294" FadeOut="0">144</Step>
+   <Step Number="77" FadeIn="0" Hold="4294967294" FadeOut="0">155</Step>
+   <Step Number="78" FadeIn="0" Hold="4294967294" FadeOut="0">156</Step>
+   <Step Number="79" FadeIn="0" Hold="4294967294" FadeOut="0">158</Step>
+   <Step Number="80" FadeIn="0" Hold="4294967294" FadeOut="0">163</Step>
+   <Step Number="81" FadeIn="0" Hold="4294967294" FadeOut="0">161</Step>
+   <Step Number="82" FadeIn="0" Hold="4294967294" FadeOut="0">170</Step>
+   <Step Number="83" FadeIn="0" Hold="4294967294" FadeOut="0">165</Step>
+   <Step Number="84" FadeIn="0" Hold="4294967294" FadeOut="0">168</Step>
+   <Step Number="85" FadeIn="0" Hold="4294967294" FadeOut="0">171</Step>
+   <Step Number="86" FadeIn="0" Hold="4294967294" FadeOut="0">173</Step>
+   <Step Number="87" FadeIn="0" Hold="4294967294" FadeOut="0">175</Step>
+   <Step Number="88" FadeIn="0" Hold="4294967294" FadeOut="0">186</Step>
+   <Step Number="89" FadeIn="0" Hold="4294967294" FadeOut="0">198</Step>
+   <Step Number="90" FadeIn="0" Hold="4294967294" FadeOut="0">135</Step>
+   <Step Number="91" FadeIn="0" Hold="4294967294" FadeOut="0">199</Step>
+   <Step Number="92" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
+   <Step Number="93" FadeIn="0" Hold="4294967294" FadeOut="0">203</Step>
+   <Step Number="94" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
+   <Step Number="95" FadeIn="0" Hold="4294967294" FadeOut="0">203</Step>
+   <Step Number="96" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
+   <Step Number="97" FadeIn="0" Hold="4294967294" FadeOut="0">203</Step>
+   <Step Number="98" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
+   <Step Number="99" FadeIn="0" Hold="4294967294" FadeOut="0">203</Step>
+   <Step Number="100" FadeIn="0" Hold="4294967294" FadeOut="0">205</Step>
+   <Step Number="101" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
+   <Step Number="102" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
+   <Step Number="103" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
+   <Step Number="104" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
+   <Step Number="105" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
+   <Step Number="106" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
+   <Step Number="107" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
+   <Step Number="108" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
+   <Step Number="109" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
+   <Step Number="110" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
+   <Step Number="111" FadeIn="0" Hold="4294967294" FadeOut="0">203</Step>
+   <Step Number="112" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
+   <Step Number="113" FadeIn="0" Hold="4294967294" FadeOut="0">203</Step>
+   <Step Number="114" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
+   <Step Number="115" FadeIn="0" Hold="4294967294" FadeOut="0">203</Step>
+   <Step Number="116" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
+   <Step Number="117" FadeIn="0" Hold="4294967294" FadeOut="0">203</Step>
+   <Step Number="118" FadeIn="0" Hold="4294967294" FadeOut="0">222</Step>
+   <Step Number="119" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
+   <Step Number="120" FadeIn="0" Hold="4294967294" FadeOut="0">228</Step>
+   <Step Number="121" FadeIn="0" Hold="4294967294" FadeOut="0">211</Step>
+   <Step Number="122" FadeIn="0" Hold="4294967294" FadeOut="0">233</Step>
+   <Step Number="123" FadeIn="0" Hold="4294967294" FadeOut="0">235</Step>
+   <Step Number="124" FadeIn="0" Hold="4294967294" FadeOut="0">237</Step>
+   <Step Number="125" FadeIn="0" Hold="4294967294" FadeOut="0">239</Step>
+   <Step Number="126" FadeIn="0" Hold="4294967294" FadeOut="0">241</Step>
+   <Step Number="127" FadeIn="0" Hold="4294967294" FadeOut="0">247</Step>
+   <Step Number="128" FadeIn="0" Hold="4294967294" FadeOut="0">241</Step>
+   <Step Number="129" FadeIn="0" Hold="4294967294" FadeOut="0">251</Step>
+   <Step Number="130" FadeIn="0" Hold="4294967294" FadeOut="0">252</Step>
+   <Step Number="131" FadeIn="0" Hold="4294967294" FadeOut="0">257</Step>
+  </Function>
+  <Function ID="180" Type="Collection" Name="Where The Dogs - B - Strob" Path="Yurodivy/A - Where The Dogs">
+   <Step Number="0">181</Step>
+   <Step Number="1">262</Step>
+   <Step Number="2">242</Step>
+   <Step Number="3">253</Step>
+   <Step Number="4">296</Step>
+   <Step Number="5">302</Step>
+   <Step Number="6">308</Step>
+   <Step Number="7">314</Step>
+   <Step Number="8">332</Step>
+   <Step Number="9">338</Step>
+   <Step Number="10">347</Step>
+   <Step Number="11">348</Step>
+   <Step Number="12">349</Step>
+   <Step Number="13">350</Step>
+   <Step Number="14">353</Step>
+   <Step Number="15">354</Step>
+   <Step Number="16">355</Step>
+   <Step Number="17">357</Step>
+   <Step Number="18">359</Step>
+   <Step Number="19">361</Step>
+   <Step Number="20">367</Step>
+   <Step Number="21">369</Step>
+  </Function>
+  <Function ID="181" Type="Scene" Name="B - Strob" Path="Yurodivy/A - Where The Dogs">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,255,1,221,2,24</FixtureVal>
+   <FixtureVal ID="42">0,255,1,0,2,24</FixtureVal>
+   <FixtureVal ID="43">0,255,1,221,2,24</FixtureVal>
+  </Function>
+  <Function ID="182" Type="Scene" Name="C - F - Couplet" Path="Yurodivy/A - Where The Dogs">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,195,1,0,2,24</FixtureVal>
+   <FixtureVal ID="42">0,195,1,0,2,24</FixtureVal>
+   <FixtureVal ID="43">0,0,1,0,2,24</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="183" Type="Collection" Name="Where The Dogs - C - F - Couplet - PAR Contre manuel" Path="Yurodivy/A - Where The Dogs">
+   <Step Number="0">182</Step>
+   <Step Number="1">263</Step>
+   <Step Number="2">254</Step>
+   <Step Number="3">371</Step>
+   <Step Number="4">296</Step>
+   <Step Number="5">372</Step>
+   <Step Number="6">302</Step>
+   <Step Number="7">373</Step>
+   <Step Number="8">308</Step>
+   <Step Number="9">374</Step>
+   <Step Number="10">314</Step>
+   <Step Number="11">377</Step>
+   <Step Number="12">332</Step>
+   <Step Number="13">378</Step>
+   <Step Number="14">338</Step>
+  </Function>
+  <Function ID="184" Type="Scene" Name="D - Strob manuel" Path="Yurodivy/A - Where The Dogs">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,255,1,0,2,24</FixtureVal>
+   <FixtureVal ID="42">0,255,1,0,2,24</FixtureVal>
+   <FixtureVal ID="43">0,0,1,0,2,24</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="185" Type="Collection" Name="Where The Dogs - D - Strob manuel" Path="Yurodivy/A - Where The Dogs">
+   <Step Number="0">184</Step>
+   <Step Number="1">264</Step>
+   <Step Number="2">254</Step>
+  </Function>
+  <Function ID="186" Type="Collection" Name="Anonyme - K - Pont 2" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">176</Step>
+   <Step Number="1">62</Step>
+  </Function>
+  <Function ID="187" Type="Collection" Name="Where The Dogs - E - TOUDOUM" Path="Yurodivy/A - Where The Dogs">
+   <Step Number="0">232</Step>
+   <Step Number="1">256</Step>
+   <Step Number="2">245</Step>
+   <Step Number="3">244</Step>
+   <Step Number="4">238</Step>
+  </Function>
+  <Function ID="188" Type="Scene" Name="L - Fin" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="189" Type="Collection" Name="Where The Dogs - G - Gros Strob" Path="Yurodivy/A - Where The Dogs">
+   <Step Number="0">8</Step>
+   <Step Number="1">88</Step>
+  </Function>
+  <Function ID="190" Type="Scene" Name="H - Pont" Path="Yurodivy/A - Where The Dogs">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,0,1,0,2,24</FixtureVal>
+   <FixtureVal ID="42">0,0,1,0,2,24</FixtureVal>
+   <FixtureVal ID="43">0,0,1,0,2,24</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="191" Type="Collection" Name="Where The Dogs - H - Pont" Path="Yurodivy/A - Where The Dogs">
+   <Step Number="0">190</Step>
+   <Step Number="1">265</Step>
+   <Step Number="2">254</Step>
+   <Step Number="3">356</Step>
+   <Step Number="4">358</Step>
+   <Step Number="5">360</Step>
+   <Step Number="6">362</Step>
+   <Step Number="7">368</Step>
+   <Step Number="8">370</Step>
+   <Step Number="9">373</Step>
+   <Step Number="10">308</Step>
+   <Step Number="11">378</Step>
+   <Step Number="12">338</Step>
+  </Function>
+  <Function ID="192" Type="Scene" Name="I - Pont 2" Path="Yurodivy/A - Where The Dogs">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,0,1,0,2,24</FixtureVal>
+   <FixtureVal ID="42">0,0,1,0,2,24</FixtureVal>
+   <FixtureVal ID="43">0,0,1,0,2,24</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="193" Type="Collection" Name="Where The Dogs - I - Pont 2" Path="Yurodivy/A - Where The Dogs">
+   <Step Number="0">192</Step>
+   <Step Number="1">265</Step>
+   <Step Number="2">373</Step>
+   <Step Number="3">308</Step>
+   <Step Number="4">374</Step>
+   <Step Number="5">314</Step>
+   <Step Number="6">377</Step>
+   <Step Number="7">332</Step>
+   <Step Number="8">378</Step>
+   <Step Number="9">338</Step>
+  </Function>
+  <Function ID="194" Type="Scene" Name="J - STOP" Path="Yurodivy/A - Where The Dogs">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="42">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="43">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="195" Type="Collection" Name="Where The Dogs - J - STOP - Tap tempo pour Pessimist" Path="Yurodivy/A - Where The Dogs">
+   <Step Number="0">194</Step>
+   <Step Number="1">264</Step>
+   <Step Number="2">379</Step>
+   <Step Number="3">380</Step>
+   <Step Number="4">381</Step>
+   <Step Number="5">382</Step>
+   <Step Number="6">385</Step>
+   <Step Number="7">386</Step>
+  </Function>
+  <Function ID="196" Type="Scene" Name="N - STOP" Path="Yurodivy/H - Anonyme">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="197" Type="Scene" Name="Chase Zoom" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="198" Type="Collection" Name="Anonyme - L - Fin" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">188</Step>
+   <Step Number="1">238</Step>
+  </Function>
+  <Function ID="199" Type="Collection" Name="Anonyme - N - STOP" Path="Yurodivy/H - Anonyme">
+   <Step Number="0">196</Step>
+   <Step Number="1">259</Step>
+  </Function>
+  <Function ID="200" Type="Scene" Name="A - F - #1-3-5-7" Path="Yurodivy/I - Parasite">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,100,1,0</FixtureVal>
+  </Function>
+  <Function ID="201" Type="Scene" Name="A - F - #2-4-6-8 - Petit strob" Path="Yurodivy/I - Parasite">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,221</FixtureVal>
+  </Function>
+  <Function ID="202" Type="Collection" Name="Parasite - A - F - #1-3-5-7" Path="Yurodivy/I - Parasite">
+   <Step Number="0">200</Step>
+   <Step Number="1">14</Step>
+   <Step Number="2">259</Step>
+  </Function>
+  <Function ID="203" Type="Collection" Name="Parasite - A - F - #2-4-6-8" Path="Yurodivy/I - Parasite">
+   <Step Number="0">201</Step>
+   <Step Number="1">259</Step>
+  </Function>
+  <Function ID="204" Type="Scene" Name="B - Calmos" Path="Yurodivy/I - Parasite">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="205" Type="Collection" Name="Parasite - B - Calmos" Path="Yurodivy/I - Parasite">
+   <Step Number="0">204</Step>
+   <Step Number="1">120</Step>
+   <Step Number="2">159</Step>
+  </Function>
+  <Function ID="206" Type="Scene" Name="C - Chant #1-3-5-7-9" Path="Yurodivy/I - Parasite">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="207" Type="Scene" Name="C - Chant #2-4-6-8 - Petit strob" Path="Yurodivy/I - Parasite">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,221</FixtureVal>
+  </Function>
+  <Function ID="208" Type="Collection" Name="Parasite - C - Chant #1-3-5-7-9" Path="Yurodivy/I - Parasite">
+   <Step Number="0">206</Step>
+   <Step Number="1">159</Step>
+  </Function>
+  <Function ID="209" Type="Collection" Name="Parasite - C - Chant #2-4-6-8 - Petit strob" Path="Yurodivy/I - Parasite">
+   <Step Number="0">207</Step>
+   <Step Number="1">259</Step>
+  </Function>
+  <Function ID="210" Type="Scene" Name="D - Blackout" Path="Yurodivy/I - Parasite">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="211" Type="Collection" Name="Poutourte - A - Intro" Path="Yurodivy/J - Poutourte">
+   <Step Number="0">132</Step>
+   <Step Number="1">242</Step>
+   <Step Number="2">244</Step>
+   <Step Number="3">259</Step>
+   <Step Number="4">260</Step>
+   <Step Number="5">254</Step>
+  </Function>
+  <Function ID="212" Type="Scene" Name="Opti #1 - #6" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="213" Type="Scene" Name="Wild Wash RGB - Rouge" Path="Set">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="42">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="43">0,255,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="214" Type="Scene" Name="Wild Wash RGB - Bleu" Path="Set">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="42">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="43">0,0,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="215" Type="Scene" Name="Wild Wash RGB - Vert" Path="Set">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="42">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="43">0,0,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="216" Type="Scene" Name="Wild Wash RGB - Blanc" Path="Set">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="42">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="43">0,255,1,255,2,255</FixtureVal>
+  </Function>
+  <Function ID="217" Type="Scene" Name="Wild Wash RGB - Cyan" Path="Set">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="42">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="43">0,0,1,255,2,255</FixtureVal>
+  </Function>
+  <Function ID="218" Type="Scene" Name="Wild Wash RGB - Magenta" Path="Set">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="42">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="43">0,255,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="219" Type="Scene" Name="Wild Wash RGB - Jaune" Path="Set">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="42">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="43">0,255,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="220" Type="Scene" Name="Wild Wash RGB - Orange" Path="Set">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,255,1,128,2,0</FixtureVal>
+   <FixtureVal ID="42">0,255,1,128,2,0</FixtureVal>
+   <FixtureVal ID="43">0,255,1,128,2,0</FixtureVal>
+  </Function>
+  <Function ID="221" Type="Scene" Name="Wild Wash RGB - Off" Path="Set">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="42">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="43">0,0,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="222" Type="Collection" Name="Parasite - D - Blackout" Path="Yurodivy/I - Parasite">
+   <Step Number="0">210</Step>
+   <Step Number="1">259</Step>
+  </Function>
+  <Function ID="223" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="224" Type="Scene" Name="Sunstrip" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="225" Type="Sequence" Name="PAR Chase 2" Path="Yuro - Effets/PAR" BoundScene="226">
+   <Speed FadeIn="0" FadeOut="0" Duration="214"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,100:27:0,10:28:0,10:29:0,10</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,10:27:0,100:28:0,10:29:0,10</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,10:27:0,10:28:0,100:29:0,10</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,10:27:0,10:28:0,10:29:0,100</Step>
+  </Function>
+  <Function ID="226" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+  </Function>
+  <Function ID="227" Type="Scene" Name="K - Fin" Path="Yurodivy/I - Parasite">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="228" Type="Collection" Name="Parasite - K - STOP" Path="Yurodivy/I - Parasite">
+   <Step Number="0">227</Step>
+   <Step Number="1">162</Step>
+  </Function>
+  <Function ID="229" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="230" Type="Scene" Name="D - Aller" Path="Yurodivy/J - Poutourte">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="231" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="232" Type="Scene" Name="Yurodivy - 0 - Commun - Wash RGB - Dim 0" Path="Yurodivy/0 - Commun/Wash">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="233" Type="Collection" Name="Poutourte - B - Lointain seul" Path="Yurodivy/J - Poutourte">
+   <Step Number="0">245</Step>
+   <Step Number="1">244</Step>
+   <Step Number="2">254</Step>
+   <Step Number="3">238</Step>
+  </Function>
+  <Function ID="235" Type="Collection" Name="Poutourte - C - Boom" Path="Yurodivy/J - Poutourte">
+   <Step Number="0">242</Step>
+   <Step Number="1">244</Step>
+   <Step Number="2">261</Step>
+   <Step Number="3">217</Step>
+  </Function>
+  <Function ID="237" Type="Collection" Name="Poutourte - D - Aller" Path="Yurodivy/J - Poutourte">
+   <Step Number="0">230</Step>
+   <Step Number="1">132</Step>
+   <Step Number="2">242</Step>
+   <Step Number="3">244</Step>
+   <Step Number="4">47</Step>
+   <Step Number="5">217</Step>
+  </Function>
+  <Function ID="238" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 128 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,62</FixtureVal>
+   <FixtureVal ID="27">0,62</FixtureVal>
+   <FixtureVal ID="28">0,62</FixtureVal>
+   <FixtureVal ID="29">0,62</FixtureVal>
+  </Function>
+  <Function ID="239" Type="Collection" Name="Poutourte - E - On se calme" Path="Yurodivy/J - Poutourte">
+   <Step Number="0">132</Step>
+   <Step Number="1">240</Step>
+  </Function>
+  <Function ID="240" Type="Scene" Name="E - On se calme" Path="Yurodivy/J - Poutourte">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+   <FixtureVal ID="26">0,90</FixtureVal>
+   <FixtureVal ID="27">0,40</FixtureVal>
+   <FixtureVal ID="28">0,40</FixtureVal>
+   <FixtureVal ID="29">0,90</FixtureVal>
+  </Function>
+  <Function ID="241" Type="Collection" Name="Poutourte - F - H - Pont" Path="Yurodivy/J - Poutourte">
+   <Step Number="0">132</Step>
+   <Step Number="1">81</Step>
+   <Step Number="2">242</Step>
+   <Step Number="3">244</Step>
+   <Step Number="4">120</Step>
+  </Function>
+  <Function ID="242" Type="Scene" Name="Yurodivy - 0 - Commun - White David Dim 100" Path="Yurodivy/0 - Commun/Wash/White">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,255</FixtureVal>
+  </Function>
+  <Function ID="243" Type="Scene" Name="Yurodivy - 0 - Commun - White David Strob 221" Path="Yurodivy/0 - Commun/Wash/White">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">1,221</FixtureVal>
+  </Function>
+  <Function ID="244" Type="Scene" Name="Yurodivy - 0 - Commun - White David Strob 0" Path="Yurodivy/0 - Commun/Wash/White">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">1,0</FixtureVal>
+  </Function>
+  <Function ID="245" Type="Scene" Name="Yurodivy - 0 - Commun - White David Dim 0" Path="Yurodivy/0 - Commun/Wash/White">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,0</FixtureVal>
+  </Function>
+  <Function ID="246" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 55 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,32</FixtureVal>
+   <FixtureVal ID="27">0,32</FixtureVal>
+   <FixtureVal ID="28">0,32</FixtureVal>
+   <FixtureVal ID="29">0,32</FixtureVal>
+  </Function>
+  <Function ID="247" Type="Collection" Name="Poutourte - G - Pont batterie seule" Path="Yurodivy/J - Poutourte">
+   <Step Number="0">132</Step>
+   <Step Number="1">244</Step>
+   <Step Number="2">248</Step>
+   <Step Number="3">262</Step>
+  </Function>
+  <Function ID="248" Type="Scene" Name="G - Pont batterie seule" Path="Yurodivy/J - Poutourte">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="249" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 48 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,27</FixtureVal>
+   <FixtureVal ID="27">0,27</FixtureVal>
+   <FixtureVal ID="28">0,27</FixtureVal>
+   <FixtureVal ID="29">0,27</FixtureVal>
+  </Function>
+  <Function ID="250" Type="Scene" Name="H - Jerem seul" Path="Yurodivy/J - Poutourte">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12"/>
+   <FixtureVal ID="26"/>
+   <FixtureVal ID="27"/>
+   <FixtureVal ID="28"/>
+   <FixtureVal ID="29"/>
+  </Function>
+  <Function ID="251" Type="Collection" Name="Poutourte - I - Jerem seul" Path="Yurodivy/J - Poutourte">
+   <Step Number="0">132</Step>
+   <Step Number="1">244</Step>
+   <Step Number="2">245</Step>
+   <Step Number="3">250</Step>
+   <Step Number="4">249</Step>
+  </Function>
+  <Function ID="252" Type="Collection" Name="Poutourte - J - Outro au feeling" Path="Yurodivy/J - Poutourte">
+   <Step Number="0">244</Step>
+   <Step Number="1">245</Step>
+   <Step Number="2">255</Step>
+   <Step Number="3">256</Step>
+   <Step Number="4">238</Step>
+   <Step Number="5">118</Step>
+  </Function>
+  <Function ID="253" Type="Scene" Name="Yurodivy - 0 - Commun - SP-1500 - Strob " Path="Yurodivy/0 - Commun/SP-1500">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,248,1,150</FixtureVal>
+  </Function>
+  <Function ID="254" Type="Scene" Name="Yurodivy - 0 - Commun - SP-1500 - Off" Path="Yurodivy/0 - Commun/SP-1500">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="255" Type="Scene" Name="Yurodivy - 0 - Commun - Wash RGB - Dim 90" Path="Yurodivy/0 - Commun/Wash">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="256" Type="Scene" Name="Yurodivy - 0 - Commun - Wash RGB - Strob 0" Path="Yurodivy/0 - Commun/Wash">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="257" Type="Collection" Name="Poutourte - K - STOP" Path="Yurodivy/J - Poutourte">
+   <Step Number="0">258</Step>
+  </Function>
+  <Function ID="258" Type="Scene" Name="J - STOP" Path="Yurodivy/J - Poutourte">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,27,1,0</FixtureVal>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="259" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 0 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,0</FixtureVal>
+   <FixtureVal ID="27">0,0</FixtureVal>
+   <FixtureVal ID="28">0,0</FixtureVal>
+   <FixtureVal ID="29">0,0</FixtureVal>
+  </Function>
+  <Function ID="260" Type="Scene" Name="Yurodivy - 0 - Commun - Wash RGB - Dim 52" Path="Yurodivy/0 - Commun/Wash">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="261" Type="Scene" Name="Yurodivy - 0 - Commun - Wash RGB - Strob 221 + Dim" Path="Yurodivy/0 - Commun/Wash">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="262" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 38 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,17</FixtureVal>
+   <FixtureVal ID="27">0,17</FixtureVal>
+   <FixtureVal ID="28">0,17</FixtureVal>
+   <FixtureVal ID="29">0,17</FixtureVal>
+  </Function>
+  <Function ID="263" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 27 38 38 27" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,27</FixtureVal>
+   <FixtureVal ID="27">0,38</FixtureVal>
+   <FixtureVal ID="28">0,38</FixtureVal>
+   <FixtureVal ID="29">0,27</FixtureVal>
+  </Function>
+  <Function ID="264" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 18 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,18</FixtureVal>
+   <FixtureVal ID="27">0,18</FixtureVal>
+   <FixtureVal ID="28">0,18</FixtureVal>
+   <FixtureVal ID="29">0,18</FixtureVal>
+  </Function>
+  <Function ID="265" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 80 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,38</FixtureVal>
+   <FixtureVal ID="27">0,38</FixtureVal>
+   <FixtureVal ID="28">0,38</FixtureVal>
+   <FixtureVal ID="29">0,38</FixtureVal>
+  </Function>
+  <Function ID="275" Type="Collection" Name="Fougasse - H - Outro 2 - Milieu du bazar" Path="Yurodivy/E - Fougasse">
+   <Step Number="0">71</Step>
+   <Step Number="1">238</Step>
+  </Function>
+  <Function ID="278" Type="Scene" Name="Opti #1 - #6" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="291" Type="Scene" Name="SuperKolor #1 Rouge" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="292" Type="Scene" Name="SuperKolor #1 Bleu" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="293" Type="Scene" Name="SuperKolor #1 Blanc" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="294" Type="Scene" Name="SuperKolor #1 Cyan" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="295" Type="Scene" Name="SuperKolor #1 Magenta" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="296" Type="Scene" Name="SuperKolor #1 Orange" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">1,255,2,72,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="297" Type="Scene" Name="SuperKolor #2 Rouge" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="298" Type="Scene" Name="SuperKolor #2 Bleu" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="299" Type="Scene" Name="SuperKolor #2 Blanc" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="300" Type="Scene" Name="SuperKolor #2 Cyan" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="301" Type="Scene" Name="SuperKolor #2 Magenta" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="302" Type="Scene" Name="SuperKolor #2 Orange" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">1,255,2,72,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="303" Type="Scene" Name="SuperKolor #3 Rouge" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="304" Type="Scene" Name="SuperKolor #3 Bleu" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="305" Type="Scene" Name="SuperKolor #3 Blanc" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="306" Type="Scene" Name="SuperKolor #3 Cyan" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="307" Type="Scene" Name="SuperKolor #3 Magenta" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="308" Type="Scene" Name="SuperKolor #3 Orange" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">1,255,2,72,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="309" Type="Scene" Name="SuperKolor #4 Rouge" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="310" Type="Scene" Name="SuperKolor #4 Bleu" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="311" Type="Scene" Name="SuperKolor #4 Blanc" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="312" Type="Scene" Name="SuperKolor #4 Cyan" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="313" Type="Scene" Name="SuperKolor #4 Magenta" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="314" Type="Scene" Name="SuperKolor #4 Orange" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">1,255,2,72,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="315" Type="Scene" Name="SuperKolor #5 Rouge" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="316" Type="Scene" Name="SuperKolor #5 Bleu" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="317" Type="Scene" Name="SuperKolor #5 Blanc" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="318" Type="Scene" Name="SuperKolor #5 Cyan" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="319" Type="Scene" Name="SuperKolor #5 Magenta" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="320" Type="Scene" Name="SuperKolor #5 Orange" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">1,255,2,72,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="321" Type="Scene" Name="SuperKolor #6 Rouge" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="322" Type="Scene" Name="SuperKolor #6 Bleu" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="323" Type="Scene" Name="SuperKolor #6 Blanc" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="324" Type="Scene" Name="SuperKolor #6 Cyan" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="325" Type="Scene" Name="SuperKolor #6 Magenta" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="326" Type="Scene" Name="SuperKolor #6 Orange" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">1,255,2,72,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="327" Type="Scene" Name="SuperKolor #7 Rouge" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="328" Type="Scene" Name="SuperKolor #7 Bleu" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="329" Type="Scene" Name="SuperKolor #7 Blanc" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="330" Type="Scene" Name="SuperKolor #7 Cyan" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="331" Type="Scene" Name="SuperKolor #7 Magenta" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="332" Type="Scene" Name="SuperKolor #7 Orange" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">1,255,2,72,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="333" Type="Scene" Name="SuperKolor #8 Rouge" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="334" Type="Scene" Name="SuperKolor #8 Bleu" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="335" Type="Scene" Name="SuperKolor #8 Blanc" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="336" Type="Scene" Name="SuperKolor #8 Cyan" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="337" Type="Scene" Name="SuperKolor #8 Magenta" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="338" Type="Scene" Name="SuperKolor #8 Orange" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">1,255,2,72,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="339" Type="Scene" Name="SuperKolor #1 - Dim Highest" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">0,255</FixtureVal>
+  </Function>
+  <Function ID="340" Type="Scene" Name="SuperKolor #2 - Dim Highest" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,255</FixtureVal>
+  </Function>
+  <Function ID="341" Type="Scene" Name="SuperKolor #3 - Dim Highest" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">0,255</FixtureVal>
+  </Function>
+  <Function ID="342" Type="Scene" Name="SuperKolor #4 - Dim Highest" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">0,255</FixtureVal>
+  </Function>
+  <Function ID="343" Type="Scene" Name="SuperKolor #5 - Dim Highest" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">0,255</FixtureVal>
+  </Function>
+  <Function ID="344" Type="Scene" Name="SuperKolor #6 - Dim Highest" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">0,255</FixtureVal>
+  </Function>
+  <Function ID="345" Type="Scene" Name="SuperKolor #7 - Dim Highest" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">0,255</FixtureVal>
+  </Function>
+  <Function ID="346" Type="Scene" Name="SuperKolor #8 - Dim Highest" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">0,255</FixtureVal>
+  </Function>
+  <Function ID="347" Type="Scene" Name="SuperKolor #1 - Dim Medium" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">0,128</FixtureVal>
+  </Function>
+  <Function ID="348" Type="Scene" Name="SuperKolor #2 - Dim Medium" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,128</FixtureVal>
+  </Function>
+  <Function ID="349" Type="Scene" Name="SuperKolor #3 - Dim Medium" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">0,128</FixtureVal>
+  </Function>
+  <Function ID="350" Type="Scene" Name="SuperKolor #4 - Dim Medium" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">0,128</FixtureVal>
+  </Function>
+  <Function ID="351" Type="Scene" Name="SuperKolor #5 - Dim Medium" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">0,128</FixtureVal>
+  </Function>
+  <Function ID="352" Type="Scene" Name="SuperKolor #6 - Dim Medium" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">0,128</FixtureVal>
+  </Function>
+  <Function ID="353" Type="Scene" Name="SuperKolor #7 - Dim Medium" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">0,128</FixtureVal>
+  </Function>
+  <Function ID="354" Type="Scene" Name="SuperKolor #8 - Dim Medium" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">0,128</FixtureVal>
+  </Function>
+  <Function ID="355" Type="Scene" Name="SuperKolor #1 - Strob ON" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">6,250</FixtureVal>
+  </Function>
+  <Function ID="356" Type="Scene" Name="SuperKolor #1 - Strob OFF" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">6,0</FixtureVal>
+  </Function>
+  <Function ID="357" Type="Scene" Name="SuperKolor #2 - Strob ON" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">6,250</FixtureVal>
+  </Function>
+  <Function ID="358" Type="Scene" Name="SuperKolor #2 - Strob OFF" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">6,0</FixtureVal>
+  </Function>
+  <Function ID="359" Type="Scene" Name="SuperKolor #3 - Strob ON" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">6,250</FixtureVal>
+  </Function>
+  <Function ID="360" Type="Scene" Name="SuperKolor #3 - Strob OFF" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">6,0</FixtureVal>
+  </Function>
+  <Function ID="361" Type="Scene" Name="SuperKolor #4 - Strob ON" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">6,250</FixtureVal>
+  </Function>
+  <Function ID="362" Type="Scene" Name="SuperKolor #4 - Strob OFF" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">6,0</FixtureVal>
+  </Function>
+  <Function ID="363" Type="Scene" Name="SuperKolor #5 - Strob ON" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">6,250</FixtureVal>
+  </Function>
+  <Function ID="364" Type="Scene" Name="SuperKolor #5 - Strob OFF" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">6,0</FixtureVal>
+  </Function>
+  <Function ID="365" Type="Scene" Name="SuperKolor #6 - Strob ON" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">6,250</FixtureVal>
+  </Function>
+  <Function ID="366" Type="Scene" Name="SuperKolor #6 - Strob OFF" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">6,0</FixtureVal>
+  </Function>
+  <Function ID="367" Type="Scene" Name="SuperKolor #7 - Strob ON" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">6,250</FixtureVal>
+  </Function>
+  <Function ID="368" Type="Scene" Name="SuperKolor #7 - Strob OFF" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">6,0</FixtureVal>
+  </Function>
+  <Function ID="369" Type="Scene" Name="SuperKolor #8 - Strob ON" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">6,250</FixtureVal>
+  </Function>
+  <Function ID="370" Type="Scene" Name="SuperKolor #8 - Strob OFF" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">6,0</FixtureVal>
+  </Function>
+  <Function ID="371" Type="Scene" Name="SuperKolor #1 - Dim Low" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">0,50</FixtureVal>
+  </Function>
+  <Function ID="372" Type="Scene" Name="SuperKolor #2 - Dim Low" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,50</FixtureVal>
+  </Function>
+  <Function ID="373" Type="Scene" Name="SuperKolor #3 - Dim Low" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">0,50</FixtureVal>
+  </Function>
+  <Function ID="374" Type="Scene" Name="SuperKolor #4 - Dim Low" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">0,50</FixtureVal>
+  </Function>
+  <Function ID="375" Type="Scene" Name="SuperKolor #5 - Dim Low" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">0,50</FixtureVal>
+  </Function>
+  <Function ID="376" Type="Scene" Name="SuperKolor #6 - Dim Low" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">0,50</FixtureVal>
+  </Function>
+  <Function ID="377" Type="Scene" Name="SuperKolor #7 - Dim Low" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">0,50</FixtureVal>
+  </Function>
+  <Function ID="378" Type="Scene" Name="SuperKolor #8 - Dim Low" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">0,50</FixtureVal>
+  </Function>
+  <Function ID="379" Type="Scene" Name="SuperKolor #1 - Dim 0" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">0,0</FixtureVal>
+  </Function>
+  <Function ID="380" Type="Scene" Name="SuperKolor #2 - Dim 0" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,0</FixtureVal>
+  </Function>
+  <Function ID="381" Type="Scene" Name="SuperKolor #3 - Dim 0" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">0,0</FixtureVal>
+  </Function>
+  <Function ID="382" Type="Scene" Name="SuperKolor #4 - Dim 0" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">0,0</FixtureVal>
+  </Function>
+  <Function ID="383" Type="Scene" Name="SuperKolor #5 - Dim 0" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">0,0</FixtureVal>
+  </Function>
+  <Function ID="384" Type="Scene" Name="SuperKolor #6 - Dim 0" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">0,0</FixtureVal>
+  </Function>
+  <Function ID="385" Type="Scene" Name="SuperKolor #7 - Dim 0" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">0,0</FixtureVal>
+  </Function>
+  <Function ID="386" Type="Scene" Name="SuperKolor #8 - Dim 0" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">0,0</FixtureVal>
+  </Function>
+  <Function ID="387" Type="Collection" Name="Tout Strob 50" Path="Yurodivy/0 - Commun">
+   <Step Number="0">371</Step>
+   <Step Number="1">355</Step>
+   <Step Number="2">293</Step>
+   <Step Number="3">357</Step>
+   <Step Number="4">299</Step>
+   <Step Number="5">359</Step>
+   <Step Number="6">305</Step>
+   <Step Number="7">361</Step>
+   <Step Number="8">311</Step>
+   <Step Number="9">367</Step>
+   <Step Number="10">329</Step>
+   <Step Number="11">369</Step>
+   <Step Number="12">335</Step>
+   <Step Number="13">372</Step>
+   <Step Number="14">373</Step>
+   <Step Number="15">374</Step>
+   <Step Number="16">377</Step>
+   <Step Number="17">378</Step>
+  </Function>
+  <Function ID="388" Type="Scene" Name="SuperKolor #1 - Dim Lowest" Path="Demi-Lune/SuperKolor #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">0,20</FixtureVal>
+  </Function>
+  <Function ID="389" Type="Scene" Name="SuperKolor #2 - Dim Lowest" Path="Demi-Lune/SuperKolor #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="34">0,20</FixtureVal>
+  </Function>
+  <Function ID="390" Type="Scene" Name="SuperKolor #3 - Dim Lowest" Path="Demi-Lune/SuperKolor #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="35">0,20</FixtureVal>
+  </Function>
+  <Function ID="391" Type="Scene" Name="SuperKolor #4 - Dim Lowest" Path="Demi-Lune/SuperKolor #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="36">0,20</FixtureVal>
+  </Function>
+  <Function ID="392" Type="Scene" Name="SuperKolor #5 - Dim Lowest" Path="Demi-Lune/Face SuperKolor #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">0,20</FixtureVal>
+  </Function>
+  <Function ID="393" Type="Scene" Name="SuperKolor #6 - Dim Lowest" Path="Demi-Lune/Face SuperKolor #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="38">0,20</FixtureVal>
+  </Function>
+  <Function ID="394" Type="Scene" Name="SuperKolor #7 - Dim Lowest" Path="Demi-Lune/SuperKolor #7">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="39">0,20</FixtureVal>
+  </Function>
+  <Function ID="395" Type="Scene" Name="SuperKolor #8 - Dim Lowest" Path="Demi-Lune/SuperKolor #8">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="40">0,20</FixtureVal>
+  </Function>
+  <Function ID="396" Type="Collection" Name="28 jours plus tard - A - E - Intro" Path="Yurodivy/D - 28 jours plus tard">
+   <Step Number="0">264</Step>
+   <Step Number="1">397</Step>
+  </Function>
+  <Function ID="397" Type="Scene" Name="A - E - Intro" Path="Yurodivy/D - 28 jours plus tard">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="398" Type="Collection" Name="28 jours plus tard - B - G - Drum + Voix" Path="Yurodivy/D - 28 jours plus tard">
+   <Step Number="0">264</Step>
+   <Step Number="1">47</Step>
+   <Step Number="2">399</Step>
+  </Function>
+  <Function ID="399" Type="Scene" Name="B - G - Drum + Voix" Path="Yurodivy/D - 28 jours plus tard">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="400" Type="Scene" Name="C - H - Bordel 1" Path="Yurodivy/D - 28 jours plus tard">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="401" Type="Scene" Name="D - I - Bordel 2" Path="Yurodivy/D - 28 jours plus tard">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="12">0,255,1,245</FixtureVal>
+  </Function>
+  <Function ID="402" Type="Scene" Name="F - Blackout" Path="Yurodivy/D - 28 jours plus tard">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+   <FixtureVal ID="26">0,80</FixtureVal>
+   <FixtureVal ID="27">0,80</FixtureVal>
+   <FixtureVal ID="28">0,80</FixtureVal>
+   <FixtureVal ID="29">0,80</FixtureVal>
+  </Function>
+  <Function ID="403" Type="Scene" Name="J - Bordel 3" Path="Yurodivy/D - 28 jours plus tard">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="404" Type="Scene" Name="K -Toute fin - #1 - 1 3 5 7 9" Path="Yurodivy/D - 28 jours plus tard">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="405" Type="Scene" Name="K -Toute fin - #2 - 2 4 6 8 10" Path="Yurodivy/D - 28 jours plus tard">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="406" Type="Collection" Name="28 jours plus tard - C - H - Bordel 1" Path="Yurodivy/D - 28 jours plus tard">
+   <Step Number="0">400</Step>
+   <Step Number="1">159</Step>
+  </Function>
+  <Function ID="407" Type="Collection" Name="28 jours plus tard - D - I - Bordel 2" Path="Yurodivy/D - 28 jours plus tard">
+   <Step Number="0">401</Step>
+   <Step Number="1">162</Step>
+  </Function>
+  <Function ID="408" Type="Collection" Name="28 jours plus tard - F - Blackout" Path="Yurodivy/D - 28 jours plus tard">
+   <Step Number="0">402</Step>
+  </Function>
+  <Function ID="409" Type="Collection" Name="28 jours plus tard - J - Bordel 3" Path="Yurodivy/D - 28 jours plus tard">
+   <Step Number="0">403</Step>
+   <Step Number="1">265</Step>
+  </Function>
+  <Function ID="410" Type="Collection" Name="28 jours plus tard - K - Toute fin - Alternance 1" Path="Yurodivy/D - 28 jours plus tard">
+   <Step Number="0">404</Step>
+   <Step Number="1">159</Step>
+  </Function>
+  <Function ID="411" Type="Collection" Name="28 jours plus tard - K - Toute fin - Alternance 2" Path="Yurodivy/D - 28 jours plus tard">
+   <Step Number="0">405</Step>
+   <Step Number="1">162</Step>
+  </Function>
+  <Function ID="412" Type="Scene" Name="L - STOP" Path="Yurodivy/D - 28 jours plus tard">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="12">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="413" Type="Collection" Name="28 jours plus tard - L - STOP" Path="Yurodivy/D - 28 jours plus tard">
+   <Step Number="0">412</Step>
+   <Step Number="1">264</Step>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="1">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>1</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="6" Height="3" Depth="4" Units="0"/>
+   <FxItem ID="4" XPos="1067.51" YPos="1139.24"/>
+   <FxItem ID="5" XPos="2886.08" YPos="3535.86"/>
+   <FxItem ID="12" XPos="2829.46" YPos="1201.23"/>
+   <FxItem ID="13" XPos="2822.18" YPos="599.04"/>
+   <FxItem ID="26" XPos="1007.25" YPos="480.188"/>
+   <FxItem ID="27" XPos="2308.41" YPos="454.261"/>
+   <FxItem ID="28" XPos="3459.28" YPos="433.824"/>
+   <FxItem ID="29" XPos="4682.17" YPos="427.995"/>
+   <FxItem ID="33" XPos="1763.71" YPos="594.937"/>
+   <FxItem ID="34" XPos="3924.05" YPos="607.595"/>
+   <FxItem ID="35" XPos="5371.31" YPos="1219.41"/>
+   <FxItem ID="36" XPos="5270.04" YPos="2286.92"/>
+   <FxItem ID="37" XPos="4413.5" YPos="3590.72"/>
+   <FxItem ID="38" XPos="1303.8" YPos="3594.94"/>
+   <FxItem ID="39" XPos="472.574" YPos="2286.92"/>
+   <FxItem ID="40" XPos="278.481" YPos="1122.36"/>
+   <FxItem ID="41" XPos="1514.77" YPos="2544.3"/>
+   <FxItem ID="42" XPos="2835.44" YPos="1582.28"/>
+   <FxItem ID="43" XPos="4132.6" YPos="2375.69"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>4278190080</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <SpeedDial Caption="Tap tempo" ID="87">
+    <WindowState Visible="True" X="385" Y="0" Width="110" Height="80"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4278190080</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>4</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="1000"/>
+    <Tap>
+     <Input Universe="0" Channel="92"/>
+    </Tap>
+    <Time>214</Time>
+    <Function FadeIn="0" FadeOut="0" Duration="6">102</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">99</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">104</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">101</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">47</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">38</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">120</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">64</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">140</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">14</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">96</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">62</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">225</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">98</Function>
+   </SpeedDial>
+   <Clock Type="Clock" Caption="" ID="7">
+    <WindowState Visible="True" X="0" Y="40" Width="160" Height="30"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4278190080</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Road Rage,20,-1,5,50,0,0,0,0,0</Font>
+    </Appearance>
+   </Clock>
+   <Label Caption="Yurodivy" ID="8">
+    <WindowState Visible="True" X="0" Y="0" Width="175" Height="40"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>4278190080</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Road Rage,26,-1,5,50,0,0,0,0,0</Font>
+    </Appearance>
+   </Label>
+   <Button Caption="Stop functions" ID="44" Icon="">
+    <WindowState Visible="True" X="495" Y="0" Width="125" Height="85"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4294967295"/>
+    <Action>StopAll</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <CueList Caption="Séquenceur" ID="0">
+    <WindowState Visible="True" X="0" Y="115" Width="540" Height="430"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Chaser>179</Chaser>
+    <NextPrevBehavior>0</NextPrevBehavior>
+    <Next>
+     <Input Universe="0" Channel="90"/>
+    </Next>
+    <Previous>
+     <Input Universe="0" Channel="89"/>
+    </Previous>
+    <Playback/>
+    <Stop/>
+   </CueList>
+   <Frame Caption="" ID="12">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="510" Y="565" Width="230" Height="255"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>False</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="PAR Yuro #1" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="0" Y="0" Width="105" Height="250"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="81"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset>
+      <Input Universe="0" Channel="73"/>
+     </Reset>
+     <Level LowLimit="0" HighLimit="85" Value="62">
+      <Channel Fixture="26">0</Channel>
+      <Channel Fixture="29">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="PAR Yuro #2" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="110" Y="0" Width="110" Height="250"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="82"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset>
+      <Input Universe="0" Channel="74"/>
+     </Reset>
+     <Level LowLimit="0" HighLimit="85" Value="62">
+      <Channel Fixture="27">0</Channel>
+      <Channel Fixture="28">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Slider Caption="40 days Demi-Lune" ID="13" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
+    <WindowState Visible="True" X="750" Y="570" Width="105" Height="220"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>4294967295</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="87"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="150" Value="0">
+     <Channel Fixture="12">0</Channel>
+     <Channel Fixture="33">0</Channel>
+     <Channel Fixture="34">0</Channel>
+     <Channel Fixture="35">0</Channel>
+     <Channel Fixture="36">0</Channel>
+     <Channel Fixture="39">0</Channel>
+     <Channel Fixture="40">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Button Caption="Yurodivy - 0 - Commun - SP-1500 - Strob " ID="3" Icon="">
+    <WindowState Visible="True" X="535" Y="195" Width="150" Height="125"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="253"/>
+    <Action Override="0" ForceLTP="0">Flash</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="91"/>
+   </Button>
+   <Slider Caption="Smoke" ID="27" WidgetStyle="Knob" InvertedAppearance="false">
+    <WindowState Visible="True" X="195" Y="0" Width="60" Height="90"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="8"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Button Caption="Face" ID="29" Icon="">
+    <WindowState Visible="True" X="635" Y="5" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4294967295"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="72"/>
+   </Button>
+   <Frame Caption="SuperKolor" ID="4">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="0" Y="555" Width="385" Height="255"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="#1" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="0" Y="45" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="128">
+      <Channel Fixture="33">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="#2" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="60" Y="45" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="128">
+      <Channel Fixture="34">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="#3" ID="14" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="115" Y="45" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="50">
+      <Channel Fixture="35">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="#4" ID="15" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="175" Y="45" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="20">
+      <Channel Fixture="36">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="#7" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="235" Y="45" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="20">
+      <Channel Fixture="39">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="#8" ID="18" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="290" Y="45" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="50">
+      <Channel Fixture="40">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Label Caption="- Vérifier scènes SK Blanc - 100% White, est-ce ok ?&#10;- Check le fader 40 days (besoin de 2 pour le white drum ?)" ID="16">
+    <WindowState Visible="True" X="535" Y="85" Width="360" Height="105"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4292643549</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Label>
+  </Frame>
+  <Properties>
+   <Size Width="1865" Height="2000"/>
+   <GrandMaster Visible="1" ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
