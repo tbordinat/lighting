@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>thoma</Author>
+ </Creator>
+ <Manufacturer>Ayrton</Manufacturer>
+ <Model>Arcaline 2 3G</Model>
+ <Type>LED Bar (Beams)</Type>
+ <Channel Name="Rouge tronçon 1" Preset="IntensityRed"/>
+ <Channel Name="Vert tronçon 1" Preset="IntensityGreen"/>
+ <Channel Name="Bleu tronçon 1" Preset="IntensityBlue"/>
+ <Channel Name="Blanc tronçon 1" Preset="IntensityWhite"/>
+ <Channel Name="Rouge tronçon 2" Preset="IntensityRed"/>
+ <Channel Name="Vert tronçon 2" Preset="IntensityGreen"/>
+ <Channel Name="Bleu tronçon 2" Preset="IntensityBlue"/>
+ <Channel Name="Blanc tronçon 2" Preset="IntensityWhite"/>
+ <Channel Name="Strobe" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Macro couleur" Preset="ColorMacro"/>
+ <Channel Name="Dimmer" Preset="IntensityDimmer"/>
+ <Mode Name="Mode 6">
+  <Channel Number="0">Rouge tronçon 1</Channel>
+  <Channel Number="1">Vert tronçon 1</Channel>
+  <Channel Number="2">Bleu tronçon 1</Channel>
+  <Channel Number="3">Blanc tronçon 1</Channel>
+  <Channel Number="4">Rouge tronçon 2</Channel>
+  <Channel Number="5">Vert tronçon 2</Channel>
+  <Channel Number="6">Bleu tronçon 2</Channel>
+  <Channel Number="7">Blanc tronçon 2</Channel>
+  <Channel Number="8">Strobe</Channel>
+  <Channel Number="9">Macro couleur</Channel>
+  <Channel Number="10">Dimmer</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+ </Physical>
+</FixtureDefinition>
