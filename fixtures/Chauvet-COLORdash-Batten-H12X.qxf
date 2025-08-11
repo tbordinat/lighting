@@ -94,13 +94,74 @@
   <Channel Number="39">White</Channel>
   <Channel Number="40">UV</Channel>
   <Channel Number="41">Strobe</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+  </Head>
+  <Head>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+  </Head>
+  <Head>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+   <Channel>10</Channel>
+  </Head>
+  <Head>
+   <Channel>11</Channel>
+   <Channel>12</Channel>
+   <Channel>13</Channel>
+  </Head>
+  <Head>
+   <Channel>14</Channel>
+   <Channel>15</Channel>
+   <Channel>16</Channel>
+  </Head>
+  <Head>
+   <Channel>17</Channel>
+   <Channel>18</Channel>
+   <Channel>19</Channel>
+  </Head>
+  <Head>
+   <Channel>20</Channel>
+   <Channel>21</Channel>
+   <Channel>22</Channel>
+  </Head>
+  <Head>
+   <Channel>23</Channel>
+   <Channel>24</Channel>
+   <Channel>25</Channel>
+  </Head>
+  <Head>
+   <Channel>26</Channel>
+   <Channel>27</Channel>
+   <Channel>28</Channel>
+  </Head>
+  <Head>
+   <Channel>29</Channel>
+   <Channel>30</Channel>
+   <Channel>31</Channel>
+  </Head>
+  <Head>
+   <Channel>32</Channel>
+   <Channel>33</Channel>
+   <Channel>34</Channel>
+  </Head>
+  <Head>
+   <Channel>35</Channel>
+   <Channel>36</Channel>
+   <Channel>37</Channel>
+  </Head>
  </Mode>
  <Physical>
-  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
-  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Bulb Type="LED" Lumens="3000" ColourTemperature="0"/>
+  <Dimensions Weight="8" Width="1400" Height="208" Depth="96"/>
   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
-  <Layout Width="1" Height="12"/>
+  <Layout Width="12" Height="1"/>
   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
  </Physical>
 </FixtureDefinition>
