@@ -20,7 +20,7 @@ Feel free to explore, suggest improvements, or reach out if you have questions!
 
 - 2025-09-20 - 🇫🇷 La Fare-les-Oliviers - RDB Fest 2025 - Yurodivy
 - 2025-09-19 - 🇫🇷 TBA - Yurodivy
-- 2025-08-08 - 🇫🇷 Kolbsheim - Demi-Lune Festival III - Yurodivy
+- 2025-08-22 - 🇫🇷 Kolbsheim - Demi-Lune Festival III - Yurodivy
 - [2025-06-12 - 🇫🇷 Strasbourg - Molodoi - Itawak Fest VI - Yarostan + Wormrot + Bleachdrinker + The Man And The Abyss + Oak + more](https://itawak.com/itawak-fest-2025/)
 - 2025-04-25 - 🇫🇷 Dinsheim-sur-Bruche - Ruby's Burlesque Club #2
 - 2025-03-27 - 🇫🇷 Strasbourg - Itawak Show - LMDA + Gummo + Insane Order + Pilon
