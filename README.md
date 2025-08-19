@@ -25,12 +25,15 @@ Feel free to explore, suggest improvements, or reach out if you have questions!
 - 2025-04-25 - 🇫🇷 Dinsheim-sur-Bruche - Ruby's Burlesque Club #2
 - 2025-03-27 - 🇫🇷 Strasbourg - Itawak Show - LMDA + Gummo + Insane Order + Pilon
 - 2025-03-08 - 🇫🇷 Strasbourg - Kawati Studios - Yurodivy
+- 2024-10-24 - 🇫🇷 Strasbourg - Kawati Studios - Sans froid + Cover + Schnack
 - 2024-09-21 - 🇫🇷 Epinal - La Souris Verte - Yurodivy
 - 2024-09-20 - 🇫🇷 Besançon - Les Passagers du Zinc - Yurodivy
 - [2024-06-06 - 🇫🇷 Strasbourg - Molodoi - Itawak Fest V - Another Five Minutes + Yurodivy + more](https://itawak.com/souvenirs/itawak-fest-2024/)
 - 2024-04-17 - 🇫🇷 Strasbourg - La Grenze - Yurodivy
 - 2024-03-15 - 🇫🇷 Strasbourg - La Maison Bleue - Yurodivy
+- 2024-02-23 - 🇫🇷 Strasbourg - Molodoï - Itawak Show - Lypure + Oddism + Dead Kiwis
 - [2023-06-08 - 🇫🇷 Strasbourg - Molodoi - Itawak Fest IV - Nostromo + Psychonaut + more](https://itawak.com/souvenirs/itawak-fest-2023/) - ZERO 88 FLX S48
+- 2023-05-12 - 🇫🇷 Strasbourg - Molodoï - Itawak Show - Oak + moYan + Filmmaker
 - 2023-04-22 - 🇩🇪 Ulm - Club Schili - Yurodivy
 - 2023-04-21 - 🇩🇪 Fribourg - Flamingo - Yurodivy
 - 2022-12-02 - 🇫🇷 Strasbourg - Molodoï + Gravel Grower
