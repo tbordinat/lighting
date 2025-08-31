@@ -244,7 +244,7 @@
   <Function ID="0" Type="Collection" Name="Pessimist - C - Chant 2" Path="Pessimist - Ambre-Blanc">
    <Step Number="0">166</Step>
    <Step Number="1">17</Step>
-   <Step Number="2">157</Step>
+   <Step Number="2">263</Step>
    <Step Number="3">296</Step>
    <Step Number="4">302</Step>
    <Step Number="5">373</Step>
@@ -534,7 +534,7 @@
    <Step Number="0">166</Step>
    <Step Number="1">37</Step>
    <Step Number="2">38</Step>
-   <Step Number="3">262</Step>
+   <Step Number="3">249</Step>
    <Step Number="4">128</Step>
    <Step Number="5">292</Step>
    <Step Number="6">302</Step>
@@ -546,7 +546,7 @@
   <Function ID="42" Type="Collection" Name="Pessimist - M - STOP" Path="Pessimist - Ambre-Blanc">
    <Step Number="0">166</Step>
    <Step Number="1">35</Step>
-   <Step Number="2">264</Step>
+   <Step Number="2">249</Step>
    <Step Number="3">379</Step>
    <Step Number="4">380</Step>
    <Step Number="5">381</Step>
@@ -788,7 +788,7 @@
   <Function ID="76" Type="Collection" Name="Fougasse - G - Pont" Path="Fougasse - Magenta">
    <Step Number="0">166</Step>
    <Step Number="1">70</Step>
-   <Step Number="2">262</Step>
+   <Step Number="2">249</Step>
    <Step Number="3">394</Step>
    <Step Number="4">331</Step>
    <Step Number="5">391</Step>
@@ -1089,7 +1089,7 @@
   <Function ID="126" Type="Collection" Name="Year of the Light - G - Blackout - Attention pas tout de suite" Path="Year of the Light">
    <Step Number="0">166</Step>
    <Step Number="1">116</Step>
-   <Step Number="2">262</Step>
+   <Step Number="2">249</Step>
   </Function>
   <Function ID="127" Type="Collection" Name="Year of the Light - H - Outro" Path="Year of the Light">
    <Step Number="0">166</Step>
@@ -1307,19 +1307,12 @@
    <Step Number="1">146</Step>
    <Step Number="2">415</Step>
   </Function>
-  <Function ID="157" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 38 27 27 38" Path="Yurodivy/0 - Commun/PAR Contre">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,38</FixtureVal>
-   <FixtureVal ID="27">0,27</FixtureVal>
-   <FixtureVal ID="28">0,27</FixtureVal>
-   <FixtureVal ID="29">0,38</FixtureVal>
-  </Function>
   <Function ID="158" Type="Collection" Name="Anonyme - H - Patate #3" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">166</Step>
    <Step Number="1">147</Step>
    <Step Number="2">418</Step>
   </Function>
-  <Function ID="159" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 0 60 60 0" Path="Yurodivy/0 - Commun/PAR Contre">
+  <Function ID="159" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 0% 75% 75% 0%" Path="Yurodivy/0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="26">0,0</FixtureVal>
    <FixtureVal ID="27">0,60</FixtureVal>
@@ -1331,19 +1324,19 @@
    <Step Number="1">149</Step>
    <Step Number="2">425</Step>
   </Function>
-  <Function ID="162" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 80 0 0 80" Path="Yurodivy/0 - Commun/PAR Contre">
+  <Function ID="162" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 100% 0% 0% 100%" Path="Yurodivy/0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,80</FixtureVal>
+   <FixtureVal ID="26">0,83</FixtureVal>
    <FixtureVal ID="27">0,0</FixtureVal>
    <FixtureVal ID="28">0,0</FixtureVal>
-   <FixtureVal ID="29">0,80</FixtureVal>
+   <FixtureVal ID="29">0,83</FixtureVal>
   </Function>
   <Function ID="163" Type="Collection" Name="Anonyme - H - Patate #4" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">166</Step>
    <Step Number="1">148</Step>
    <Step Number="2">419</Step>
   </Function>
-  <Function ID="164" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 105 83 83 105" Path="Yurodivy/0 - Commun/PAR Contre">
+  <Function ID="164" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 75% 50% 50% 75%" Path="Yurodivy/0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="26">0,73</FixtureVal>
    <FixtureVal ID="27">0,46</FixtureVal>
@@ -1437,7 +1430,7 @@
   <Function ID="178" Type="Collection" Name="Where The Dogs - A - Intro" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">166</Step>
    <Step Number="1">177</Step>
-   <Step Number="2">262</Step>
+   <Step Number="2">249</Step>
    <Step Number="3">254</Step>
    <Step Number="4">245</Step>
    <Step Number="5">244</Step>
@@ -1591,7 +1584,7 @@
   <Function ID="180" Type="Collection" Name="Where The Dogs - B - Strob" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">166</Step>
    <Step Number="1">181</Step>
-   <Step Number="2">262</Step>
+   <Step Number="2">249</Step>
    <Step Number="3">242</Step>
    <Step Number="4">253</Step>
    <Step Number="5">296</Step>
@@ -1654,7 +1647,7 @@
   <Function ID="185" Type="Collection" Name="Where The Dogs - D - Strob manuel" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">166</Step>
    <Step Number="1">184</Step>
-   <Step Number="2">264</Step>
+   <Step Number="2">249</Step>
    <Step Number="3">254</Step>
   </Function>
   <Function ID="186" Type="Collection" Name="Anonyme - K - Pont 2" Path="Anonyme - Ambre-Blanc">
@@ -1744,7 +1737,7 @@
   <Function ID="195" Type="Collection" Name="Where The Dogs - J - STOP" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">166</Step>
    <Step Number="1">194</Step>
-   <Step Number="2">264</Step>
+   <Step Number="2">249</Step>
    <Step Number="3">379</Step>
    <Step Number="4">380</Step>
    <Step Number="5">381</Step>
@@ -1952,7 +1945,7 @@
    <Step Number="8">372</Step>
    <Step Number="9">350</Step>
    <Step Number="10">353</Step>
-   <Step Number="11">264</Step>
+   <Step Number="11">249</Step>
   </Function>
   <Function ID="219" Type="Collection" Name="Fougasse - J - STOP" Path="Fougasse - Magenta">
    <Step Number="0">166</Step>
@@ -2060,7 +2053,7 @@
    <Step Number="17">296</Step>
    <Step Number="18">265</Step>
   </Function>
-  <Function ID="238" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 128 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+  <Function ID="238" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - x4 - 100%" Path="Yurodivy/0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="26">0,83</FixtureVal>
    <FixtureVal ID="27">0,83</FixtureVal>
@@ -2128,19 +2121,19 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="12">0,0</FixtureVal>
   </Function>
-  <Function ID="246" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 55 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+  <Function ID="246" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - x4 - 50%" Path="Yurodivy/0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,32</FixtureVal>
-   <FixtureVal ID="27">0,32</FixtureVal>
-   <FixtureVal ID="28">0,32</FixtureVal>
-   <FixtureVal ID="29">0,32</FixtureVal>
+   <FixtureVal ID="26">0,38</FixtureVal>
+   <FixtureVal ID="27">0,38</FixtureVal>
+   <FixtureVal ID="28">0,38</FixtureVal>
+   <FixtureVal ID="29">0,38</FixtureVal>
   </Function>
   <Function ID="247" Type="Collection" Name="Poutourte - G - Pont batterie seule" Path="Poutourte - Ambre-Bleu">
    <Step Number="0">166</Step>
    <Step Number="1">132</Step>
    <Step Number="2">244</Step>
    <Step Number="3">248</Step>
-   <Step Number="4">262</Step>
+   <Step Number="4">249</Step>
    <Step Number="5">377</Step>
    <Step Number="6">395</Step>
    <Step Number="7">334</Step>
@@ -2157,7 +2150,7 @@
   <Function ID="248" Type="Scene" Name="G - Pont batterie seule" Path="Yurodivy/Poutourte">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
-  <Function ID="249" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 48 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+  <Function ID="249" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - x4 - 25%" Path="Yurodivy/0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="26">0,27</FixtureVal>
    <FixtureVal ID="27">0,27</FixtureVal>
@@ -2249,7 +2242,7 @@
    <FixtureVal ID="29">0,0</FixtureVal>
    <FixtureVal ID="13">0,0,1,0</FixtureVal>
   </Function>
-  <Function ID="259" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 0 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+  <Function ID="259" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - x4 - 0%" Path="Yurodivy/0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="26">0,0</FixtureVal>
    <FixtureVal ID="27">0,0</FixtureVal>
@@ -2262,28 +2255,14 @@
   <Function ID="261" Type="Scene" Name="Yurodivy - 0 - Commun - Wash RGB - Strob 221 + Dim" Path="Yurodivy/0 - Commun/Wash">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
-  <Function ID="262" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 38 x4" Path="Yurodivy/0 - Commun/PAR Contre">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,17</FixtureVal>
-   <FixtureVal ID="27">0,17</FixtureVal>
-   <FixtureVal ID="28">0,17</FixtureVal>
-   <FixtureVal ID="29">0,17</FixtureVal>
-  </Function>
-  <Function ID="263" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 27 38 38 27" Path="Yurodivy/0 - Commun/PAR Contre">
+  <Function ID="263" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 25% 50% 50% 25%" Path="Yurodivy/0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="26">0,27</FixtureVal>
    <FixtureVal ID="27">0,38</FixtureVal>
    <FixtureVal ID="28">0,38</FixtureVal>
    <FixtureVal ID="29">0,27</FixtureVal>
   </Function>
-  <Function ID="264" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 18 x4" Path="Yurodivy/0 - Commun/PAR Contre">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,18</FixtureVal>
-   <FixtureVal ID="27">0,18</FixtureVal>
-   <FixtureVal ID="28">0,18</FixtureVal>
-   <FixtureVal ID="29">0,18</FixtureVal>
-  </Function>
-  <Function ID="265" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 80 x4" Path="Yurodivy/0 - Commun/PAR Contre">
+  <Function ID="265" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - x4 - 75%" Path="Yurodivy/0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="26">0,38</FixtureVal>
    <FixtureVal ID="27">0,38</FixtureVal>
@@ -2817,7 +2796,7 @@
   </Function>
   <Function ID="396" Type="Collection" Name="28 jours plus tard - A - E - Intro" Path="28 jours plus tard - Magenta-Bleu">
    <Step Number="0">166</Step>
-   <Step Number="1">264</Step>
+   <Step Number="1">249</Step>
    <Step Number="2">397</Step>
    <Step Number="3">292</Step>
    <Step Number="4">298</Step>
@@ -2836,7 +2815,7 @@
   </Function>
   <Function ID="398" Type="Collection" Name="28 jours plus tard - B - G - Drum puis voix" Path="28 jours plus tard - Magenta-Bleu">
    <Step Number="0">166</Step>
-   <Step Number="1">264</Step>
+   <Step Number="1">249</Step>
    <Step Number="2">399</Step>
    <Step Number="3">107</Step>
    <Step Number="4">295</Step>
@@ -2955,7 +2934,7 @@
   </Function>
   <Function ID="413" Type="Collection" Name="28 jours plus tard - O - STOP / Voix Jerem" Path="28 jours plus tard - Magenta-Bleu">
    <Step Number="0">166</Step>
-   <Step Number="1">264</Step>
+   <Step Number="1">249</Step>
    <Step Number="2">374</Step>
    <Step Number="3">313</Step>
    <Step Number="4">244</Step>
