@@ -18,6 +18,7 @@ Feel free to explore, suggest improvements, or reach out if you have questions!
 
 ## Shows
 
+- 2025-10-16 - 🇫🇷 Dinsheim-sur-Bruche - Ruby's Burlesque Club #3
 - 2025-09-20 - 🇫🇷 La Fare-les-Oliviers - RDB Fest 2025 - Yurodivy + Fincher
 - 2025-09-19 - 🇫🇷 Clermont-Ferrand - Le Fotomat - Yurodivy + Fincher
 - 2025-08-22 - 🇫🇷 Kolbsheim - Demi-Lune Festival III - Yurodivy
