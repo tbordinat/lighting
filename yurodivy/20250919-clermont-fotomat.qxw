@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SimpleDesk">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.14.3</Version>
@@ -270,17 +270,22 @@
    <FixtureVal ID="42">0,137</FixtureVal>
   </Function>
   <Function ID="6" Type="Sequence" Name="Wash RGB - Noise" Path="Yuro - Effets/Wash" BoundScene="4">
-   <Speed FadeIn="500" FadeOut="500" Duration="0"/>
+   <Speed FadeIn="723" FadeOut="723" Duration="723"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="PerStep"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0" Values="3">41:0,170:42:0,120:43:0,150</Step>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="500" FadeOut="0" Values="3">41:0,170:42:0,120:43:0,150</Step>
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="3">41:0,190:42:0,100:43:0,140</Step>
    <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="3">41:0,210:42:0,80:43:0,120</Step>
    <Step Number="3" FadeIn="0" Hold="0" FadeOut="0" Values="3">41:0,180:42:0,120:43:0,150</Step>
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0" Values="3">41:0,150:42:0,150:43:0,170</Step>
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0" Values="3">41:0,130:42:0,150:43:0,190</Step>
    <Step Number="6" FadeIn="0" Hold="0" FadeOut="0" Values="3">41:0,90:42:0,200:43:0,150</Step>
+  </Function>
+  <Function ID="7" Type="Scene" Name="Base - Face">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,70</FixtureVal>
+   <FixtureVal ID="1">0,70</FixtureVal>
   </Function>
   <Function ID="8" Type="Scene" Name="Yurodivy - 0 - Commun - Tout strob" Path="0 - Commun">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -297,6 +302,14 @@
    <Step Number="0">49</Step>
    <Step Number="1">159</Step>
   </Function>
+  <Function ID="11" Type="Collection" Name="Dim 0" Path="0 - Fotomat">
+   <Step Number="0">379</Step>
+   <Step Number="1">380</Step>
+   <Step Number="2">381</Step>
+   <Step Number="3">382</Step>
+   <Step Number="4">385</Step>
+   <Step Number="5">386</Step>
+  </Function>
   <Function ID="12" Type="Collection" Name="Pessimist - A - D - Intro - Tpo 220ms" Path="Pessimist - Ambre-Blanc">
    <Step Number="0">49</Step>
    <Step Number="1">259</Step>
@@ -307,12 +320,10 @@
   </Function>
   <Function ID="13" Type="Scene" Name="Wild Wash Jerem Dim Low" Path="0 - Commun/Wash/Jerem">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="41">0,200</FixtureVal>
-   <FixtureVal ID="42">0,55</FixtureVal>
-   <FixtureVal ID="43">0,200</FixtureVal>
+   <FixtureVal ID="41">0,60</FixtureVal>
   </Function>
   <Function ID="14" Type="Sequence" Name="Wash RGB - Alternance Front/Back" Path="Yuro - Effets/Wash" BoundScene="13">
-   <Speed FadeIn="84" FadeOut="84" Duration="410"/>
+   <Speed FadeIn="84" FadeOut="84" Duration="723"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -321,6 +332,14 @@
    <Step Number="2" FadeIn="84" Hold="188" FadeOut="84" Values="3">41:0,100:42:0,155:43:0,100</Step>
    <Step Number="3" FadeIn="84" Hold="188" FadeOut="84" Values="3">41:0,55:42:0,200:43:0,55</Step>
    <Step Number="4" FadeIn="84" Hold="188" FadeOut="84" Values="3">41:0,200:42:0,255:43:0,200</Step>
+  </Function>
+  <Function ID="15" Type="Collection" Name="COLORado - Dim Low" Path="0 - Fotomat">
+   <Step Number="0">371</Step>
+   <Step Number="1">372</Step>
+   <Step Number="2">373</Step>
+   <Step Number="3">374</Step>
+   <Step Number="4">377</Step>
+   <Step Number="5">378</Step>
   </Function>
   <Function ID="16" Type="Collection" Name="Pessimist - B - Chant" Path="Pessimist - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -331,6 +350,22 @@
    <Step Number="5">447</Step>
    <Step Number="6">242</Step>
    <Step Number="7">243</Step>
+  </Function>
+  <Function ID="17" Type="Collection" Name="28 jours plus tard - P - STOP" Path="28 jours plus tard - Magenta-Bleu">
+   <Step Number="0">49</Step>
+   <Step Number="1">249</Step>
+   <Step Number="2">244</Step>
+   <Step Number="3">245</Step>
+   <Step Number="4">39</Step>
+   <Step Number="5">449</Step>
+  </Function>
+  <Function ID="18" Type="Collection" Name="COLORado - Dim Medium" Path="0 - Fotomat">
+   <Step Number="0">347</Step>
+   <Step Number="1">348</Step>
+   <Step Number="2">349</Step>
+   <Step Number="3">350</Step>
+   <Step Number="4">353</Step>
+   <Step Number="5">354</Step>
   </Function>
   <Function ID="21" Type="Collection" Name="Pessimist - E - Pont" Path="Pessimist - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -457,22 +492,20 @@
    <FixtureVal ID="42">1,225</FixtureVal>
   </Function>
   <Function ID="47" Type="Sequence" Name="Wash RGB - Sine - 2/3" Path="Yuro - Effets/Wash" BoundScene="48">
-   <Speed FadeIn="128" FadeOut="128" Duration="410"/>
+   <Speed FadeIn="456" FadeOut="456" Duration="723"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
-   <Step Number="0" FadeIn="1" Hold="0" FadeOut="0" Values="4">41:0,110:42:0,220:43:0,110</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="4">41:0,220:42:0,110:43:0,110</Step>
-   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="4">41:0,110:42:0,110:43:0,220</Step>
-   <Step Number="3" FadeIn="84" Hold="183" FadeOut="84" Values="4">41:0,110:42:0,20:43:0,110</Step>
-   <Step Number="4" FadeIn="84" Hold="183" FadeOut="84" Values="4">41:0,20:42:0,110:43:0,110</Step>
-   <Step Number="5" FadeIn="84" Hold="183" FadeOut="84" Values="4">41:0,110:42:0,110:43:0,20</Step>
+   <Step Number="0" FadeIn="1" Hold="0" FadeOut="0" Values="1"/>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="1"/>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="1"/>
+   <Step Number="3" FadeIn="84" Hold="183" FadeOut="84" Values="1"/>
+   <Step Number="4" FadeIn="84" Hold="183" FadeOut="84" Values="1"/>
+   <Step Number="5" FadeIn="84" Hold="183" FadeOut="84" Values="1"/>
   </Function>
   <Function ID="48" Type="Scene" Name="Wild Wash David Strob OFF" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="42">0,220,1,0</FixtureVal>
-   <FixtureVal ID="41">0,110</FixtureVal>
-   <FixtureVal ID="43">0,110</FixtureVal>
+   <FixtureVal ID="42">1,0</FixtureVal>
   </Function>
   <Function ID="49" Type="Collection" Name="0 - Base - Reset" Path="0 - Commun">
    <Step Number="0">166</Step>
@@ -528,6 +561,7 @@
    <Step Number="5">5</Step>
    <Step Number="6">25</Step>
    <Step Number="7">31</Step>
+   <Step Number="8">6</Step>
   </Function>
   <Function ID="56" Type="Scene" Name="Circle" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -556,7 +590,7 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
   <Function ID="62" Type="Sequence" Name="PAR Sine" Path="Yuro - Effets/PAR" BoundScene="60">
-   <Speed FadeIn="0" FadeOut="0" Duration="410"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="723"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -571,85 +605,81 @@
    <Step Number="0">49</Step>
    <Step Number="1">246</Step>
    <Step Number="2">294</Step>
-   <Step Number="3">300</Step>
+   <Step Number="3">299</Step>
    <Step Number="4">305</Step>
    <Step Number="5">312</Step>
    <Step Number="6">330</Step>
-   <Step Number="7">335</Step>
-   <Step Number="8">388</Step>
-   <Step Number="9">389</Step>
-   <Step Number="10">350</Step>
-   <Step Number="11">353</Step>
+   <Step Number="7">336</Step>
+   <Step Number="8">451</Step>
+   <Step Number="9">446</Step>
+   <Step Number="10">347</Step>
+   <Step Number="11">350</Step>
+   <Step Number="12">353</Step>
+   <Step Number="13">354</Step>
   </Function>
   <Function ID="66" Type="Collection" Name="Fougasse - A - E - Intro" Path="Fougasse - Magenta-Bleu">
    <Step Number="0">49</Step>
-   <Step Number="1">81</Step>
-   <Step Number="2">242</Step>
-   <Step Number="3">435</Step>
-   <Step Number="4">432</Step>
-   <Step Number="5">444</Step>
-   <Step Number="6">47</Step>
-   <Step Number="7">295</Step>
-   <Step Number="8">371</Step>
-   <Step Number="9">301</Step>
-   <Step Number="10">372</Step>
-   <Step Number="11">307</Step>
-   <Step Number="12">373</Step>
+   <Step Number="1">51</Step>
+   <Step Number="2">81</Step>
+   <Step Number="3">242</Step>
+   <Step Number="4">435</Step>
+   <Step Number="5">432</Step>
+   <Step Number="6">444</Step>
+   <Step Number="7">47</Step>
+   <Step Number="8">295</Step>
+   <Step Number="9">371</Step>
+   <Step Number="10">301</Step>
+   <Step Number="11">372</Step>
+   <Step Number="12">307</Step>
+   <Step Number="13">373</Step>
+   <Step Number="14">244</Step>
   </Function>
   <Function ID="74" Type="Collection" Name="Fougasse - C - F - Couplet" Path="Fougasse - Magenta-Bleu">
    <Step Number="0">49</Step>
    <Step Number="1">446</Step>
-   <Step Number="2">242</Step>
-   <Step Number="3">435</Step>
-   <Step Number="4">432</Step>
-   <Step Number="5">444</Step>
-   <Step Number="6">295</Step>
-   <Step Number="7">371</Step>
-   <Step Number="8">372</Step>
-   <Step Number="9">301</Step>
-   <Step Number="10">377</Step>
-   <Step Number="11">331</Step>
-   <Step Number="12">337</Step>
+   <Step Number="2">51</Step>
+   <Step Number="3">242</Step>
+   <Step Number="4">162</Step>
+   <Step Number="5">435</Step>
+   <Step Number="6">432</Step>
+   <Step Number="7">444</Step>
+   <Step Number="8">295</Step>
+   <Step Number="9">371</Step>
+   <Step Number="10">301</Step>
+   <Step Number="11">348</Step>
+   <Step Number="12">307</Step>
    <Step Number="13">349</Step>
-   <Step Number="14">313</Step>
-   <Step Number="15">307</Step>
-   <Step Number="16">354</Step>
-   <Step Number="17">374</Step>
-   <Step Number="18">162</Step>
   </Function>
   <Function ID="75" Type="Collection" Name="Fougasse - D - Bordel - Strob" Path="Fougasse - Magenta-Bleu">
    <Step Number="0">49</Step>
    <Step Number="1">242</Step>
    <Step Number="2">243</Step>
-   <Step Number="3">435</Step>
-   <Step Number="4">9</Step>
-   <Step Number="5">46</Step>
-   <Step Number="6">454</Step>
-   <Step Number="7">432</Step>
-   <Step Number="8">27</Step>
-   <Step Number="9">34</Step>
-   <Step Number="10">456</Step>
-   <Step Number="11">444</Step>
-   <Step Number="12">169</Step>
-   <Step Number="13">295</Step>
-   <Step Number="14">301</Step>
-   <Step Number="15">313</Step>
-   <Step Number="16">331</Step>
-   <Step Number="17">253</Step>
-   <Step Number="18">307</Step>
-   <Step Number="19">337</Step>
+   <Step Number="3">253</Step>
+   <Step Number="4">435</Step>
+   <Step Number="5">9</Step>
+   <Step Number="6">46</Step>
+   <Step Number="7">454</Step>
+   <Step Number="8">432</Step>
+   <Step Number="9">27</Step>
+   <Step Number="10">34</Step>
+   <Step Number="11">456</Step>
+   <Step Number="12">444</Step>
+   <Step Number="13">15</Step>
+   <Step Number="14">169</Step>
+   <Step Number="15">295</Step>
+   <Step Number="16">301</Step>
+   <Step Number="17">307</Step>
+   <Step Number="18">310</Step>
+   <Step Number="19">331</Step>
+   <Step Number="20">334</Step>
   </Function>
   <Function ID="76" Type="Collection" Name="Fougasse - G - Pont" Path="Fougasse - Magenta-Bleu">
    <Step Number="0">49</Step>
    <Step Number="1">249</Step>
-   <Step Number="2">394</Step>
-   <Step Number="3">331</Step>
-   <Step Number="4">391</Step>
-   <Step Number="5">313</Step>
-   <Step Number="6">39</Step>
-   <Step Number="7">435</Step>
-   <Step Number="8">432</Step>
-   <Step Number="9">444</Step>
+   <Step Number="2">39</Step>
+   <Step Number="3">435</Step>
+   <Step Number="4">432</Step>
+   <Step Number="5">444</Step>
   </Function>
   <Function ID="77" Type="Collection" Name="Fougasse - H - Outro 1 - Début du bazar" Path="Fougasse - Magenta-Bleu">
    <Step Number="0">49</Step>
@@ -669,26 +699,27 @@
    <Step Number="1">238</Step>
    <Step Number="2">8</Step>
    <Step Number="3">253</Step>
-   <Step Number="4">169</Step>
-   <Step Number="5">293</Step>
-   <Step Number="6">299</Step>
-   <Step Number="7">305</Step>
-   <Step Number="8">311</Step>
-   <Step Number="9">329</Step>
-   <Step Number="10">335</Step>
+   <Step Number="4">293</Step>
+   <Step Number="5">299</Step>
+   <Step Number="6">305</Step>
+   <Step Number="7">311</Step>
+   <Step Number="8">329</Step>
+   <Step Number="9">335</Step>
+   <Step Number="10">169</Step>
   </Function>
   <Function ID="79" Type="Collection" Name="Fougasse - B - Début chant - contre manuel" Path="Fougasse - Magenta-Bleu">
    <Step Number="0">49</Step>
-   <Step Number="1">47</Step>
-   <Step Number="2">242</Step>
-   <Step Number="3">435</Step>
-   <Step Number="4">444</Step>
-   <Step Number="5">432</Step>
-   <Step Number="6">265</Step>
-   <Step Number="7">349</Step>
-   <Step Number="8">307</Step>
-   <Step Number="9">354</Step>
-   <Step Number="10">337</Step>
+   <Step Number="1">51</Step>
+   <Step Number="2">47</Step>
+   <Step Number="3">242</Step>
+   <Step Number="4">435</Step>
+   <Step Number="5">444</Step>
+   <Step Number="6">432</Step>
+   <Step Number="7">265</Step>
+   <Step Number="8">349</Step>
+   <Step Number="9">307</Step>
+   <Step Number="10">348</Step>
+   <Step Number="11">301</Step>
   </Function>
   <Function ID="80" Type="Scene" Name="A - Intro" Path="Yurodivy/Year of the Light - HORS SET">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -698,7 +729,7 @@
    <FixtureVal ID="12">0,0,1,0</FixtureVal>
   </Function>
   <Function ID="81" Type="Sequence" Name="PAR Sine low - 28-46" Path="Yuro - Effets/PAR" BoundScene="82">
-   <Speed FadeIn="1640" FadeOut="1640" Duration="1640"/>
+   <Speed FadeIn="2892" FadeOut="2892" Duration="2892"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -727,17 +758,12 @@
    <Step Number="2">39</Step>
    <Step Number="3">238</Step>
    <Step Number="4">294</Step>
-   <Step Number="5">347</Step>
-   <Step Number="6">348</Step>
-   <Step Number="7">300</Step>
-   <Step Number="8">373</Step>
-   <Step Number="9">378</Step>
-   <Step Number="10">391</Step>
-   <Step Number="11">312</Step>
-   <Step Number="12">394</Step>
-   <Step Number="13">330</Step>
-   <Step Number="14">306</Step>
-   <Step Number="15">336</Step>
+   <Step Number="5">312</Step>
+   <Step Number="6">330</Step>
+   <Step Number="7">336</Step>
+   <Step Number="8">299</Step>
+   <Step Number="9">305</Step>
+   <Step Number="10">15</Step>
   </Function>
   <Function ID="88" Type="Collection" Name="0 - Commun - Strobe complet" Path="0 - Commun">
    <Step Number="0">49</Step>
@@ -771,7 +797,7 @@
    <FixtureVal ID="29">0,0</FixtureVal>
   </Function>
   <Function ID="96" Type="Sequence" Name="COLORado Back-forth triolet" Path="Fotomat" BoundScene="4294967295">
-   <Speed FadeIn="0" FadeOut="0" Duration="410"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="723"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -780,7 +806,7 @@
    <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="0"/>
   </Function>
   <Function ID="98" Type="Sequence" Name="PAR Chase 1" Path="Yuro - Effets/PAR" BoundScene="95">
-   <Speed FadeIn="0" FadeOut="0" Duration="410"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="723"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -794,36 +820,36 @@
    <Step Number="1">8</Step>
    <Step Number="2">238</Step>
    <Step Number="3">253</Step>
-   <Step Number="4">294</Step>
-   <Step Number="5">300</Step>
-   <Step Number="6">312</Step>
-   <Step Number="7">330</Step>
-   <Step Number="8">169</Step>
-   <Step Number="9">389</Step>
-   <Step Number="10">388</Step>
-   <Step Number="11">390</Step>
-   <Step Number="12">391</Step>
-   <Step Number="13">394</Step>
-   <Step Number="14">395</Step>
-   <Step Number="15">305</Step>
-   <Step Number="16">335</Step>
+   <Step Number="4">169</Step>
+   <Step Number="5">294</Step>
+   <Step Number="6">299</Step>
+   <Step Number="7">305</Step>
+   <Step Number="8">312</Step>
+   <Step Number="9">330</Step>
+   <Step Number="10">336</Step>
+   <Step Number="11">389</Step>
+   <Step Number="12">388</Step>
+   <Step Number="13">390</Step>
+   <Step Number="14">391</Step>
+   <Step Number="15">394</Step>
+   <Step Number="16">395</Step>
   </Function>
   <Function ID="105" Type="Collection" Name="40 days - H - Pont" Path="40 days - Cyan-Blanc">
    <Step Number="0">49</Step>
    <Step Number="1">451</Step>
    <Step Number="2">39</Step>
    <Step Number="3">293</Step>
-   <Step Number="4">347</Step>
-   <Step Number="5">348</Step>
-   <Step Number="6">299</Step>
-   <Step Number="7">373</Step>
-   <Step Number="8">306</Step>
-   <Step Number="9">374</Step>
-   <Step Number="10">312</Step>
-   <Step Number="11">377</Step>
-   <Step Number="12">330</Step>
-   <Step Number="13">378</Step>
-   <Step Number="14">336</Step>
+   <Step Number="4">299</Step>
+   <Step Number="5">306</Step>
+   <Step Number="6">312</Step>
+   <Step Number="7">330</Step>
+   <Step Number="8">336</Step>
+   <Step Number="9">347</Step>
+   <Step Number="10">348</Step>
+   <Step Number="11">373</Step>
+   <Step Number="12">374</Step>
+   <Step Number="13">377</Step>
+   <Step Number="14">378</Step>
   </Function>
   <Function ID="106" Type="Collection" Name="40 days - I - Ca pète wesh" Path="40 days - Cyan-Blanc">
    <Step Number="0">49</Step>
@@ -842,7 +868,7 @@
    <Step Number="13">300</Step>
   </Function>
   <Function ID="107" Type="Sequence" Name="COLORado - Cour/Jardin" Path="Fotomat" BoundScene="4294967295">
-   <Speed FadeIn="410" FadeOut="410" Duration="410"/>
+   <Speed FadeIn="723" FadeOut="723" Duration="723"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -931,7 +957,7 @@
    <Step Number="2">244</Step>
   </Function>
   <Function ID="128" Type="Sequence" Name="COLORado Slow Noise" Path="Fotomat" BoundScene="4294967295">
-   <Speed FadeIn="1640" FadeOut="1640" Duration="1640"/>
+   <Speed FadeIn="2892" FadeOut="2892" Duration="2892"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1132,17 +1158,17 @@
    <Step Number="1">152</Step>
    <Step Number="2">259</Step>
   </Function>
-  <Function ID="169" Type="Sequence" Name="COLORado Thunder" Path="Fotomat" BoundScene="4294967295">
-   <Speed FadeIn="102" FadeOut="102" Duration="102"/>
+  <Function ID="169" Type="Sequence" Name="COLORado Thunder" Path="Fotomat" BoundScene="172">
+   <Speed FadeIn="180" FadeOut="180" Duration="180"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
-   <Step Number="0" FadeIn="2000" Hold="0" FadeOut="2000" Values="0"/>
-   <Step Number="1" FadeIn="0" Hold="200" FadeOut="0" Values="0"/>
-   <Step Number="2" FadeIn="0" Hold="200" FadeOut="0" Values="0"/>
-   <Step Number="3" FadeIn="0" Hold="200" FadeOut="0" Values="0"/>
-   <Step Number="4" FadeIn="0" Hold="200" FadeOut="0" Values="0"/>
-   <Step Number="5" FadeIn="0" Hold="200" FadeOut="0" Values="0"/>
+   <Step Number="0" FadeIn="2000" Hold="0" FadeOut="2000" Values="6">33:0,255</Step>
+   <Step Number="1" FadeIn="0" Hold="200" FadeOut="0" Values="6">34:0,255</Step>
+   <Step Number="2" FadeIn="0" Hold="200" FadeOut="0" Values="6">35:0,255</Step>
+   <Step Number="3" FadeIn="0" Hold="200" FadeOut="0" Values="6">36:0,255</Step>
+   <Step Number="4" FadeIn="0" Hold="200" FadeOut="0" Values="6">39:0,255</Step>
+   <Step Number="5" FadeIn="0" Hold="200" FadeOut="0" Values="6">40:0,255</Step>
   </Function>
   <Function ID="170" Type="Collection" Name="Anonyme - H - Patate #6" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1151,6 +1177,15 @@
   <Function ID="171" Type="Collection" Name="Anonyme - H - Wait for it" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
    <Step Number="1">238</Step>
+  </Function>
+  <Function ID="172" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="33">0,0</FixtureVal>
+   <FixtureVal ID="34">0,0</FixtureVal>
+   <FixtureVal ID="35">0,0</FixtureVal>
+   <FixtureVal ID="36">0,0</FixtureVal>
+   <FixtureVal ID="39">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
   </Function>
   <Function ID="173" Type="Collection" Name="Anonyme - I - Stroooob" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1296,37 +1331,38 @@
    <Step Number="98" FadeIn="0" Hold="4294967294" FadeOut="0">410</Step>
    <Step Number="99" FadeIn="0" Hold="4294967294" FadeOut="0">406</Step>
    <Step Number="100" FadeIn="0" Hold="4294967294" FadeOut="0">413</Step>
-   <Step Number="101" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
-   <Step Number="102" FadeIn="0" Hold="4294967294" FadeOut="0">205</Step>
-   <Step Number="103" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
-   <Step Number="104" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
-   <Step Number="105" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
-   <Step Number="106" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
-   <Step Number="107" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
-   <Step Number="108" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
-   <Step Number="109" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
-   <Step Number="110" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
-   <Step Number="111" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
-   <Step Number="112" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
-   <Step Number="113" FadeIn="0" Hold="4294967294" FadeOut="0">222</Step>
-   <Step Number="114" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
-   <Step Number="115" FadeIn="0" Hold="4294967294" FadeOut="0">216</Step>
-   <Step Number="116" FadeIn="0" Hold="4294967294" FadeOut="0">222</Step>
-   <Step Number="117" FadeIn="0" Hold="4294967294" FadeOut="0">217</Step>
-   <Step Number="118" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
-   <Step Number="119" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
-   <Step Number="120" FadeIn="0" Hold="4294967294" FadeOut="0">228</Step>
-   <Step Number="121" FadeIn="0" Hold="4294967294" FadeOut="0">211</Step>
-   <Step Number="122" FadeIn="0" Hold="4294967294" FadeOut="0">233</Step>
-   <Step Number="123" FadeIn="0" Hold="4294967294" FadeOut="0">235</Step>
-   <Step Number="124" FadeIn="0" Hold="4294967294" FadeOut="0">237</Step>
-   <Step Number="125" FadeIn="0" Hold="4294967294" FadeOut="0">239</Step>
-   <Step Number="126" FadeIn="0" Hold="4294967294" FadeOut="0">241</Step>
-   <Step Number="127" FadeIn="0" Hold="4294967294" FadeOut="0">247</Step>
-   <Step Number="128" FadeIn="0" Hold="4294967294" FadeOut="0">241</Step>
-   <Step Number="129" FadeIn="0" Hold="4294967294" FadeOut="0">251</Step>
-   <Step Number="130" FadeIn="0" Hold="4294967294" FadeOut="0">252</Step>
-   <Step Number="131" FadeIn="0" Hold="4294967294" FadeOut="0">257</Step>
+   <Step Number="101" FadeIn="0" Hold="4294967294" FadeOut="0">17</Step>
+   <Step Number="102" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
+   <Step Number="103" FadeIn="0" Hold="4294967294" FadeOut="0">205</Step>
+   <Step Number="104" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
+   <Step Number="105" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
+   <Step Number="106" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
+   <Step Number="107" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
+   <Step Number="108" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
+   <Step Number="109" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
+   <Step Number="110" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
+   <Step Number="111" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
+   <Step Number="112" FadeIn="0" Hold="4294967294" FadeOut="0">208</Step>
+   <Step Number="113" FadeIn="0" Hold="4294967294" FadeOut="0">209</Step>
+   <Step Number="114" FadeIn="0" Hold="4294967294" FadeOut="0">222</Step>
+   <Step Number="115" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
+   <Step Number="116" FadeIn="0" Hold="4294967294" FadeOut="0">216</Step>
+   <Step Number="117" FadeIn="0" Hold="4294967294" FadeOut="0">222</Step>
+   <Step Number="118" FadeIn="0" Hold="4294967294" FadeOut="0">217</Step>
+   <Step Number="119" FadeIn="0" Hold="4294967294" FadeOut="0">202</Step>
+   <Step Number="120" FadeIn="0" Hold="4294967294" FadeOut="0">10</Step>
+   <Step Number="121" FadeIn="0" Hold="4294967294" FadeOut="0">228</Step>
+   <Step Number="122" FadeIn="0" Hold="4294967294" FadeOut="0">211</Step>
+   <Step Number="123" FadeIn="0" Hold="4294967294" FadeOut="0">233</Step>
+   <Step Number="124" FadeIn="0" Hold="4294967294" FadeOut="0">235</Step>
+   <Step Number="125" FadeIn="0" Hold="4294967294" FadeOut="0">237</Step>
+   <Step Number="126" FadeIn="0" Hold="4294967294" FadeOut="0">239</Step>
+   <Step Number="127" FadeIn="0" Hold="4294967294" FadeOut="0">241</Step>
+   <Step Number="128" FadeIn="0" Hold="4294967294" FadeOut="0">247</Step>
+   <Step Number="129" FadeIn="0" Hold="4294967294" FadeOut="0">241</Step>
+   <Step Number="130" FadeIn="0" Hold="4294967294" FadeOut="0">251</Step>
+   <Step Number="131" FadeIn="0" Hold="4294967294" FadeOut="0">252</Step>
+   <Step Number="132" FadeIn="0" Hold="4294967294" FadeOut="0">257</Step>
   </Function>
   <Function ID="180" Type="Collection" Name="Where The Dogs - B - Strob" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1527,7 +1563,7 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
   <Function ID="213" Type="Sequence" Name="COLORado - Cour/Jardin - 8" Path="Fotomat" BoundScene="4294967295">
-   <Speed FadeIn="820" FadeOut="820" Duration="820"/>
+   <Speed FadeIn="1446" FadeOut="1446" Duration="1446"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1537,7 +1573,7 @@
    <Step Number="3" FadeIn="0" Hold="0" FadeOut="0" Values="0"/>
   </Function>
   <Function ID="215" Type="Sequence" Name="COLORado #1 #2 Drum" Path="Fotomat" BoundScene="4294967295">
-   <Speed FadeIn="820" FadeOut="820" Duration="820"/>
+   <Speed FadeIn="1446" FadeOut="1446" Duration="1446"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1580,9 +1616,11 @@
    <Step Number="0">49</Step>
    <Step Number="1">238</Step>
    <Step Number="2">313</Step>
-   <Step Number="3">331</Step>
-   <Step Number="4">377</Step>
-   <Step Number="5">374</Step>
+   <Step Number="3">374</Step>
+   <Step Number="4">331</Step>
+   <Step Number="5">377</Step>
+   <Step Number="6">337</Step>
+   <Step Number="7">378</Step>
   </Function>
   <Function ID="222" Type="Collection" Name="Parasite - D - G - Strob" Path="Parasite - Ambre">
    <Step Number="0">49</Step>
@@ -1604,7 +1642,7 @@
    <Step Number="16">169</Step>
   </Function>
   <Function ID="225" Type="Sequence" Name="PAR Chase 2" Path="Yuro - Effets/PAR" BoundScene="226">
-   <Speed FadeIn="0" FadeOut="0" Duration="410"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="723"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1869,14 +1907,12 @@
    <Step Number="4">435</Step>
    <Step Number="5">432</Step>
    <Step Number="6">444</Step>
-   <Step Number="7">374</Step>
-   <Step Number="8">313</Step>
-   <Step Number="9">377</Step>
-   <Step Number="10">331</Step>
-   <Step Number="11">347</Step>
-   <Step Number="12">348</Step>
-   <Step Number="13">301</Step>
-   <Step Number="14">295</Step>
+   <Step Number="7">295</Step>
+   <Step Number="8">347</Step>
+   <Step Number="9">298</Step>
+   <Step Number="10">348</Step>
+   <Step Number="11">304</Step>
+   <Step Number="12">349</Step>
   </Function>
   <Function ID="276" Type="Collection" Name="7 2 Table - F - Outro #4" Path="7 2 Table - Bleu-Ambre">
    <Step Number="0">49</Step>
@@ -2341,107 +2377,121 @@
   </Function>
   <Function ID="396" Type="Collection" Name="28 jours plus tard - A - E - Intro" Path="28 jours plus tard - Magenta-Bleu">
    <Step Number="0">49</Step>
-   <Step Number="1">249</Step>
-   <Step Number="2">242</Step>
-   <Step Number="3">254</Step>
-   <Step Number="4">292</Step>
-   <Step Number="5">298</Step>
-   <Step Number="6">331</Step>
-   <Step Number="7">372</Step>
-   <Step Number="8">371</Step>
-   <Step Number="9">353</Step>
-   <Step Number="10">313</Step>
-   <Step Number="11">350</Step>
+   <Step Number="1">51</Step>
+   <Step Number="2">249</Step>
+   <Step Number="3">242</Step>
+   <Step Number="4">254</Step>
+   <Step Number="5">6</Step>
+   <Step Number="6">438</Step>
+   <Step Number="7">429</Step>
+   <Step Number="8">441</Step>
+   <Step Number="9">292</Step>
+   <Step Number="10">371</Step>
+   <Step Number="11">298</Step>
+   <Step Number="12">372</Step>
+   <Step Number="13">313</Step>
+   <Step Number="14">350</Step>
+   <Step Number="15">353</Step>
+   <Step Number="16">328</Step>
+   <Step Number="17">354</Step>
+   <Step Number="18">337</Step>
   </Function>
   <Function ID="398" Type="Collection" Name="28 jours plus tard - B - G - Drum puis voix" Path="28 jours plus tard - Magenta-Bleu">
    <Step Number="0">49</Step>
    <Step Number="1">249</Step>
-   <Step Number="2">107</Step>
-   <Step Number="3">295</Step>
-   <Step Number="4">301</Step>
-   <Step Number="5">304</Step>
-   <Step Number="6">313</Step>
-   <Step Number="7">331</Step>
-   <Step Number="8">334</Step>
-   <Step Number="9">242</Step>
+   <Step Number="2">242</Step>
+   <Step Number="3">438</Step>
+   <Step Number="4">429</Step>
+   <Step Number="5">441</Step>
+   <Step Number="6">31</Step>
+   <Step Number="7">25</Step>
+   <Step Number="8">9</Step>
+   <Step Number="9">295</Step>
+   <Step Number="10">301</Step>
+   <Step Number="11">304</Step>
+   <Step Number="12">313</Step>
+   <Step Number="13">328</Step>
+   <Step Number="14">337</Step>
+   <Step Number="15">350</Step>
+   <Step Number="16">353</Step>
+   <Step Number="17">354</Step>
   </Function>
   <Function ID="406" Type="Collection" Name="28 jours plus tard - Cx1 - Hx2 - Jx1 - Lx2 - Nx1" Path="28 jours plus tard - Magenta-Bleu">
    <Step Number="0">49</Step>
-   <Step Number="1">159</Step>
-   <Step Number="2">242</Step>
-   <Step Number="3">295</Step>
-   <Step Number="4">301</Step>
-   <Step Number="5">313</Step>
-   <Step Number="6">331</Step>
-   <Step Number="7">304</Step>
-   <Step Number="8">334</Step>
-   <Step Number="9">341</Step>
-   <Step Number="10">346</Step>
-   <Step Number="11">339</Step>
-   <Step Number="12">340</Step>
+   <Step Number="1">51</Step>
+   <Step Number="2">159</Step>
+   <Step Number="3">242</Step>
+   <Step Number="4">295</Step>
+   <Step Number="5">298</Step>
+   <Step Number="6">304</Step>
+   <Step Number="7">313</Step>
+   <Step Number="8">328</Step>
+   <Step Number="9">337</Step>
+   <Step Number="10">339</Step>
+   <Step Number="11">340</Step>
+   <Step Number="12">341</Step>
    <Step Number="13">350</Step>
    <Step Number="14">353</Step>
-   <Step Number="15">244</Step>
+   <Step Number="15">354</Step>
   </Function>
   <Function ID="407" Type="Collection" Name="28 jours plus tard - Dx2 - Ix1 - Kx1 - Bordel 2" Path="28 jours plus tard - Magenta-Bleu">
    <Step Number="0">49</Step>
    <Step Number="1">162</Step>
-   <Step Number="2">299</Step>
-   <Step Number="3">293</Step>
-   <Step Number="4">305</Step>
-   <Step Number="5">311</Step>
-   <Step Number="6">329</Step>
-   <Step Number="7">335</Step>
-   <Step Number="8">369</Step>
-   <Step Number="9">367</Step>
-   <Step Number="10">359</Step>
+   <Step Number="2">242</Step>
+   <Step Number="3">243</Step>
+   <Step Number="4">293</Step>
+   <Step Number="5">299</Step>
+   <Step Number="6">305</Step>
+   <Step Number="7">311</Step>
+   <Step Number="8">329</Step>
+   <Step Number="9">335</Step>
+   <Step Number="10">355</Step>
    <Step Number="11">357</Step>
-   <Step Number="12">355</Step>
-   <Step Number="13">339</Step>
-   <Step Number="14">340</Step>
-   <Step Number="15">361</Step>
-   <Step Number="16">169</Step>
-   <Step Number="17">242</Step>
-   <Step Number="18">243</Step>
+   <Step Number="12">359</Step>
+   <Step Number="13">361</Step>
+   <Step Number="14">367</Step>
+   <Step Number="15">369</Step>
+   <Step Number="16">339</Step>
+   <Step Number="17">340</Step>
+   <Step Number="18">341</Step>
+   <Step Number="19">169</Step>
   </Function>
   <Function ID="408" Type="Collection" Name="28 jours plus tard - F - Blackout" Path="28 jours plus tard - Magenta-Bleu">
    <Step Number="0">49</Step>
-   <Step Number="1">391</Step>
-   <Step Number="2">394</Step>
-   <Step Number="3">341</Step>
-   <Step Number="4">346</Step>
-   <Step Number="5">313</Step>
-   <Step Number="6">331</Step>
-   <Step Number="7">334</Step>
-   <Step Number="8">304</Step>
-   <Step Number="9">238</Step>
+   <Step Number="1">51</Step>
+   <Step Number="2">238</Step>
+   <Step Number="3">292</Step>
+   <Step Number="4">339</Step>
+   <Step Number="5">340</Step>
+   <Step Number="6">301</Step>
+   <Step Number="7">341</Step>
+   <Step Number="8">307</Step>
   </Function>
   <Function ID="410" Type="Collection" Name="28 jours plus tard - M - Fin - Kick noir" Path="28 jours plus tard - Magenta-Bleu">
    <Step Number="0">49</Step>
    <Step Number="1">159</Step>
-   <Step Number="2">213</Step>
-   <Step Number="3">292</Step>
-   <Step Number="4">301</Step>
-   <Step Number="5">304</Step>
-   <Step Number="6">313</Step>
-   <Step Number="7">328</Step>
-   <Step Number="8">337</Step>
-   <Step Number="9">388</Step>
-   <Step Number="10">389</Step>
-   <Step Number="11">390</Step>
-   <Step Number="12">391</Step>
-   <Step Number="13">394</Step>
-   <Step Number="14">395</Step>
+   <Step Number="2">292</Step>
+   <Step Number="3">301</Step>
+   <Step Number="4">304</Step>
+   <Step Number="5">313</Step>
+   <Step Number="6">328</Step>
+   <Step Number="7">337</Step>
+   <Step Number="8">388</Step>
+   <Step Number="9">389</Step>
+   <Step Number="10">390</Step>
+   <Step Number="11">391</Step>
+   <Step Number="12">394</Step>
+   <Step Number="13">395</Step>
   </Function>
-  <Function ID="413" Type="Collection" Name="28 jours plus tard - O - STOP / Voix Jerem" Path="28 jours plus tard - Magenta-Bleu">
+  <Function ID="413" Type="Collection" Name="28 jours plus tard - O - Voix Jerem" Path="28 jours plus tard - Magenta-Bleu">
    <Step Number="0">49</Step>
    <Step Number="1">249</Step>
-   <Step Number="2">374</Step>
-   <Step Number="3">313</Step>
+   <Step Number="2">27</Step>
+   <Step Number="3">432</Step>
    <Step Number="4">244</Step>
    <Step Number="5">245</Step>
-   <Step Number="6">353</Step>
-   <Step Number="7">331</Step>
+   <Step Number="6">350</Step>
+   <Step Number="7">310</Step>
   </Function>
   <Function ID="428" Type="Scene" Name="Wild Wash Jerem Rouge" Path="0 - Commun/Wash/Jerem">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -2679,7 +2729,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="128">
        <Channel Fixture="33">0</Channel>
       </Level>
       <Playback>
@@ -2733,7 +2783,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="128">
        <Channel Fixture="36">0</Channel>
       </Level>
       <Playback>
@@ -2751,7 +2801,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="128">
        <Channel Fixture="39">0</Channel>
       </Level>
       <Playback>
@@ -2769,7 +2819,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="128">
        <Channel Fixture="40">0</Channel>
       </Level>
       <Playback>
@@ -3406,7 +3456,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Function ID="166"/>
+    <Function ID="7"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
     <Input Universe="0" Channel="72"/>
@@ -3465,7 +3515,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="128">
        <Channel Fixture="33">0</Channel>
       </Level>
       <Playback>
@@ -3483,7 +3533,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="128">
        <Channel Fixture="34">0</Channel>
       </Level>
       <Playback>
@@ -3501,7 +3551,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="128">
        <Channel Fixture="35">0</Channel>
       </Level>
       <Playback>
@@ -3519,7 +3569,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="128">
        <Channel Fixture="36">0</Channel>
       </Level>
       <Playback>
@@ -3537,7 +3587,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="128">
        <Channel Fixture="39">0</Channel>
       </Level>
       <Playback>
@@ -3555,7 +3605,7 @@
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
       <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="128">
        <Channel Fixture="40">0</Channel>
       </Level>
       <Playback>
@@ -3599,7 +3649,7 @@
      <Reset>
       <Input Universe="0" Channel="73"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="85" Value="0">
+     <Level LowLimit="0" HighLimit="85" Value="38">
       <Channel Fixture="26">0</Channel>
       <Channel Fixture="29">0</Channel>
      </Level>
@@ -3621,7 +3671,7 @@
      <Reset>
       <Input Universe="0" Channel="74"/>
      </Reset>
-     <Level LowLimit="0" HighLimit="85" Value="0">
+     <Level LowLimit="0" HighLimit="85" Value="38">
       <Channel Fixture="27">0</Channel>
       <Channel Fixture="28">0</Channel>
      </Level>
@@ -3640,12 +3690,10 @@
      </Appearance>
      <Input Universe="0" Channel="87"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="150" Value="0">
+     <Level LowLimit="0" HighLimit="200" Value="0">
       <Channel Fixture="12">0</Channel>
-      <Channel Fixture="33">0</Channel>
       <Channel Fixture="34">0</Channel>
       <Channel Fixture="35">0</Channel>
-      <Channel Fixture="40">0</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
@@ -3699,8 +3747,9 @@
      <Tap>
       <Input Universe="0" Channel="92"/>
      </Tap>
-     <Time>410</Time>
+     <Time>723</Time>
      <Function FadeIn="0" FadeOut="0" Duration="6">47</Function>
+     <Function FadeIn="6" FadeOut="6" Duration="6">6</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">14</Function>
      <Function FadeIn="8" FadeOut="8" Duration="8">81</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">62</Function>
