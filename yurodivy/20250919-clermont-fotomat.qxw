@@ -47,6 +47,16 @@
    <Channels>9</Channels>
   </Fixture>
   <Fixture>
+   <Manufacturer>BoomToneDJ</Manufacturer>
+   <Model>Maxi Spot 60</Model>
+   <Mode>8 Channel</Mode>
+   <ID>3</ID>
+   <Name>Maxi Spot 60 #1</Name>
+   <Universe>1</Universe>
+   <Address>174</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
    <Manufacturer>Stairville</Manufacturer>
    <Model>AF-40 DMX</Model>
    <Mode>Normal</Mode>
@@ -54,6 +64,76 @@
    <Name>Smoke</Name>
    <Universe>0</Universe>
    <Address>180</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>BoomToneDJ</Manufacturer>
+   <Model>Maxi Spot 60</Model>
+   <Mode>8 Channel</Mode>
+   <ID>5</ID>
+   <Name>Maxi Spot 60 #2</Name>
+   <Universe>1</Universe>
+   <Address>182</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>BoomToneDJ</Manufacturer>
+   <Model>Maxi Spot 60</Model>
+   <Mode>8 Channel</Mode>
+   <ID>6</ID>
+   <Name>Maxi Spot 60 #3</Name>
+   <Universe>1</Universe>
+   <Address>192</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>BoomToneDJ</Manufacturer>
+   <Model>Maxi Spot 60</Model>
+   <Mode>8 Channel</Mode>
+   <ID>7</ID>
+   <Name>Maxi Spot 60 #4</Name>
+   <Universe>1</Universe>
+   <Address>200</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>BoomToneDJ</Manufacturer>
+   <Model>Maxi Spot 60</Model>
+   <Mode>8 Channel</Mode>
+   <ID>8</ID>
+   <Name>Maxi Spot 60 #5</Name>
+   <Universe>1</Universe>
+   <Address>140</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>BoomToneDJ</Manufacturer>
+   <Model>Maxi Spot 60</Model>
+   <Mode>8 Channel</Mode>
+   <ID>9</ID>
+   <Name>Maxi Spot 60 #6</Name>
+   <Universe>1</Universe>
+   <Address>248</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>10</ID>
+   <Name>Face #1</Name>
+   <Universe>1</Universe>
+   <Address>156</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>11</ID>
+   <Name>Face #2</Name>
+   <Universe>1</Universe>
+   <Address>157</Address>
    <Channels>1</Channels>
   </Fixture>
   <Fixture>
@@ -75,6 +155,126 @@
    <Universe>0</Universe>
    <Address>170</Address>
    <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>14</ID>
+   <Name>Face #3</Name>
+   <Universe>1</Universe>
+   <Address>158</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>15</ID>
+   <Name>Contre #1</Name>
+   <Universe>1</Universe>
+   <Address>256</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>16</ID>
+   <Name>Contre #2</Name>
+   <Universe>1</Universe>
+   <Address>257</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>17</ID>
+   <Name>Contre #3</Name>
+   <Universe>1</Universe>
+   <Address>258</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>18</ID>
+   <Name>Contre #4</Name>
+   <Universe>1</Universe>
+   <Address>259</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>19</ID>
+   <Name>Contre #5</Name>
+   <Universe>1</Universe>
+   <Address>260</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>20</ID>
+   <Name>Contre #6</Name>
+   <Universe>1</Universe>
+   <Address>261</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>21</ID>
+   <Name>D20 #01</Name>
+   <Universe>1</Universe>
+   <Address>32</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>22</ID>
+   <Name>D20 #02</Name>
+   <Universe>1</Universe>
+   <Address>40</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>23</ID>
+   <Name>D20 #03</Name>
+   <Universe>1</Universe>
+   <Address>48</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>24</ID>
+   <Name>D20 #04</Name>
+   <Universe>1</Universe>
+   <Address>56</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>25</ID>
+   <Name>D20 #05</Name>
+   <Universe>1</Universe>
+   <Address>64</Address>
+   <Channels>8</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
@@ -115,6 +315,36 @@
    <Universe>0</Universe>
    <Address>446</Address>
    <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>30</ID>
+   <Name>D20 #06</Name>
+   <Universe>1</Universe>
+   <Address>72</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>31</ID>
+   <Name>D20 #07</Name>
+   <Universe>1</Universe>
+   <Address>80</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>32</ID>
+   <Name>D20 #08</Name>
+   <Universe>1</Universe>
+   <Address>88</Address>
+   <Channels>8</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Chauvet</Manufacturer>
@@ -159,6 +389,26 @@
    <Address>20</Address>
    <Channels>5</Channels>
    <ForcedHTP>6,9</ForcedHTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>37</ID>
+   <Name>D20 #09</Name>
+   <Universe>1</Universe>
+   <Address>208</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>38</ID>
+   <Name>D20 #10</Name>
+   <Universe>1</Universe>
+   <Address>216</Address>
+   <Channels>8</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Chauvet</Manufacturer>
@@ -211,6 +461,26 @@
    <Universe>0</Universe>
    <Address>455</Address>
    <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>44</ID>
+   <Name>D20 #11</Name>
+   <Universe>1</Universe>
+   <Address>224</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Edenwood</Manufacturer>
+   <Model>D20</Model>
+   <Mode>8ch</Mode>
+   <ID>45</ID>
+   <Name>D20 #12</Name>
+   <Universe>1</Universe>
+   <Address>232</Address>
+   <Channels>8</Channels>
   </Fixture>
   <FixtureGroup ID="0">
    <Name>Fotomat COLORado</Name>
@@ -380,6 +650,10 @@
    <Step Number="4">367</Step>
    <Step Number="5">369</Step>
   </Function>
+  <Function ID="20" Type="Scene" Name="Maxi Spot #1 - Ambre" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">3,126</FixtureVal>
+  </Function>
   <Function ID="21" Type="Collection" Name="Pessimist - E - Pont" Path="Pessimist - Ambre-Blanc">
    <Step Number="0">49</Step>
    <Step Number="1">259</Step>
@@ -432,9 +706,17 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41">0,255</FixtureVal>
   </Function>
+  <Function ID="28" Type="Scene" Name="Maxi Spot #1 - Bleu" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">3,58</FixtureVal>
+  </Function>
   <Function ID="29" Type="Scene" Name="Wild Wash Julien Dim Low" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43">0,60</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="Maxi Spot #1 - Cyan" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">3,112</FixtureVal>
   </Function>
   <Function ID="31" Type="Scene" Name="Wild Wash Julien Dim Medium" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -459,6 +741,22 @@
   <Function ID="34" Type="Scene" Name="Wild Wash Julien Dim High" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43">0,255</FixtureVal>
+  </Function>
+  <Function ID="35" Type="Scene" Name="Maxi Spot #1 - Magenta" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">3,95</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Scene" Name="Maxi Spot #1 - Cyan/Magenta" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">3,103</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="Maxi Spot #1 - Strob ON" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">6,120</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Scene" Name="Maxi Spot #1 - Strob OFF" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">6,0</FixtureVal>
   </Function>
   <Function ID="39" Type="Collection" Name="0 - Commun - Wild Wash x3 - Dim Low" Path="0 - Commun/Wild Wash x3">
    <Step Number="0">2</Step>
@@ -505,6 +803,14 @@
    <FixtureVal ID="42">0,0</FixtureVal>
    <FixtureVal ID="41">0,0</FixtureVal>
    <FixtureVal ID="43">0,0</FixtureVal>
+  </Function>
+  <Function ID="44" Type="Scene" Name="Maxi Spot #1 - DIM low" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">5,60</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="Maxi Spot #1 - DIM medium" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">5,160</FixtureVal>
   </Function>
   <Function ID="46" Type="Scene" Name="Wild Wash David Strob ON" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -578,6 +884,14 @@
    <Step Number="7">31</Step>
    <Step Number="8">6</Step>
   </Function>
+  <Function ID="54" Type="Scene" Name="Maxi Spot #1 - DIM high" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">5,255</FixtureVal>
+  </Function>
+  <Function ID="55" Type="Scene" Name="Maxi Spot #1 - Gobo #1" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,11</FixtureVal>
+  </Function>
   <Function ID="56" Type="Scene" Name="Circle" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
@@ -590,6 +904,10 @@
    <Step Number="5">348</Step>
    <Step Number="6">353</Step>
    <Step Number="7">349</Step>
+  </Function>
+  <Function ID="58" Type="Scene" Name="Maxi Spot #1 - Gobo #2" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,19</FixtureVal>
   </Function>
   <Function ID="59" Type="Scene" Name="Circle" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -626,6 +944,14 @@
    <Step Number="6">446</Step>
    <Step Number="7">347</Step>
   </Function>
+  <Function ID="64" Type="Scene" Name="Maxi Spot #1 - Gobo #3" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,27</FixtureVal>
+  </Function>
+  <Function ID="65" Type="Scene" Name="Maxi Spot #1 - Gobo #4" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,36</FixtureVal>
+  </Function>
   <Function ID="66" Type="Collection" Name="Fougasse - A - E - Intro" Path="Fougasse - Magenta-Bleu">
    <Step Number="0">49</Step>
    <Step Number="1">51</Step>
@@ -642,6 +968,34 @@
    <Step Number="12">307</Step>
    <Step Number="13">373</Step>
    <Step Number="14">244</Step>
+  </Function>
+  <Function ID="67" Type="Scene" Name="Maxi Spot #1 - Gobo #5" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,44</FixtureVal>
+  </Function>
+  <Function ID="68" Type="Scene" Name="Maxi Spot #1 - Gobo #6" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,51</FixtureVal>
+  </Function>
+  <Function ID="69" Type="Scene" Name="Maxi Spot #1 - Gobo #7" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,59</FixtureVal>
+  </Function>
+  <Function ID="70" Type="Scene" Name="Maxi Spot #1 - Gobo White shake" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,150</FixtureVal>
+  </Function>
+  <Function ID="71" Type="Scene" Name="Maxi Spot #1 - Gobo #1 Shake" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,164</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Scene" Name="Maxi Spot #1 - Gobo #2 Shake" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,176</FixtureVal>
+  </Function>
+  <Function ID="73" Type="Scene" Name="Maxi Spot #1 - Gobo #3 Shake" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,189</FixtureVal>
   </Function>
   <Function ID="74" Type="Collection" Name="Fougasse - C - F - Couplet" Path="Fougasse - Magenta-Bleu">
    <Step Number="0">49</Step>
@@ -761,6 +1115,10 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="33">6,0</FixtureVal>
   </Function>
+  <Function ID="85" Type="Scene" Name="Maxi Spot #1 - Gobo #4 Shake" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,203</FixtureVal>
+  </Function>
   <Function ID="86" Type="Collection" Name="40 days - B - D - F - Lourd" Path="40 days - Cyan-Blanc">
    <Step Number="0">49</Step>
    <Step Number="1">451</Step>
@@ -773,6 +1131,10 @@
    <Step Number="8">299</Step>
    <Step Number="9">305</Step>
    <Step Number="10">18</Step>
+  </Function>
+  <Function ID="87" Type="Scene" Name="Maxi Spot #1 - Gobo #5 Shake" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,214</FixtureVal>
   </Function>
   <Function ID="88" Type="Collection" Name="0 - Commun - Strobe complet" Path="0 - Commun">
    <Step Number="0">49</Step>
@@ -794,6 +1156,14 @@
    <Step Number="16">354</Step>
    <Step Number="17">369</Step>
    <Step Number="18">335</Step>
+  </Function>
+  <Function ID="89" Type="Scene" Name="Maxi Spot #1 - Gobo #6 Shake" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,228</FixtureVal>
+  </Function>
+  <Function ID="90" Type="Scene" Name="Maxi Spot #1 - Gobo #7 Shake" Path="RDB Fest/Maxi Spot #1/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">4,247</FixtureVal>
   </Function>
   <Function ID="94" Type="Scene" Name="Intimidator" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -2614,30 +2984,57 @@
    <Step Number="1">455</Step>
    <Step Number="2">457</Step>
   </Function>
-  <Monitor DisplayMode="1" ShowLabels="1">
+  <Monitor DisplayMode="0" ShowLabels="1">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
-   <Grid Width="6" Height="3" Depth="4" Units="0"/>
+   <Grid Width="6" Height="3" Depth="8" Units="0"/>
    <FxItem ID="0" XPos="2063.64" YPos="3618.18"/>
    <FxItem ID="1" XPos="3676.11" YPos="3613.17"/>
    <FxItem ID="2" XPos="1705.13" YPos="70.5128"/>
+   <FxItem ID="3" XPos="272.728" YPos="4981.82"/>
    <FxItem ID="4" XPos="240.237" YPos="1002.88"/>
+   <FxItem ID="5" XPos="1172.72" YPos="5000"/>
+   <FxItem ID="6" XPos="2045.45" YPos="5018.18"/>
+   <FxItem ID="7" XPos="3718.18" YPos="4990.91"/>
+   <FxItem ID="8" XPos="4718.18" YPos="5036.37"/>
+   <FxItem ID="9" XPos="5736.37" YPos="5009.09"/>
+   <FxItem ID="10" XPos="1845.45" YPos="7536.36"/>
+   <FxItem ID="11" XPos="2845.45" YPos="7563.64"/>
    <FxItem ID="12" XPos="3095.28" YPos="1640.05" Rotation="53"/>
    <FxItem ID="13" XPos="2822.18" YPos="599.04"/>
+   <FxItem ID="14" XPos="3836.36" YPos="7509.09"/>
+   <FxItem ID="15" XPos="654.545" YPos="4981.82"/>
+   <FxItem ID="16" XPos="1527.27" YPos="5018.18"/>
+   <FxItem ID="17" XPos="2445.46" YPos="4981.82"/>
+   <FxItem ID="18" XPos="3190.91" YPos="5045.46"/>
+   <FxItem ID="19" XPos="4163.64" YPos="5045.46"/>
+   <FxItem ID="20" XPos="5093.59" YPos="5027.27"/>
+   <FxItem ID="21" XPos="1218.18" YPos="5609.09"/>
+   <FxItem ID="22" XPos="1800" YPos="5636.36"/>
+   <FxItem ID="23" XPos="2445.45" YPos="5627.27"/>
+   <FxItem ID="24" XPos="3173.96" YPos="5642.37"/>
+   <FxItem ID="25" XPos="3909.09" YPos="5627.27"/>
    <FxItem ID="26" XPos="1007.25" YPos="480.188"/>
    <FxItem ID="27" XPos="2308.41" YPos="454.261"/>
    <FxItem ID="28" XPos="3459.28" YPos="433.824"/>
    <FxItem ID="29" XPos="4682.17" YPos="427.995"/>
+   <FxItem ID="30" XPos="4627.12" YPos="5599.85"/>
+   <FxItem ID="31" XPos="181.818" YPos="6272.73"/>
+   <FxItem ID="32" XPos="1045.45" YPos="6281.82"/>
    <FxItem ID="33" XPos="2899.03" YPos="64.5177"/>
    <FxItem ID="34" XPos="1524.05" YPos="1043.96"/>
    <FxItem ID="35" XPos="4116.76" YPos="1028.5"/>
    <FxItem ID="36" XPos="888.222" YPos="2086.92"/>
+   <FxItem ID="37" XPos="2054.55" YPos="6590.91"/>
+   <FxItem ID="38" XPos="3318.18" YPos="6627.27"/>
    <FxItem ID="39" XPos="2890.76" YPos="2096.01"/>
    <FxItem ID="40" XPos="4751.21" YPos="2031.45"/>
    <FxItem ID="41" XPos="1514.77" YPos="2544.3"/>
    <FxItem ID="42" XPos="2852.32" YPos="1329.12"/>
    <FxItem ID="43" XPos="4323.51" YPos="2584.78"/>
+   <FxItem ID="44" XPos="4600" YPos="6281.82"/>
+   <FxItem ID="45" XPos="5400" YPos="6245.45"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
@@ -3739,11 +4136,6 @@
      <Function FadeIn="0" FadeOut="0" Duration="6">225</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">98</Function>
      <Function FadeIn="4" FadeOut="4" Duration="4">169</Function>
-     <Function FadeIn="8" FadeOut="8" Duration="8">128</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="6">96</Function>
-     <Function FadeIn="7" FadeOut="7" Duration="7">215</Function>
-     <Function FadeIn="7" FadeOut="7" Duration="7">213</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">107</Function>
      <Preset ID="16">
       <Name>Fougasse</Name>
       <Value>410</Value>
