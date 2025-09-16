@@ -552,7 +552,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0" Values="3">41:0,130:42:0,150:43:0,190</Step>
    <Step Number="6" FadeIn="0" Hold="0" FadeOut="0" Values="3">41:0,90:42:0,200:43:0,150</Step>
   </Function>
-  <Function ID="7" Type="Scene" Name="Base - Face">
+  <Function ID="7" Type="Scene" Name="Fotomat - Base - Face" Path="Fotomat">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,70</FixtureVal>
    <FixtureVal ID="1">0,70</FixtureVal>
@@ -595,7 +595,9 @@
   </Function>
   <Function ID="13" Type="Scene" Name="Wild Wash Jerem Dim Low" Path="0 - Commun/Wash/Jerem">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="41">0,60</FixtureVal>
+   <FixtureVal ID="41">0,255</FixtureVal>
+   <FixtureVal ID="42">0,255</FixtureVal>
+   <FixtureVal ID="43">0,255</FixtureVal>
   </Function>
   <Function ID="14" Type="Sequence" Name="Wash RGB - Alternance Front/Back" Path="Yuro - Effets/Wash" BoundScene="13">
    <Speed FadeIn="84" FadeOut="84" Duration="272"/>
@@ -746,10 +748,7 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">3,95</FixtureVal>
   </Function>
-  <Function ID="36" Type="Scene" Name="Maxi Spot #1 - Cyan/Magenta" Path="RDB Fest/Maxi Spot #1">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="3">3,103</FixtureVal>
-  </Function>
+  <Function ID="36" Type="Collection" Name="RDB Fest - DIM 0" Path="0 - RDB Fest"/>
   <Function ID="37" Type="Scene" Name="Maxi Spot #1 - Strob ON" Path="RDB Fest/Maxi Spot #1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">6,120</FixtureVal>
@@ -850,15 +849,21 @@
    <Step Number="13">338</Step>
   </Function>
   <Function ID="51" Type="Collection" Name="0 - Base - Strob OFF" Path="0 - Commun">
-   <Step Number="0">356</Step>
-   <Step Number="1">358</Step>
-   <Step Number="2">360</Step>
-   <Step Number="3">362</Step>
-   <Step Number="4">368</Step>
-   <Step Number="5">370</Step>
-   <Step Number="6">459</Step>
-   <Step Number="7">244</Step>
-   <Step Number="8">254</Step>
+   <Step Number="0">459</Step>
+   <Step Number="1">244</Step>
+   <Step Number="2">254</Step>
+   <Step Number="3">356</Step>
+   <Step Number="4">358</Step>
+   <Step Number="5">360</Step>
+   <Step Number="6">362</Step>
+   <Step Number="7">368</Step>
+   <Step Number="8">370</Step>
+   <Step Number="9">38</Step>
+   <Step Number="10">465</Step>
+   <Step Number="11">492</Step>
+   <Step Number="12">519</Step>
+   <Step Number="13">546</Step>
+   <Step Number="14">573</Step>
   </Function>
   <Function ID="52" Type="Collection" Name="7 2 Table - D - Pêches + Montée" Path="7 2 Table - Bleu-Ambre">
    <Step Number="0">49</Step>
@@ -1165,6 +1170,18 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">4,247</FixtureVal>
   </Function>
+  <Function ID="91" Type="Scene" Name="Maxi Spot #1 - Blanc" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">3,5</FixtureVal>
+  </Function>
+  <Function ID="92" Type="Scene" Name="Maxi Spot #1 - Magenta/Cyan" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">3,103</FixtureVal>
+  </Function>
+  <Function ID="93" Type="Scene" Name="Maxi Spot #1 - Rouge" Path="RDB Fest/Maxi Spot #1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">3,22</FixtureVal>
+  </Function>
   <Function ID="94" Type="Scene" Name="Intimidator" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
@@ -1175,6 +1192,20 @@
    <FixtureVal ID="28">0,0</FixtureVal>
    <FixtureVal ID="29">0,0</FixtureVal>
   </Function>
+  <Function ID="96" Type="Scene" Name="PAR Contre DIM Medium" Path="RDB Fest/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="15">0,127</FixtureVal>
+   <FixtureVal ID="16">0,127</FixtureVal>
+   <FixtureVal ID="17">0,127</FixtureVal>
+   <FixtureVal ID="18">0,127</FixtureVal>
+   <FixtureVal ID="19">0,127</FixtureVal>
+   <FixtureVal ID="20">0,127</FixtureVal>
+  </Function>
+  <Function ID="97" Type="Scene" Name="Edenwood Drums - DIM low" Path="RDB Fest/Edenwood drums">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">0,75</FixtureVal>
+   <FixtureVal ID="38">0,75</FixtureVal>
+  </Function>
   <Function ID="98" Type="Sequence" Name="PAR Chase 1" Path="Yuro - Effets/PAR" BoundScene="95">
    <Speed FadeIn="0" FadeOut="0" Duration="272"/>
    <Direction>Forward</Direction>
@@ -1184,6 +1215,29 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,10:27:0,80:28:0,60:29:0,40</Step>
    <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,40:27:0,10:28:0,80:29:0,60</Step>
    <Step Number="3" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:0,60:27:0,40:28:0,10:29:0,80</Step>
+  </Function>
+  <Function ID="99" Type="Scene" Name="Edenwood Drums - DIM medium" Path="RDB Fest/Edenwood drums">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">0,160</FixtureVal>
+   <FixtureVal ID="38">0,160</FixtureVal>
+  </Function>
+  <Function ID="100" Type="Scene" Name="Edenwood Drums - DIM high" Path="RDB Fest/Edenwood drums">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">0,255</FixtureVal>
+   <FixtureVal ID="38">0,255</FixtureVal>
+  </Function>
+  <Function ID="101" Type="Scene" Name="RDB Fest - Base - Face" Path="RDB Fest">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,30</FixtureVal>
+   <FixtureVal ID="11">0,30</FixtureVal>
+   <FixtureVal ID="14">0,30</FixtureVal>
+  </Function>
+  <Function ID="102" Type="Scene" Name="Fotomat - Blinder" Path="Fotomat">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="26">0,100</FixtureVal>
+   <FixtureVal ID="27">0,100</FixtureVal>
+   <FixtureVal ID="28">0,100</FixtureVal>
+   <FixtureVal ID="29">0,100</FixtureVal>
   </Function>
   <Function ID="103" Type="Collection" Name="40 days - G - Strooooooob" Path="40 days - Cyan-Blanc">
    <Step Number="0">49</Step>
@@ -1203,6 +1257,15 @@
    <Step Number="14">391</Step>
    <Step Number="15">394</Step>
    <Step Number="16">395</Step>
+  </Function>
+  <Function ID="104" Type="Scene" Name="RDB Fest - Blinder" Path="RDB Fest">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="15">0,255</FixtureVal>
+   <FixtureVal ID="16">0,255</FixtureVal>
+   <FixtureVal ID="17">0,255</FixtureVal>
+   <FixtureVal ID="18">0,255</FixtureVal>
+   <FixtureVal ID="19">0,255</FixtureVal>
+   <FixtureVal ID="20">0,255</FixtureVal>
   </Function>
   <Function ID="105" Type="Collection" Name="40 days - H - Pont" Path="40 days - Cyan-Blanc">
    <Step Number="0">49</Step>
@@ -1239,6 +1302,15 @@
    <Step Number="19">354</Step>
    <Step Number="20">369</Step>
    <Step Number="21">335</Step>
+  </Function>
+  <Function ID="107" Type="Scene" Name="Edenwood contre - DIM high" Path="RDB Fest/Edenwood contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">0,255</FixtureVal>
+   <FixtureVal ID="22">0,255</FixtureVal>
+   <FixtureVal ID="23">0,255</FixtureVal>
+   <FixtureVal ID="24">0,255</FixtureVal>
+   <FixtureVal ID="25">0,255</FixtureVal>
+   <FixtureVal ID="30">0,255</FixtureVal>
   </Function>
   <Function ID="108" Type="Collection" Name="40 days - J - STOP" Path="40 days - Cyan-Blanc">
    <Step Number="0">49</Step>
@@ -1291,9 +1363,36 @@
   <Function ID="117" Type="Scene" Name="H - Outro" Path="Yurodivy/Year of the Light - HORS SET">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
+  <Function ID="118" Type="Scene" Name="Edenwood contre - DIM medium" Path="RDB Fest/Edenwood contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">0,155</FixtureVal>
+   <FixtureVal ID="22">0,155</FixtureVal>
+   <FixtureVal ID="23">0,155</FixtureVal>
+   <FixtureVal ID="24">0,155</FixtureVal>
+   <FixtureVal ID="25">0,155</FixtureVal>
+   <FixtureVal ID="30">0,155</FixtureVal>
+  </Function>
   <Function ID="119" Type="Scene" Name="J - End" Path="Yurodivy/Year of the Light - HORS SET">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="120" Type="Scene" Name="Edenwood contre - DIM low" Path="RDB Fest/Edenwood contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="21">0,75</FixtureVal>
+   <FixtureVal ID="22">0,75</FixtureVal>
+   <FixtureVal ID="23">0,75</FixtureVal>
+   <FixtureVal ID="24">0,75</FixtureVal>
+   <FixtureVal ID="25">0,75</FixtureVal>
+   <FixtureVal ID="30">0,75</FixtureVal>
+  </Function>
+  <Function ID="121" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
   </Function>
   <Function ID="122" Type="Collection" Name="Year of the Light - C - Calme" Path="Year of the Light - HORS SET">
    <Step Number="0">49</Step>
@@ -1324,9 +1423,50 @@
    <Step Number="1">242</Step>
    <Step Number="2">244</Step>
   </Function>
+  <Function ID="128" Type="Sequence" Name="PAR Contre - Noise" Path="RDB Fest" BoundScene="121">
+   <Speed FadeIn="500" FadeOut="500" Duration="700"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="500" Values="6">15:0,217:16:0,163:17:0,178:18:0,212:19:0,146:20:0,192</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="6">15:0,132:16:0,205:17:0,146:18:0,165:19:0,199:20:0,137</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="6">15:0,176:16:0,147:17:0,223:18:0,188:19:0,118:20:0,205</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0" Values="6">15:0,190:16:0,126:17:0,168:18:0,150:19:0,219:20:0,163</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0" Values="6">15:0,223:16:0,163:17:0,234:18:0,191:19:0,144:20:0,210</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0" Values="6">15:0,189:16:0,179:17:0,208:18:0,150:19:0,221:20:0,198</Step>
+  </Function>
   <Function ID="129" Type="Collection" Name="Year of the Light - J - End" Path="Year of the Light - HORS SET">
    <Step Number="0">49</Step>
    <Step Number="1">119</Step>
+  </Function>
+  <Function ID="130" Type="Sequence" Name="PAR Contre - Wave" Path="RDB Fest" BoundScene="131">
+   <Speed FadeIn="100" FadeOut="100" Duration="150"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="500" Values="6">15:0,255</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="6">16:0,255</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0" Values="6">17:0,255</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0" Values="6">18:0,255</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0" Values="6">19:0,255</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0" Values="6">20:0,255</Step>
+  </Function>
+  <Function ID="131" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+  </Function>
+  <Function ID="132" Type="Collection" Name="Maxi Spot 60 - Ambre" Path="0 - RDB Fest/Maxi Spot 60">
+   <Step Number="0">20</Step>
+   <Step Number="1">460</Step>
+   <Step Number="2">487</Step>
+   <Step Number="3">514</Step>
+   <Step Number="4">541</Step>
+   <Step Number="5">568</Step>
   </Function>
   <Function ID="133" Type="Collection" Name="Anonyme - A - Intro" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1369,6 +1509,14 @@
    <Step Number="22">354</Step>
    <Step Number="23">335</Step>
   </Function>
+  <Function ID="136" Type="Collection" Name="Maxi Spot 60 - Strob ON" Path="0 - RDB Fest/Maxi Spot 60">
+   <Step Number="0">37</Step>
+   <Step Number="1">464</Step>
+   <Step Number="2">491</Step>
+   <Step Number="3">518</Step>
+   <Step Number="4">545</Step>
+   <Step Number="5">572</Step>
+  </Function>
   <Function ID="137" Type="Collection" Name="Anonyme - D - Calme" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
    <Step Number="1">238</Step>
@@ -1382,6 +1530,15 @@
    <Step Number="9">349</Step>
    <Step Number="10">308</Step>
    <Step Number="11">242</Step>
+  </Function>
+  <Function ID="138" Type="Scene" Name="PAR Contre DIM Low" Path="RDB Fest/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="15">0,50</FixtureVal>
+   <FixtureVal ID="16">0,50</FixtureVal>
+   <FixtureVal ID="17">0,50</FixtureVal>
+   <FixtureVal ID="18">0,50</FixtureVal>
+   <FixtureVal ID="19">0,50</FixtureVal>
+   <FixtureVal ID="20">0,50</FixtureVal>
   </Function>
   <Function ID="139" Type="Collection" Name="Anonyme - E - Reprise" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1401,6 +1558,30 @@
    <Step Number="14">390</Step>
    <Step Number="15">389</Step>
    <Step Number="16">388</Step>
+  </Function>
+  <Function ID="140" Type="Scene" Name="PAR Contre DIM High" Path="RDB Fest/PAR Contre">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="15">0,255</FixtureVal>
+   <FixtureVal ID="16">0,255</FixtureVal>
+   <FixtureVal ID="17">0,255</FixtureVal>
+   <FixtureVal ID="18">0,255</FixtureVal>
+   <FixtureVal ID="19">0,255</FixtureVal>
+   <FixtureVal ID="20">0,255</FixtureVal>
+  </Function>
+  <Function ID="141" Type="Scene" Name="Edenwood Drums - Amber" Path="RDB Fest/Edenwood drums">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">1,50,2,255,3,6</FixtureVal>
+   <FixtureVal ID="38">1,50,2,255,3,6</FixtureVal>
+  </Function>
+  <Function ID="142" Type="Scene" Name="Edenwood Drums - Magenta" Path="RDB Fest/Edenwood drums">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">1,255,2,0,3,255</FixtureVal>
+   <FixtureVal ID="38">1,50,2,255,3,6</FixtureVal>
+  </Function>
+  <Function ID="143" Type="Scene" Name="Edenwood Drums - Cyan" Path="RDB Fest/Edenwood drums">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="37">1,0,2,253,3,255</FixtureVal>
+   <FixtureVal ID="38">1,50,2,255,3,6</FixtureVal>
   </Function>
   <Function ID="144" Type="Collection" Name="Anonyme - G - Basse" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1611,6 +1792,7 @@
    <Step Number="3">339</Step>
    <Step Number="4">39</Step>
    <Step Number="5">453</Step>
+   <Step Number="6">138</Step>
   </Function>
   <Function ID="179" Type="Chaser" Name="Set Yurodivy">
    <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
@@ -1768,6 +1950,7 @@
    <Step Number="13">339</Step>
    <Step Number="14">340</Step>
    <Step Number="15">341</Step>
+   <Step Number="16">140</Step>
   </Function>
   <Function ID="183" Type="Collection" Name="Where The Dogs - C - F - Couplet - PAR Contre manuel" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1801,6 +1984,7 @@
    <Step Number="3">238</Step>
    <Step Number="4">296</Step>
    <Step Number="5">339</Step>
+   <Step Number="6">104</Step>
   </Function>
   <Function ID="189" Type="Collection" Name="Where The Dogs - G - Gros Strob" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -2984,7 +3168,595 @@
    <Step Number="1">455</Step>
    <Step Number="2">457</Step>
   </Function>
-  <Monitor DisplayMode="0" ShowLabels="1">
+  <Function ID="460" Type="Scene" Name="Maxi Spot #2 - Ambre" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">3,126</FixtureVal>
+  </Function>
+  <Function ID="461" Type="Scene" Name="Maxi Spot #2 - Bleu" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">3,58</FixtureVal>
+  </Function>
+  <Function ID="462" Type="Scene" Name="Maxi Spot #2 - Cyan" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">3,112</FixtureVal>
+  </Function>
+  <Function ID="463" Type="Scene" Name="Maxi Spot #2 - Magenta" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">3,95</FixtureVal>
+  </Function>
+  <Function ID="464" Type="Scene" Name="Maxi Spot #2 - Strob ON" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">6,120</FixtureVal>
+  </Function>
+  <Function ID="465" Type="Scene" Name="Maxi Spot #2 - Strob OFF" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">6,0</FixtureVal>
+  </Function>
+  <Function ID="466" Type="Scene" Name="Maxi Spot #2 - DIM low" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">5,60</FixtureVal>
+  </Function>
+  <Function ID="467" Type="Scene" Name="Maxi Spot #2 - DIM medium" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">5,160</FixtureVal>
+  </Function>
+  <Function ID="468" Type="Scene" Name="Maxi Spot #2 - DIM high" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">5,255</FixtureVal>
+  </Function>
+  <Function ID="469" Type="Scene" Name="Maxi Spot #2 - Gobo #1" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,11</FixtureVal>
+  </Function>
+  <Function ID="470" Type="Scene" Name="Maxi Spot #2 - Gobo #2" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,19</FixtureVal>
+  </Function>
+  <Function ID="471" Type="Scene" Name="Maxi Spot #2 - Gobo #3" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,27</FixtureVal>
+  </Function>
+  <Function ID="472" Type="Scene" Name="Maxi Spot #2 - Gobo #4" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,36</FixtureVal>
+  </Function>
+  <Function ID="473" Type="Scene" Name="Maxi Spot #2 - Gobo #5" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,44</FixtureVal>
+  </Function>
+  <Function ID="474" Type="Scene" Name="Maxi Spot #2 - Gobo #6" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,51</FixtureVal>
+  </Function>
+  <Function ID="475" Type="Scene" Name="Maxi Spot #2 - Gobo #7" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,59</FixtureVal>
+  </Function>
+  <Function ID="476" Type="Scene" Name="Maxi Spot #2 - Gobo White shake" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,150</FixtureVal>
+  </Function>
+  <Function ID="477" Type="Scene" Name="Maxi Spot #2 - Gobo #1 Shake" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,164</FixtureVal>
+  </Function>
+  <Function ID="478" Type="Scene" Name="Maxi Spot #2 - Gobo #2 Shake" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,176</FixtureVal>
+  </Function>
+  <Function ID="479" Type="Scene" Name="Maxi Spot #2 - Gobo #3 Shake" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,189</FixtureVal>
+  </Function>
+  <Function ID="480" Type="Scene" Name="Maxi Spot #2 - Gobo #4 Shake" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,203</FixtureVal>
+  </Function>
+  <Function ID="481" Type="Scene" Name="Maxi Spot #2 - Gobo #5 Shake" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,214</FixtureVal>
+  </Function>
+  <Function ID="482" Type="Scene" Name="Maxi Spot #2 - Gobo #6 Shake" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,228</FixtureVal>
+  </Function>
+  <Function ID="483" Type="Scene" Name="Maxi Spot #2 - Gobo #7 Shake" Path="RDB Fest/Maxi Spot #2/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">4,247</FixtureVal>
+  </Function>
+  <Function ID="484" Type="Scene" Name="Maxi Spot #2 - Blanc" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">3,5</FixtureVal>
+  </Function>
+  <Function ID="485" Type="Scene" Name="Maxi Spot #2 - Magenta/Cyan" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">3,103</FixtureVal>
+  </Function>
+  <Function ID="486" Type="Scene" Name="Maxi Spot #2 - Rouge" Path="RDB Fest/Maxi Spot #2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">3,22</FixtureVal>
+  </Function>
+  <Function ID="487" Type="Scene" Name="Maxi Spot #3 - Ambre" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">3,126</FixtureVal>
+  </Function>
+  <Function ID="488" Type="Scene" Name="Maxi Spot #3 - Bleu" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">3,58</FixtureVal>
+  </Function>
+  <Function ID="489" Type="Scene" Name="Maxi Spot #3 - Cyan" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">3,112</FixtureVal>
+  </Function>
+  <Function ID="490" Type="Scene" Name="Maxi Spot #3 - Magenta" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">3,95</FixtureVal>
+  </Function>
+  <Function ID="491" Type="Scene" Name="Maxi Spot #3 - Strob ON" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">6,120</FixtureVal>
+  </Function>
+  <Function ID="492" Type="Scene" Name="Maxi Spot #3 - Strob OFF" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">6,0</FixtureVal>
+  </Function>
+  <Function ID="493" Type="Scene" Name="Maxi Spot #3 - DIM low" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">5,60</FixtureVal>
+  </Function>
+  <Function ID="494" Type="Scene" Name="Maxi Spot #3 - DIM medium" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">5,160</FixtureVal>
+  </Function>
+  <Function ID="495" Type="Scene" Name="Maxi Spot #3 - DIM high" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">5,255</FixtureVal>
+  </Function>
+  <Function ID="496" Type="Scene" Name="Maxi Spot #3 - Gobo #1" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,11</FixtureVal>
+  </Function>
+  <Function ID="497" Type="Scene" Name="Maxi Spot #3 - Gobo #2" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,19</FixtureVal>
+  </Function>
+  <Function ID="498" Type="Scene" Name="Maxi Spot #3 - Gobo #3" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,27</FixtureVal>
+  </Function>
+  <Function ID="499" Type="Scene" Name="Maxi Spot #3 - Gobo #4" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,36</FixtureVal>
+  </Function>
+  <Function ID="500" Type="Scene" Name="Maxi Spot #3 - Gobo #5" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,44</FixtureVal>
+  </Function>
+  <Function ID="501" Type="Scene" Name="Maxi Spot #3 - Gobo #6" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,51</FixtureVal>
+  </Function>
+  <Function ID="502" Type="Scene" Name="Maxi Spot #3 - Gobo #7" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,59</FixtureVal>
+  </Function>
+  <Function ID="503" Type="Scene" Name="Maxi Spot #3 - Gobo White shake" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,150</FixtureVal>
+  </Function>
+  <Function ID="504" Type="Scene" Name="Maxi Spot #3 - Gobo #1 Shake" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,164</FixtureVal>
+  </Function>
+  <Function ID="505" Type="Scene" Name="Maxi Spot #3 - Gobo #2 Shake" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,176</FixtureVal>
+  </Function>
+  <Function ID="506" Type="Scene" Name="Maxi Spot #3 - Gobo #3 Shake" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,189</FixtureVal>
+  </Function>
+  <Function ID="507" Type="Scene" Name="Maxi Spot #3 - Gobo #4 Shake" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,203</FixtureVal>
+  </Function>
+  <Function ID="508" Type="Scene" Name="Maxi Spot #3 - Gobo #5 Shake" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,214</FixtureVal>
+  </Function>
+  <Function ID="509" Type="Scene" Name="Maxi Spot #3 - Gobo #6 Shake" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,228</FixtureVal>
+  </Function>
+  <Function ID="510" Type="Scene" Name="Maxi Spot #3 - Gobo #7 Shake" Path="RDB Fest/Maxi Spot #3/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">4,247</FixtureVal>
+  </Function>
+  <Function ID="511" Type="Scene" Name="Maxi Spot #3 - Blanc" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">3,5</FixtureVal>
+  </Function>
+  <Function ID="512" Type="Scene" Name="Maxi Spot #3 - Magenta/Cyan" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">3,103</FixtureVal>
+  </Function>
+  <Function ID="513" Type="Scene" Name="Maxi Spot #3 - Rouge" Path="RDB Fest/Maxi Spot #3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">3,22,5,255</FixtureVal>
+  </Function>
+  <Function ID="514" Type="Scene" Name="Maxi Spot #4 - Ambre" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">3,126</FixtureVal>
+  </Function>
+  <Function ID="515" Type="Scene" Name="Maxi Spot #4 - Bleu" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">3,58</FixtureVal>
+  </Function>
+  <Function ID="516" Type="Scene" Name="Maxi Spot #4 - Cyan" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">3,112</FixtureVal>
+  </Function>
+  <Function ID="517" Type="Scene" Name="Maxi Spot #4 - Magenta" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">3,95</FixtureVal>
+  </Function>
+  <Function ID="518" Type="Scene" Name="Maxi Spot #4 - Strob ON" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">6,120</FixtureVal>
+  </Function>
+  <Function ID="519" Type="Scene" Name="Maxi Spot #4 - Strob OFF" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">6,0</FixtureVal>
+  </Function>
+  <Function ID="520" Type="Scene" Name="Maxi Spot #4 - DIM low" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">5,60</FixtureVal>
+  </Function>
+  <Function ID="521" Type="Scene" Name="Maxi Spot #4 - DIM medium" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">5,160</FixtureVal>
+  </Function>
+  <Function ID="522" Type="Scene" Name="Maxi Spot #4 - DIM high" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">5,255</FixtureVal>
+  </Function>
+  <Function ID="523" Type="Scene" Name="Maxi Spot #4 - Gobo #1" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,11</FixtureVal>
+  </Function>
+  <Function ID="524" Type="Scene" Name="Maxi Spot #4 - Gobo #2" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,19</FixtureVal>
+  </Function>
+  <Function ID="525" Type="Scene" Name="Maxi Spot #4 - Gobo #3" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,27</FixtureVal>
+  </Function>
+  <Function ID="526" Type="Scene" Name="Maxi Spot #4 - Gobo #4" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,36</FixtureVal>
+  </Function>
+  <Function ID="527" Type="Scene" Name="Maxi Spot #4 - Gobo #5" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,44</FixtureVal>
+  </Function>
+  <Function ID="528" Type="Scene" Name="Maxi Spot #4 - Gobo #6" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,51</FixtureVal>
+  </Function>
+  <Function ID="529" Type="Scene" Name="Maxi Spot #4 - Gobo #7" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,59</FixtureVal>
+  </Function>
+  <Function ID="530" Type="Scene" Name="Maxi Spot #4 - Gobo White shake" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,150</FixtureVal>
+  </Function>
+  <Function ID="531" Type="Scene" Name="Maxi Spot #4 - Gobo #1 Shake" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,164</FixtureVal>
+  </Function>
+  <Function ID="532" Type="Scene" Name="Maxi Spot #4 - Gobo #2 Shake" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,176</FixtureVal>
+  </Function>
+  <Function ID="533" Type="Scene" Name="Maxi Spot #4 - Gobo #3 Shake" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,189</FixtureVal>
+  </Function>
+  <Function ID="534" Type="Scene" Name="Maxi Spot #4 - Gobo #4 Shake" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,203</FixtureVal>
+  </Function>
+  <Function ID="535" Type="Scene" Name="Maxi Spot #4 - Gobo #5 Shake" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,214</FixtureVal>
+  </Function>
+  <Function ID="536" Type="Scene" Name="Maxi Spot #4 - Gobo #6 Shake" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,228</FixtureVal>
+  </Function>
+  <Function ID="537" Type="Scene" Name="Maxi Spot #4 - Gobo #7 Shake" Path="RDB Fest/Maxi Spot #4/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">4,247</FixtureVal>
+  </Function>
+  <Function ID="538" Type="Scene" Name="Maxi Spot #4 - Blanc" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">3,5</FixtureVal>
+  </Function>
+  <Function ID="539" Type="Scene" Name="Maxi Spot #4 - Magenta/Cyan" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">3,103</FixtureVal>
+  </Function>
+  <Function ID="540" Type="Scene" Name="Maxi Spot #4 - Rouge" Path="RDB Fest/Maxi Spot #4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="7">3,22</FixtureVal>
+  </Function>
+  <Function ID="541" Type="Scene" Name="Maxi Spot #5 - Ambre" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">3,126</FixtureVal>
+  </Function>
+  <Function ID="542" Type="Scene" Name="Maxi Spot #5 - Bleu" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">3,58</FixtureVal>
+  </Function>
+  <Function ID="543" Type="Scene" Name="Maxi Spot #5 - Cyan" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">3,112</FixtureVal>
+  </Function>
+  <Function ID="544" Type="Scene" Name="Maxi Spot #5 - Magenta" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">3,95</FixtureVal>
+  </Function>
+  <Function ID="545" Type="Scene" Name="Maxi Spot #5 - Strob ON" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">6,120</FixtureVal>
+  </Function>
+  <Function ID="546" Type="Scene" Name="Maxi Spot #5 - Strob OFF" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">6,0</FixtureVal>
+  </Function>
+  <Function ID="547" Type="Scene" Name="Maxi Spot #5 - DIM low" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">5,60</FixtureVal>
+  </Function>
+  <Function ID="548" Type="Scene" Name="Maxi Spot #5 - DIM medium" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">5,160</FixtureVal>
+  </Function>
+  <Function ID="549" Type="Scene" Name="Maxi Spot #5 - DIM high" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">5,255</FixtureVal>
+  </Function>
+  <Function ID="550" Type="Scene" Name="Maxi Spot #5 - Gobo #1" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,11</FixtureVal>
+  </Function>
+  <Function ID="551" Type="Scene" Name="Maxi Spot #5 - Gobo #2" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,19</FixtureVal>
+  </Function>
+  <Function ID="552" Type="Scene" Name="Maxi Spot #5 - Gobo #3" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,27</FixtureVal>
+  </Function>
+  <Function ID="553" Type="Scene" Name="Maxi Spot #5 - Gobo #4" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,36</FixtureVal>
+  </Function>
+  <Function ID="554" Type="Scene" Name="Maxi Spot #5 - Gobo #5" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,44</FixtureVal>
+  </Function>
+  <Function ID="555" Type="Scene" Name="Maxi Spot #5 - Gobo #6" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,51</FixtureVal>
+  </Function>
+  <Function ID="556" Type="Scene" Name="Maxi Spot #5 - Gobo #7" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,59</FixtureVal>
+  </Function>
+  <Function ID="557" Type="Scene" Name="Maxi Spot #5 - Gobo White shake" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,150</FixtureVal>
+  </Function>
+  <Function ID="558" Type="Scene" Name="Maxi Spot #5 - Gobo #1 Shake" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,164</FixtureVal>
+  </Function>
+  <Function ID="559" Type="Scene" Name="Maxi Spot #5 - Gobo #2 Shake" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,176</FixtureVal>
+  </Function>
+  <Function ID="560" Type="Scene" Name="Maxi Spot #5 - Gobo #3 Shake" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,189</FixtureVal>
+  </Function>
+  <Function ID="561" Type="Scene" Name="Maxi Spot #5 - Gobo #4 Shake" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,203</FixtureVal>
+  </Function>
+  <Function ID="562" Type="Scene" Name="Maxi Spot #5 - Gobo #5 Shake" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,214</FixtureVal>
+  </Function>
+  <Function ID="563" Type="Scene" Name="Maxi Spot #5 - Gobo #6 Shake" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,228</FixtureVal>
+  </Function>
+  <Function ID="564" Type="Scene" Name="Maxi Spot #5 - Gobo #7 Shake" Path="RDB Fest/Maxi Spot #5/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">4,247</FixtureVal>
+  </Function>
+  <Function ID="565" Type="Scene" Name="Maxi Spot #5 - Blanc" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">3,5</FixtureVal>
+  </Function>
+  <Function ID="566" Type="Scene" Name="Maxi Spot #5 - Magenta/Cyan" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">3,103</FixtureVal>
+  </Function>
+  <Function ID="567" Type="Scene" Name="Maxi Spot #5 - Rouge" Path="RDB Fest/Maxi Spot #5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">3,22</FixtureVal>
+  </Function>
+  <Function ID="568" Type="Scene" Name="Maxi Spot #6 - Ambre" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">3,126</FixtureVal>
+  </Function>
+  <Function ID="569" Type="Scene" Name="Maxi Spot #6 - Bleu" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">3,58</FixtureVal>
+  </Function>
+  <Function ID="570" Type="Scene" Name="Maxi Spot #6 - Cyan" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">3,112</FixtureVal>
+  </Function>
+  <Function ID="571" Type="Scene" Name="Maxi Spot #6 - Magenta" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">3,95</FixtureVal>
+  </Function>
+  <Function ID="572" Type="Scene" Name="Maxi Spot #6 - Strob ON" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">6,120</FixtureVal>
+  </Function>
+  <Function ID="573" Type="Scene" Name="Maxi Spot #6 - Strob OFF" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">6,0</FixtureVal>
+  </Function>
+  <Function ID="574" Type="Scene" Name="Maxi Spot #6 - DIM low" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">5,60</FixtureVal>
+  </Function>
+  <Function ID="575" Type="Scene" Name="Maxi Spot #6 - DIM medium" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">5,160</FixtureVal>
+  </Function>
+  <Function ID="576" Type="Scene" Name="Maxi Spot #6 - DIM high" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">5,255</FixtureVal>
+  </Function>
+  <Function ID="577" Type="Scene" Name="Maxi Spot #6 - Gobo #1" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,11</FixtureVal>
+  </Function>
+  <Function ID="578" Type="Scene" Name="Maxi Spot #6 - Gobo #2" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,19</FixtureVal>
+  </Function>
+  <Function ID="579" Type="Scene" Name="Maxi Spot #6 - Gobo #3" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,27</FixtureVal>
+  </Function>
+  <Function ID="580" Type="Scene" Name="Maxi Spot #6 - Gobo #4" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,36</FixtureVal>
+  </Function>
+  <Function ID="581" Type="Scene" Name="Maxi Spot #6 - Gobo #5" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,44</FixtureVal>
+  </Function>
+  <Function ID="582" Type="Scene" Name="Maxi Spot #6 - Gobo #6" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,51</FixtureVal>
+  </Function>
+  <Function ID="583" Type="Scene" Name="Maxi Spot #6 - Gobo #7" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,59</FixtureVal>
+  </Function>
+  <Function ID="584" Type="Scene" Name="Maxi Spot #6 - Gobo White shake" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,150</FixtureVal>
+  </Function>
+  <Function ID="585" Type="Scene" Name="Maxi Spot #6 - Gobo #1 Shake" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,164</FixtureVal>
+  </Function>
+  <Function ID="586" Type="Scene" Name="Maxi Spot #6 - Gobo #2 Shake" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,176</FixtureVal>
+  </Function>
+  <Function ID="587" Type="Scene" Name="Maxi Spot #6 - Gobo #3 Shake" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,189</FixtureVal>
+  </Function>
+  <Function ID="588" Type="Scene" Name="Maxi Spot #6 - Gobo #4 Shake" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,203</FixtureVal>
+  </Function>
+  <Function ID="589" Type="Scene" Name="Maxi Spot #6 - Gobo #5 Shake" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,214</FixtureVal>
+  </Function>
+  <Function ID="590" Type="Scene" Name="Maxi Spot #6 - Gobo #6 Shake" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,228</FixtureVal>
+  </Function>
+  <Function ID="591" Type="Scene" Name="Maxi Spot #6 - Gobo #7 Shake" Path="RDB Fest/Maxi Spot #6/Gobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">4,247</FixtureVal>
+  </Function>
+  <Function ID="592" Type="Scene" Name="Maxi Spot #6 - Blanc" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">3,5</FixtureVal>
+  </Function>
+  <Function ID="593" Type="Scene" Name="Maxi Spot #6 - Magenta/Cyan" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">3,103</FixtureVal>
+  </Function>
+  <Function ID="594" Type="Scene" Name="Maxi Spot #6 - Rouge" Path="RDB Fest/Maxi Spot #6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">3,22</FixtureVal>
+  </Function>
+  <Function ID="595" Type="Collection" Name="Maxi Spot 60 - Bleu" Path="0 - RDB Fest/Maxi Spot 60">
+   <Step Number="0">28</Step>
+   <Step Number="1">461</Step>
+   <Step Number="2">488</Step>
+   <Step Number="3">515</Step>
+   <Step Number="4">542</Step>
+   <Step Number="5">569</Step>
+  </Function>
+  <Function ID="596" Type="Collection" Name="Maxi Spot 60 - Cyan" Path="0 - RDB Fest/Maxi Spot 60">
+   <Step Number="0">30</Step>
+   <Step Number="1">462</Step>
+   <Step Number="2">489</Step>
+   <Step Number="3">516</Step>
+   <Step Number="4">543</Step>
+   <Step Number="5">570</Step>
+  </Function>
+  <Function ID="597" Type="Collection" Name="Maxi Spot 60 - Magenta" Path="0 - RDB Fest/Maxi Spot 60">
+   <Step Number="0">35</Step>
+   <Step Number="1">463</Step>
+   <Step Number="2">490</Step>
+   <Step Number="3">517</Step>
+   <Step Number="4">544</Step>
+   <Step Number="5">571</Step>
+  </Function>
+  <Function ID="598" Type="Collection" Name="Maxi Spot 60 - Blanc" Path="0 - RDB Fest/Maxi Spot 60">
+   <Step Number="0">91</Step>
+   <Step Number="1">484</Step>
+   <Step Number="2">511</Step>
+   <Step Number="3">538</Step>
+   <Step Number="4">565</Step>
+   <Step Number="5">592</Step>
+  </Function>
+  <Function ID="599" Type="Collection" Name="Maxi Spot 60 - Magenta/Cyan" Path="0 - RDB Fest/Maxi Spot 60">
+   <Step Number="0">92</Step>
+   <Step Number="1">485</Step>
+   <Step Number="2">512</Step>
+   <Step Number="3">539</Step>
+   <Step Number="4">566</Step>
+   <Step Number="5">593</Step>
+  </Function>
+  <Function ID="600" Type="Collection" Name="Maxi Spot 60 - Rouge" Path="0 - RDB Fest/Maxi Spot 60">
+   <Step Number="0">93</Step>
+   <Step Number="1">486</Step>
+   <Step Number="2">513</Step>
+   <Step Number="3">540</Step>
+   <Step Number="4">567</Step>
+   <Step Number="5">594</Step>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="1">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
@@ -2992,7 +3764,7 @@
    <FxItem ID="0" XPos="2063.64" YPos="3618.18"/>
    <FxItem ID="1" XPos="3676.11" YPos="3613.17"/>
    <FxItem ID="2" XPos="1705.13" YPos="70.5128"/>
-   <FxItem ID="3" XPos="272.728" YPos="4981.82"/>
+   <FxItem ID="3" XPos="221.881" YPos="4998.77"/>
    <FxItem ID="4" XPos="240.237" YPos="1002.88"/>
    <FxItem ID="5" XPos="1172.72" YPos="5000"/>
    <FxItem ID="6" XPos="2045.45" YPos="5018.18"/>
@@ -3004,7 +3776,7 @@
    <FxItem ID="12" XPos="3095.28" YPos="1640.05" Rotation="53"/>
    <FxItem ID="13" XPos="2822.18" YPos="599.04"/>
    <FxItem ID="14" XPos="3836.36" YPos="7509.09"/>
-   <FxItem ID="15" XPos="654.545" YPos="4981.82"/>
+   <FxItem ID="15" XPos="629.121" YPos="5007.24"/>
    <FxItem ID="16" XPos="1527.27" YPos="5018.18"/>
    <FxItem ID="17" XPos="2445.46" YPos="4981.82"/>
    <FxItem ID="18" XPos="3190.91" YPos="5045.46"/>
@@ -3046,7 +3818,7 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
-   <Frame Caption="Fincher" ID="32">
+   <SoloFrame Caption="RDB Fest" ID="98">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -3054,36 +3826,15 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="0" Y="120" Width="820" Height="615"/>
+    <WindowState Visible="False" X="0" Y="135" Width="1495" Height="1115"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
     <Collapsed>False</Collapsed>
-    <Disabled>True</Disabled>
-    <Slider Caption="All SK" ID="26" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="385" Y="55" Width="60" Height="200"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="33">0</Channel>
-      <Channel Fixture="34">0</Channel>
-      <Channel Fixture="35">0</Channel>
-      <Channel Fixture="36">0</Channel>
-      <Channel Fixture="39">0</Channel>
-      <Channel Fixture="40">0</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
-    <Frame Caption="COLORado" ID="47">
+    <Disabled>False</Disabled>
+    <Frame Caption="Fincher" ID="97">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -3091,123 +3842,604 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="5" Y="45" Width="350" Height="250"/>
+     <WindowState Visible="False" X="195" Y="40" Width="980" Height="660"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>True</Collapsed>
+     <Disabled>True</Disabled>
+     <Slider Caption="All MaxiSpot" ID="38" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="385" Y="55" Width="60" Height="200"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="3">5</Channel>
+       <Channel Fixture="5">5</Channel>
+       <Channel Fixture="6">5</Channel>
+       <Channel Fixture="7">5</Channel>
+       <Channel Fixture="8">5</Channel>
+       <Channel Fixture="9">5</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Frame Caption="COLORado" ID="53">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="5" Y="45" Width="350" Height="250"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <ShowHeader>True</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>True</Disabled>
+      <Slider Caption="#1" ID="39" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="0" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="33">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#2" ID="48" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="55" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="34">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#3" ID="49" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="110" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="35">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#4" ID="50" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="165" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="36">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#5" ID="51" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="220" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="39">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#6" ID="52" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="275" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="40">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+     </Frame>
+     <Frame Caption="" ID="54">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="460" Y="60" Width="510" Height="90"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>True</Disabled>
+     </Frame>
+     <SoloFrame Caption="" ID="62">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="445" Y="70" Width="505" Height="85"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>False</ShowEnableButton>
+      <Mixing>False</Mixing>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Button Caption="Maxi Spot 60 - Ambre" ID="55" Icon="">
+       <WindowState Visible="False" X="5" Y="5" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4293288192</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="132"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="Maxi Spot 60 - Blanc" ID="56" Icon="">
+       <WindowState Visible="False" X="75" Y="5" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="598"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="Maxi Spot 60 - Bleu" ID="57" Icon="">
+       <WindowState Visible="False" X="145" Y="5" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4280054232</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="595"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="Maxi Spot 60 - Cyan" ID="58" Icon="">
+       <WindowState Visible="False" X="215" Y="5" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4278241535</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="596"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="Maxi Spot 60 - Magenta" ID="59" Icon="">
+       <WindowState Visible="False" X="285" Y="5" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4287709612</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="597"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="Maxi Spot 60 - Magenta/Cyan" ID="60" Icon="">
+       <WindowState Visible="False" X="355" Y="5" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4290798027</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="599"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="Maxi Spot 60 - Rouge" ID="61" Icon="">
+       <WindowState Visible="False" X="425" Y="5" Width="70" Height="70"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292877092</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="600"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+     </SoloFrame>
+    </Frame>
+    <Frame Caption="Yurodivy" ID="37">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="False" X="0" Y="40" Width="1320" Height="750"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
-     <Slider Caption="#1" ID="40" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="0" Y="35" Width="60" Height="200"/>
+     <Disabled>False</Disabled>
+     <Slider Caption="All" ID="28" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="380" Y="65" Width="60" Height="200"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
+       <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="33">0</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="#2" ID="41" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="55" Y="35" Width="60" Height="200"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="34">0</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="#3" ID="42" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="110" Y="35" Width="60" Height="200"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="35">0</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="#4" ID="43" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="165" Y="35" Width="60" Height="200"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="36">0</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="#5" ID="45" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="220" Y="35" Width="60" Height="200"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="39">0</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="#6" ID="46" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="275" Y="35" Width="60" Height="200"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="40">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
+     <Slider Caption="PAR Yuro #1" ID="30" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="455" Y="45" Width="105" Height="250"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="0" Channel="81"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset>
+       <Input Universe="0" Channel="73"/>
+      </Reset>
+      <Level LowLimit="0" HighLimit="85" Value="0">
+       <Channel Fixture="26">0</Channel>
+       <Channel Fixture="29">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="PAR Yuro #2" ID="31" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="545" Y="45" Width="110" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="0" Channel="82"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset>
+       <Input Universe="0" Channel="74"/>
+      </Reset>
+      <Level LowLimit="0" HighLimit="85" Value="0">
+       <Channel Fixture="27">0</Channel>
+       <Channel Fixture="28">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="40 days" ID="33" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="650" Y="60" Width="105" Height="220"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="0" Channel="87"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+      <Level LowLimit="0" HighLimit="200" Value="0">
+       <Channel Fixture="12">0</Channel>
+       <Channel Fixture="34">0</Channel>
+       <Channel Fixture="35">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <CueList Caption="Séquenceur" ID="34">
+      <WindowState Visible="False" X="0" Y="315" Width="540" Height="430"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>179</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next>
+       <Input Universe="0" Channel="90"/>
+      </Next>
+      <Previous>
+       <Input Universe="0" Channel="89"/>
+      </Previous>
+      <Playback/>
+      <Stop/>
+     </CueList>
+     <Button Caption="Yurodivy - 0 - Commun - SP-1500 - Strob " ID="35" Icon="">
+      <WindowState Visible="False" X="545" Y="325" Width="150" Height="125"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="253"/>
+      <Action Override="0" ForceLTP="0">Flash</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="91"/>
+     </Button>
+     <SpeedDial Caption="Tap" ID="36">
+      <WindowState Visible="False" X="775" Y="155" Width="385" Height="115"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Visibility>4</Visibility>
+      <AbsoluteValue Minimum="0" Maximum="1000"/>
+      <Tap>
+       <Input Universe="0" Channel="92"/>
+      </Tap>
+      <Time>0</Time>
+      <Function FadeIn="0" FadeOut="0" Duration="6">47</Function>
+      <Function FadeIn="6" FadeOut="6" Duration="6">6</Function>
+      <Function FadeIn="0" FadeOut="0" Duration="6">14</Function>
+      <Function FadeIn="8" FadeOut="8" Duration="8">81</Function>
+      <Function FadeIn="0" FadeOut="0" Duration="6">62</Function>
+      <Function FadeIn="0" FadeOut="0" Duration="6">225</Function>
+      <Function FadeIn="0" FadeOut="0" Duration="6">98</Function>
+      <Function FadeIn="4" FadeOut="4" Duration="4">169</Function>
+      <Preset ID="16">
+       <Name>Fougasse</Name>
+       <Value>410</Value>
+       <Key>A</Key>
+      </Preset>
+      <Preset ID="17">
+       <Name>Pessimist</Name>
+       <Value>220</Value>
+       <Key>Z</Key>
+      </Preset>
+      <Preset ID="18">
+       <Name>Magic System</Name>
+       <Value>260</Value>
+      </Preset>
+      <Preset ID="19">
+       <Name>Anonyme</Name>
+       <Value>300</Value>
+      </Preset>
+      <Preset ID="20">
+       <Name>28 jours plus tard</Name>
+       <Value>480</Value>
+      </Preset>
+      <Preset ID="21">
+       <Name>Parasite</Name>
+       <Value>309</Value>
+      </Preset>
+      <Preset ID="22">
+       <Name>Poutourte</Name>
+       <Value>272</Value>
+      </Preset>
+      <Preset ID="23">
+       <Name>7 2 table</Name>
+       <Value>456</Value>
+      </Preset>
+     </SpeedDial>
+     <Frame Caption="D20" ID="25">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="0" Y="40" Width="350" Height="250"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <ShowHeader>True</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Slider Caption="#1" ID="12" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="0" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="255">
+        <Channel Fixture="33">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#2" ID="20" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="55" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="34">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#3" ID="21" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="110" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="35">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#4" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="165" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="36">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#5" ID="23" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="220" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="39">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#6" ID="24" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="275" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="40">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+     </Frame>
     </Frame>
-    <SoloFrame Caption="" ID="110">
+    <Slider Caption="Smoke" ID="99" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="False" X="1420" Y="50" Width="60" Height="90"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -3215,569 +4447,41 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="470" Y="70" Width="320" Height="70"/>
-     <AllowChildren>False</AllowChildren>
-     <AllowResize>False</AllowResize>
-     <ShowHeader>False</ShowHeader>
-     <ShowEnableButton>True</ShowEnableButton>
-     <Mixing>False</Mixing>
-     <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
-     <Button Caption="COLORado #1 Blanc" ID="111" Icon="">
-      <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="293"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #1 Bleu" ID="112" Icon="">
-      <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4279918516</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="292"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #1 Cyan" ID="113" Icon="">
-      <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4278241535</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="294"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #1 Magenta" ID="114" Icon="">
-      <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292643549</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="295"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #1 Orange" ID="115" Icon="">
-      <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4294932480</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="296"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #1 Rouge" ID="116" Icon="">
-      <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292877092</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="291"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-    </SoloFrame>
-    <SoloFrame Caption="" ID="123">
+     <Input Universe="0" Channel="8"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="Face" ID="100" Icon="">
+     <WindowState Visible="False" X="1360" Y="50" Width="50" Height="50"/>
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="470" Y="140" Width="320" Height="70"/>
-     <AllowChildren>False</AllowChildren>
-     <AllowResize>False</AllowResize>
-     <ShowHeader>False</ShowHeader>
-     <ShowEnableButton>True</ShowEnableButton>
-     <Mixing>False</Mixing>
-     <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
-     <Button Caption="COLORado #2 Blanc" ID="117" Icon="">
-      <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="299"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #2 Bleu" ID="118" Icon="">
-      <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4279918516</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="298"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #2 Cyan" ID="119" Icon="">
-      <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4278241535</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="300"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #2 Magenta" ID="120" Icon="">
-      <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292643549</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="301"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #2 Orange" ID="121" Icon="">
-      <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4294932480</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="302"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #2 Rouge" ID="122" Icon="">
-      <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292877092</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="297"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-    </SoloFrame>
-    <SoloFrame Caption="" ID="130">
+     <Function ID="101"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="72"/>
+    </Button>
+    <Button Caption="Blinder" ID="19" Icon="">
+     <WindowState Visible="False" X="1365" Y="150" Width="75" Height="75"/>
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="470" Y="210" Width="320" Height="70"/>
-     <AllowChildren>False</AllowChildren>
-     <AllowResize>False</AllowResize>
-     <ShowHeader>False</ShowHeader>
-     <ShowEnableButton>True</ShowEnableButton>
-     <Mixing>False</Mixing>
-     <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
-     <Button Caption="COLORado #3 Blanc" ID="124" Icon="">
-      <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="305"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #3 Bleu" ID="125" Icon="">
-      <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4279918516</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="304"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #3 Cyan" ID="126" Icon="">
-      <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4278241535</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="306"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #3 Magenta" ID="127" Icon="">
-      <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292643549</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="307"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #3 Orange" ID="128" Icon="">
-      <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4294932480</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="308"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #3 Rouge" ID="129" Icon="">
-      <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292877092</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="303"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-    </SoloFrame>
-    <SoloFrame Caption="" ID="137">
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <WindowState Visible="False" X="470" Y="280" Width="320" Height="70"/>
-     <AllowChildren>False</AllowChildren>
-     <AllowResize>False</AllowResize>
-     <ShowHeader>False</ShowHeader>
-     <ShowEnableButton>True</ShowEnableButton>
-     <Mixing>False</Mixing>
-     <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
-     <Button Caption="COLORado #4 Blanc" ID="131" Icon="">
-      <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="311"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #4 Bleu" ID="132" Icon="">
-      <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4279918516</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="310"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #4 Cyan" ID="133" Icon="">
-      <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4278241535</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="312"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #4 Magenta" ID="134" Icon="">
-      <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292643549</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="313"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #4 Orange" ID="135" Icon="">
-      <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4294932480</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="314"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #4 Rouge" ID="136" Icon="">
-      <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292877092</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="309"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-    </SoloFrame>
-    <SoloFrame Caption="" ID="144">
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <WindowState Visible="False" X="470" Y="350" Width="320" Height="70"/>
-     <AllowChildren>False</AllowChildren>
-     <AllowResize>False</AllowResize>
-     <ShowHeader>False</ShowHeader>
-     <ShowEnableButton>True</ShowEnableButton>
-     <Mixing>False</Mixing>
-     <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
-     <Button Caption="COLORado #5 Blanc" ID="138" Icon="">
-      <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="329"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #5 Bleu" ID="139" Icon="">
-      <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4279918516</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="328"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #5 Cyan" ID="140" Icon="">
-      <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4278241535</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="330"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #5 Magenta" ID="141" Icon="">
-      <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292643549</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="331"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #5 Orange" ID="142" Icon="">
-      <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4294932480</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="332"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #5 Rouge" ID="143" Icon="">
-      <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292877092</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="327"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-    </SoloFrame>
-    <SoloFrame Caption="" ID="151">
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <WindowState Visible="False" X="470" Y="420" Width="320" Height="70"/>
-     <AllowChildren>False</AllowChildren>
-     <AllowResize>False</AllowResize>
-     <ShowHeader>False</ShowHeader>
-     <ShowEnableButton>True</ShowEnableButton>
-     <Mixing>False</Mixing>
-     <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
-     <Button Caption="COLORado #6 Blanc" ID="145" Icon="">
-      <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="335"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #6 Bleu" ID="146" Icon="">
-      <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4279918516</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="334"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #6 Cyan" ID="147" Icon="">
-      <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4278241535</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="336"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #6 Magenta" ID="148" Icon="">
-      <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292643549</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="337"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #6 Orange" ID="149" Icon="">
-      <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4294932480</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="338"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="COLORado #6 Rouge" ID="150" Icon="">
-      <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>4292877092</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="333"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-    </SoloFrame>
-   </Frame>
+     <Function ID="104"/>
+     <Action Override="0" ForceLTP="0">Flash</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
    <Clock Type="Clock" Caption="" ID="7">
     <WindowState Visible="False" X="0" Y="40" Width="160" Height="30"/>
     <Appearance>
@@ -3811,368 +4515,7 @@
     <Action>StopAll</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
-   <Slider Caption="Smoke" ID="27" WidgetStyle="Knob" InvertedAppearance="false">
-    <WindowState Visible="False" X="195" Y="0" Width="60" Height="90"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Input Universe="0" Channel="8"/>
-    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0"/>
-    <Playback>
-     <Function>4294967295</Function>
-    </Playback>
-   </Slider>
-   <Button Caption="Face" ID="29" Icon="">
-    <WindowState Visible="False" X="350" Y="0" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="7"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-    <Input Universe="0" Channel="72"/>
-   </Button>
-   <Button Caption="Blinder" ID="19" Icon="">
-    <WindowState Visible="False" X="505" Y="15" Width="75" Height="75"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="4294967295"/>
-    <Action Override="0" ForceLTP="0">Flash</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Frame Caption="Yurodivy" ID="9">
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <WindowState Visible="False" X="0" Y="80" Width="1175" Height="795"/>
-    <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
-    <ShowHeader>True</ShowHeader>
-    <ShowEnableButton>True</ShowEnableButton>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
-    <Frame Caption="COLORado" ID="4">
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <WindowState Visible="False" X="0" Y="40" Width="350" Height="250"/>
-     <AllowChildren>True</AllowChildren>
-     <AllowResize>True</AllowResize>
-     <ShowHeader>True</ShowHeader>
-     <ShowEnableButton>True</ShowEnableButton>
-     <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
-     <Slider Caption="#1" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="0" Y="35" Width="60" Height="200"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="33">0</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="#2" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="55" Y="35" Width="60" Height="200"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="34">0</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="#3" ID="14" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="110" Y="35" Width="60" Height="200"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="35">0</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="#4" ID="15" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="165" Y="35" Width="60" Height="200"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="36">0</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="#5" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="220" Y="35" Width="60" Height="200"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="39">0</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="#6" ID="18" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="275" Y="35" Width="60" Height="200"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-      <Reset/>
-      <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="40">0</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-    </Frame>
-    <Slider Caption="All" ID="17" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="380" Y="65" Width="60" Height="200"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="33">0</Channel>
-      <Channel Fixture="34">0</Channel>
-      <Channel Fixture="35">0</Channel>
-      <Channel Fixture="36">0</Channel>
-      <Channel Fixture="39">0</Channel>
-      <Channel Fixture="40">0</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
-    <Slider Caption="PAR Yuro #1" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="455" Y="45" Width="105" Height="250"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Input Universe="0" Channel="81"/>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset>
-      <Input Universe="0" Channel="73"/>
-     </Reset>
-     <Level LowLimit="0" HighLimit="85" Value="73">
-      <Channel Fixture="26">0</Channel>
-      <Channel Fixture="29">0</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
-    <Slider Caption="PAR Yuro #2" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="545" Y="45" Width="110" Height="250"/>
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Input Universe="0" Channel="82"/>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-     <Reset>
-      <Input Universe="0" Channel="74"/>
-     </Reset>
-     <Level LowLimit="0" HighLimit="85" Value="46">
-      <Channel Fixture="27">0</Channel>
-      <Channel Fixture="28">0</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
-    <Slider Caption="40 days" ID="13" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-     <WindowState Visible="False" X="650" Y="60" Width="105" Height="220"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Input Universe="0" Channel="87"/>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="200" Value="0">
-      <Channel Fixture="12">0</Channel>
-      <Channel Fixture="34">0</Channel>
-      <Channel Fixture="35">0</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
-    <CueList Caption="Séquenceur" ID="0">
-     <WindowState Visible="False" X="0" Y="315" Width="540" Height="430"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Chaser>179</Chaser>
-     <NextPrevBehavior>0</NextPrevBehavior>
-     <Next>
-      <Input Universe="0" Channel="90"/>
-     </Next>
-     <Previous>
-      <Input Universe="0" Channel="89"/>
-     </Previous>
-     <Playback/>
-     <Stop/>
-    </CueList>
-    <Button Caption="Yurodivy - 0 - Commun - SP-1500 - Strob " ID="3" Icon="">
-     <WindowState Visible="False" X="545" Y="325" Width="150" Height="125"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="253"/>
-     <Action Override="0" ForceLTP="0">Flash</Action>
-     <Intensity Adjust="False">100</Intensity>
-     <Input Universe="0" Channel="91"/>
-    </Button>
-    <SpeedDial Caption="Tap" ID="87">
-     <WindowState Visible="False" X="775" Y="155" Width="385" Height="115"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>4278190080</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Visibility>4</Visibility>
-     <AbsoluteValue Minimum="0" Maximum="1000"/>
-     <Tap>
-      <Input Universe="0" Channel="92"/>
-     </Tap>
-     <Time>272</Time>
-     <Function FadeIn="0" FadeOut="0" Duration="6">47</Function>
-     <Function FadeIn="6" FadeOut="6" Duration="6">6</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="6">14</Function>
-     <Function FadeIn="8" FadeOut="8" Duration="8">81</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="6">62</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="6">225</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="6">98</Function>
-     <Function FadeIn="4" FadeOut="4" Duration="4">169</Function>
-     <Preset ID="16">
-      <Name>Fougasse</Name>
-      <Value>410</Value>
-      <Key>A</Key>
-     </Preset>
-     <Preset ID="17">
-      <Name>Pessimist</Name>
-      <Value>220</Value>
-      <Key>Z</Key>
-     </Preset>
-     <Preset ID="18">
-      <Name>Magic System</Name>
-      <Value>260</Value>
-     </Preset>
-     <Preset ID="19">
-      <Name>Anonyme</Name>
-      <Value>300</Value>
-     </Preset>
-     <Preset ID="20">
-      <Name>28 jours plus tard</Name>
-      <Value>480</Value>
-     </Preset>
-     <Preset ID="21">
-      <Name>Parasite</Name>
-      <Value>309</Value>
-     </Preset>
-     <Preset ID="22">
-      <Name>Poutourte</Name>
-      <Value>272</Value>
-     </Preset>
-     <Preset ID="23">
-      <Name>7 2 table</Name>
-      <Value>456</Value>
-     </Preset>
-    </SpeedDial>
-   </Frame>
-   <Label Caption="- Préparer la face/base&#10;- Régler les couleurs pour qu'elles soient belles (orange surtout)&#10;- Check le fader 40 days&#10;- Vérifier les séquences (dimmer)&#10;- Vérifier les COLORado en strob (Anonymous)" ID="16">
+   <Label Caption="- Préparer la face/base/blinder&#10;- Régler les couleurs pour qu'elles soient belles (orange surtout)&#10;- Check le fader 40 days&#10;- Vérifier les séquences (dimmer)&#10;- Vérifier Anonymous " ID="16">
     <WindowState Visible="False" X="1505" Y="0" Width="350" Height="195"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
@@ -4182,6 +4525,1116 @@
      <Font>Default</Font>
     </Appearance>
    </Label>
+   <SoloFrame Caption="Fotomat" ID="10">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="0" Y="95" Width="1450" Height="1015"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>True</Collapsed>
+    <Disabled>True</Disabled>
+    <Frame Caption="Fincher" ID="32">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="False" X="205" Y="40" Width="820" Height="615"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>True</Collapsed>
+     <Disabled>True</Disabled>
+     <Slider Caption="All SK" ID="26" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="385" Y="55" Width="60" Height="200"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="33">0</Channel>
+       <Channel Fixture="34">0</Channel>
+       <Channel Fixture="35">0</Channel>
+       <Channel Fixture="36">0</Channel>
+       <Channel Fixture="39">0</Channel>
+       <Channel Fixture="40">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Frame Caption="COLORado" ID="47">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="5" Y="45" Width="350" Height="250"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <ShowHeader>True</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>True</Disabled>
+      <Slider Caption="#1" ID="40" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="0" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="255">
+        <Channel Fixture="33">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#2" ID="41" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="55" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="34">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#3" ID="42" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="110" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="35">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#4" ID="43" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="165" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="36">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#5" ID="45" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="220" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="39">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#6" ID="46" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="275" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="40">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+     </Frame>
+     <SoloFrame Caption="" ID="110">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="470" Y="70" Width="320" Height="70"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Mixing>False</Mixing>
+      <Collapsed>False</Collapsed>
+      <Disabled>True</Disabled>
+      <Button Caption="COLORado #1 Blanc" ID="111" Icon="">
+       <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="293"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #1 Bleu" ID="112" Icon="">
+       <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4279918516</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="292"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #1 Cyan" ID="113" Icon="">
+       <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4278241535</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="294"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #1 Magenta" ID="114" Icon="">
+       <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292643549</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="295"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #1 Orange" ID="115" Icon="">
+       <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4294932480</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="296"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #1 Rouge" ID="116" Icon="">
+       <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292877092</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="291"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+     </SoloFrame>
+     <SoloFrame Caption="" ID="123">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="470" Y="140" Width="320" Height="70"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Mixing>False</Mixing>
+      <Collapsed>False</Collapsed>
+      <Disabled>True</Disabled>
+      <Button Caption="COLORado #2 Blanc" ID="117" Icon="">
+       <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="299"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #2 Bleu" ID="118" Icon="">
+       <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4279918516</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="298"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #2 Cyan" ID="119" Icon="">
+       <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4278241535</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="300"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #2 Magenta" ID="120" Icon="">
+       <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292643549</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="301"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #2 Orange" ID="121" Icon="">
+       <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4294932480</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="302"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #2 Rouge" ID="122" Icon="">
+       <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292877092</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="297"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+     </SoloFrame>
+     <SoloFrame Caption="" ID="130">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="470" Y="210" Width="320" Height="70"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Mixing>False</Mixing>
+      <Collapsed>False</Collapsed>
+      <Disabled>True</Disabled>
+      <Button Caption="COLORado #3 Blanc" ID="124" Icon="">
+       <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="305"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #3 Bleu" ID="125" Icon="">
+       <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4279918516</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="304"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #3 Cyan" ID="126" Icon="">
+       <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4278241535</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="306"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #3 Magenta" ID="127" Icon="">
+       <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292643549</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="307"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #3 Orange" ID="128" Icon="">
+       <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4294932480</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="308"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #3 Rouge" ID="129" Icon="">
+       <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292877092</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="303"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+     </SoloFrame>
+     <SoloFrame Caption="" ID="137">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="470" Y="280" Width="320" Height="70"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Mixing>False</Mixing>
+      <Collapsed>False</Collapsed>
+      <Disabled>True</Disabled>
+      <Button Caption="COLORado #4 Blanc" ID="131" Icon="">
+       <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="311"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #4 Bleu" ID="132" Icon="">
+       <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4279918516</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="310"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #4 Cyan" ID="133" Icon="">
+       <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4278241535</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="312"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #4 Magenta" ID="134" Icon="">
+       <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292643549</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="313"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #4 Orange" ID="135" Icon="">
+       <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4294932480</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="314"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #4 Rouge" ID="136" Icon="">
+       <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292877092</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="309"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+     </SoloFrame>
+     <SoloFrame Caption="" ID="144">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="470" Y="350" Width="320" Height="70"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Mixing>False</Mixing>
+      <Collapsed>False</Collapsed>
+      <Disabled>True</Disabled>
+      <Button Caption="COLORado #5 Blanc" ID="138" Icon="">
+       <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="329"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #5 Bleu" ID="139" Icon="">
+       <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4279918516</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="328"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #5 Cyan" ID="140" Icon="">
+       <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4278241535</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="330"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #5 Magenta" ID="141" Icon="">
+       <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292643549</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="331"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #5 Orange" ID="142" Icon="">
+       <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4294932480</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="332"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #5 Rouge" ID="143" Icon="">
+       <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292877092</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="327"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+     </SoloFrame>
+     <SoloFrame Caption="" ID="151">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="470" Y="420" Width="320" Height="70"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Mixing>False</Mixing>
+      <Collapsed>False</Collapsed>
+      <Disabled>True</Disabled>
+      <Button Caption="COLORado #6 Blanc" ID="145" Icon="">
+       <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="335"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #6 Bleu" ID="146" Icon="">
+       <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4279918516</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="334"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #6 Cyan" ID="147" Icon="">
+       <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4278241535</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="336"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #6 Magenta" ID="148" Icon="">
+       <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292643549</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="337"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #6 Orange" ID="149" Icon="">
+       <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4294932480</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="338"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado #6 Rouge" ID="150" Icon="">
+       <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292877092</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="333"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+     </SoloFrame>
+    </Frame>
+    <Frame Caption="Yurodivy" ID="9">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="False" X="0" Y="40" Width="1175" Height="795"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>True</Collapsed>
+     <Disabled>True</Disabled>
+     <Frame Caption="COLORado" ID="4">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="0" Y="40" Width="350" Height="250"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <ShowHeader>True</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>True</Disabled>
+      <Slider Caption="#1" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="0" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="255">
+        <Channel Fixture="33">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#2" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="55" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="34">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#3" ID="14" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="110" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="35">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#4" ID="15" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="165" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="36">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#5" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="220" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="39">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+      <Slider Caption="#6" ID="18" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState Visible="False" X="275" Y="35" Width="60" Height="200"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+       <Reset/>
+       <Level LowLimit="0" HighLimit="255" Value="0">
+        <Channel Fixture="40">0</Channel>
+       </Level>
+       <Playback>
+        <Function>4294967295</Function>
+       </Playback>
+      </Slider>
+     </Frame>
+     <Slider Caption="All" ID="17" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="380" Y="65" Width="60" Height="200"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="33">0</Channel>
+       <Channel Fixture="34">0</Channel>
+       <Channel Fixture="35">0</Channel>
+       <Channel Fixture="36">0</Channel>
+       <Channel Fixture="39">0</Channel>
+       <Channel Fixture="40">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="PAR Yuro #1" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="455" Y="45" Width="105" Height="250"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="0" Channel="81"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset>
+       <Input Universe="0" Channel="73"/>
+      </Reset>
+      <Level LowLimit="0" HighLimit="85" Value="27">
+       <Channel Fixture="26">0</Channel>
+       <Channel Fixture="29">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="PAR Yuro #2" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="545" Y="45" Width="110" Height="250"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="0" Channel="82"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+      <Reset>
+       <Input Universe="0" Channel="74"/>
+      </Reset>
+      <Level LowLimit="0" HighLimit="85" Value="27">
+       <Channel Fixture="27">0</Channel>
+       <Channel Fixture="28">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="40 days" ID="13" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
+      <WindowState Visible="False" X="650" Y="60" Width="105" Height="220"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="0" Channel="87"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+      <Level LowLimit="0" HighLimit="200" Value="0">
+       <Channel Fixture="12">0</Channel>
+       <Channel Fixture="34">0</Channel>
+       <Channel Fixture="35">0</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <CueList Caption="Séquenceur" ID="0">
+      <WindowState Visible="False" X="0" Y="315" Width="540" Height="430"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Chaser>179</Chaser>
+      <NextPrevBehavior>0</NextPrevBehavior>
+      <Next>
+       <Input Universe="0" Channel="90"/>
+      </Next>
+      <Previous>
+       <Input Universe="0" Channel="89"/>
+      </Previous>
+      <Playback/>
+      <Stop/>
+     </CueList>
+     <Button Caption="Yurodivy - 0 - Commun - SP-1500 - Strob " ID="3" Icon="">
+      <WindowState Visible="False" X="545" Y="325" Width="150" Height="125"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="253"/>
+      <Action Override="0" ForceLTP="0">Flash</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="91"/>
+     </Button>
+     <SpeedDial Caption="Tap" ID="87">
+      <WindowState Visible="False" X="775" Y="155" Width="385" Height="115"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Visibility>4</Visibility>
+      <AbsoluteValue Minimum="0" Maximum="1000"/>
+      <Tap>
+       <Input Universe="0" Channel="92"/>
+      </Tap>
+      <Time>272</Time>
+      <Function FadeIn="0" FadeOut="0" Duration="6">47</Function>
+      <Function FadeIn="6" FadeOut="6" Duration="6">6</Function>
+      <Function FadeIn="0" FadeOut="0" Duration="6">14</Function>
+      <Function FadeIn="8" FadeOut="8" Duration="8">81</Function>
+      <Function FadeIn="0" FadeOut="0" Duration="6">62</Function>
+      <Function FadeIn="0" FadeOut="0" Duration="6">225</Function>
+      <Function FadeIn="0" FadeOut="0" Duration="6">98</Function>
+      <Function FadeIn="4" FadeOut="4" Duration="4">169</Function>
+      <Preset ID="16">
+       <Name>Fougasse</Name>
+       <Value>410</Value>
+       <Key>A</Key>
+      </Preset>
+      <Preset ID="17">
+       <Name>Pessimist</Name>
+       <Value>220</Value>
+       <Key>Z</Key>
+      </Preset>
+      <Preset ID="18">
+       <Name>Magic System</Name>
+       <Value>260</Value>
+      </Preset>
+      <Preset ID="19">
+       <Name>Anonyme</Name>
+       <Value>300</Value>
+      </Preset>
+      <Preset ID="20">
+       <Name>28 jours plus tard</Name>
+       <Value>480</Value>
+      </Preset>
+      <Preset ID="21">
+       <Name>Parasite</Name>
+       <Value>309</Value>
+      </Preset>
+      <Preset ID="22">
+       <Name>Poutourte</Name>
+       <Value>272</Value>
+      </Preset>
+      <Preset ID="23">
+       <Name>7 2 table</Name>
+       <Value>456</Value>
+      </Preset>
+     </SpeedDial>
+    </Frame>
+    <Button Caption="Face" ID="29" Icon="">
+     <WindowState Visible="False" X="1325" Y="50" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="7"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="72"/>
+    </Button>
+    <Slider Caption="Smoke" ID="27" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="False" X="1380" Y="40" Width="60" Height="90"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="8"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="Blinder" ID="101" Icon="">
+     <WindowState Visible="False" X="1340" Y="140" Width="75" Height="75"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="102"/>
+     <Action Override="0" ForceLTP="0">Flash</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
   </Frame>
   <Properties>
    <Size Width="1865" Height="2000"/>
