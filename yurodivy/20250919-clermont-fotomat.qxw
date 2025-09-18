@@ -21,7 +21,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>0</ID>
-   <Name>Face #1</Name>
+   <Name>Face #1 Fotomat</Name>
    <Universe>0</Universe>
    <Address>46</Address>
    <Channels>1</Channels>
@@ -31,7 +31,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>1</ID>
-   <Name>Face #2</Name>
+   <Name>Face #2 Fotomat</Name>
    <Universe>0</Universe>
    <Address>47</Address>
    <Channels>1</Channels>
@@ -1657,6 +1657,22 @@
    <FixtureVal ID="28">0,0</FixtureVal>
    <FixtureVal ID="29">0,80</FixtureVal>
   </Function>
+  <Function ID="153" Type="Collection" Name="COLORado - Bleu" Path="0 - Fotomat">
+   <Step Number="0">334</Step>
+   <Step Number="1">328</Step>
+   <Step Number="2">310</Step>
+   <Step Number="3">304</Step>
+   <Step Number="4">298</Step>
+   <Step Number="5">292</Step>
+  </Function>
+  <Function ID="154" Type="Collection" Name="COLORado - Cyan" Path="0 - Fotomat">
+   <Step Number="0">294</Step>
+   <Step Number="1">300</Step>
+   <Step Number="2">306</Step>
+   <Step Number="3">312</Step>
+   <Step Number="4">330</Step>
+   <Step Number="5">336</Step>
+  </Function>
   <Function ID="155" Type="Collection" Name="Anonyme - H - Patate #1" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
    <Step Number="1">145</Step>
@@ -1668,6 +1684,14 @@
    <Step Number="1">146</Step>
    <Step Number="2">348</Step>
    <Step Number="3">302</Step>
+  </Function>
+  <Function ID="157" Type="Collection" Name="COLORado - Magenta" Path="0 - Fotomat">
+   <Step Number="0">295</Step>
+   <Step Number="1">331</Step>
+   <Step Number="2">337</Step>
+   <Step Number="3">313</Step>
+   <Step Number="4">307</Step>
+   <Step Number="5">301</Step>
   </Function>
   <Function ID="158" Type="Collection" Name="Anonyme - H - Patate #3" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1681,6 +1705,14 @@
    <FixtureVal ID="27">0,60</FixtureVal>
    <FixtureVal ID="28">0,60</FixtureVal>
    <FixtureVal ID="29">0,0</FixtureVal>
+  </Function>
+  <Function ID="160" Type="Collection" Name="COLORado - Orange" Path="0 - Fotomat">
+   <Step Number="0">296</Step>
+   <Step Number="1">302</Step>
+   <Step Number="2">308</Step>
+   <Step Number="3">314</Step>
+   <Step Number="4">332</Step>
+   <Step Number="5">338</Step>
   </Function>
   <Function ID="161" Type="Collection" Name="Anonyme - H - Patate #5" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1720,6 +1752,14 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>0,0</ChannelGroupsVal>
    <FixtureVal ID="33">4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="167" Type="Collection" Name="COLORado - Rouge" Path="0 - Fotomat">
+   <Step Number="0">291</Step>
+   <Step Number="1">297</Step>
+   <Step Number="2">303</Step>
+   <Step Number="3">309</Step>
+   <Step Number="4">327</Step>
+   <Step Number="5">333</Step>
   </Function>
   <Function ID="168" Type="Collection" Name="Anonyme - H - Patate #8" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1770,6 +1810,14 @@
    <Step Number="5">349</Step>
    <Step Number="6">308</Step>
   </Function>
+  <Function ID="174" Type="Collection" Name="COLORado - Blanc" Path="0 - Fotomat">
+   <Step Number="0">293</Step>
+   <Step Number="1">299</Step>
+   <Step Number="2">305</Step>
+   <Step Number="3">311</Step>
+   <Step Number="4">329</Step>
+   <Step Number="5">335</Step>
+  </Function>
   <Function ID="175" Type="Collection" Name="Anonyme - J - Pont" Path="Anonyme - Ambre-Blanc">
    <Step Number="0">49</Step>
    <Step Number="1">51</Step>
@@ -1791,6 +1839,14 @@
    <Step Number="17">25</Step>
    <Step Number="18">445</Step>
    <Step Number="19">31</Step>
+  </Function>
+  <Function ID="176" Type="Scene" Name="Clubwash - Amber" Path="Fotomat/ClubWash">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">3,0,4,0,5,0,6,0,7,255</FixtureVal>
+  </Function>
+  <Function ID="177" Type="Scene" Name="Clubwash - Cyan" Path="Fotomat/ClubWash">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">3,0,4,255,5,200,6,0,7,0</FixtureVal>
   </Function>
   <Function ID="178" Type="Collection" Name="Where The Dogs - A - Intro" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1959,6 +2015,14 @@
    <Step Number="15">341</Step>
    <Step Number="16">140</Step>
   </Function>
+  <Function ID="181" Type="Scene" Name="Clubwash - Rouge" Path="Fotomat/ClubWash">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">3,255,4,36,5,27,6,0,7,0</FixtureVal>
+  </Function>
+  <Function ID="182" Type="Scene" Name="Clubwash - Bleu" Path="Fotomat/ClubWash">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">3,0,4,255,5,6,6,0,7,0</FixtureVal>
+  </Function>
   <Function ID="183" Type="Collection" Name="Where The Dogs - C - F - Couplet - PAR Contre manuel" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">49</Step>
    <Step Number="1">51</Step>
@@ -1966,6 +2030,10 @@
    <Step Number="3">446</Step>
    <Step Number="4">453</Step>
    <Step Number="5">242</Step>
+  </Function>
+  <Function ID="184" Type="Scene" Name="Clubwash - Blanc" Path="Fotomat/ClubWash">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">3,0,4,0,5,0,6,255,7,0</FixtureVal>
   </Function>
   <Function ID="185" Type="Collection" Name="Where The Dogs - D - Strob manuel" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1993,10 +2061,22 @@
    <Step Number="5">339</Step>
    <Step Number="6">104</Step>
   </Function>
+  <Function ID="188" Type="Scene" Name="Clubwash - Magenta" Path="Fotomat/ClubWash">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">3,222,4,255,5,103,6,0,7,0</FixtureVal>
+  </Function>
   <Function ID="189" Type="Collection" Name="Where The Dogs - G - Gros Strob" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">49</Step>
    <Step Number="1">8</Step>
    <Step Number="2">88</Step>
+  </Function>
+  <Function ID="190" Type="Collection" Name="COLORado - Mix Cyan/Amber" Path="0 - Fotomat">
+   <Step Number="0">294</Step>
+   <Step Number="1">302</Step>
+   <Step Number="2">308</Step>
+   <Step Number="3">312</Step>
+   <Step Number="4">332</Step>
+   <Step Number="5">336</Step>
   </Function>
   <Function ID="191" Type="Collection" Name="Where The Dogs - H - Pont" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -2009,6 +2089,14 @@
    <Step Number="7">362</Step>
    <Step Number="8">368</Step>
    <Step Number="9">370</Step>
+  </Function>
+  <Function ID="192" Type="Collection" Name="COLORado - Mix Blue/Magenta" Path="0 - Fotomat">
+   <Step Number="0">295</Step>
+   <Step Number="1">298</Step>
+   <Step Number="2">304</Step>
+   <Step Number="3">313</Step>
+   <Step Number="4">328</Step>
+   <Step Number="5">337</Step>
   </Function>
   <Function ID="193" Type="Collection" Name="Where The Dogs - I - Pont 2" Path="Where The Dogs - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -3847,7 +3935,7 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
-   <SoloFrame Caption="RDB Fest" ID="98">
+   <Frame Caption="RDB Fest" ID="75">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -3855,12 +3943,11 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="0" Y="135" Width="1495" Height="1115"/>
+    <WindowState Visible="True" X="0" Y="110" Width="1785" Height="985"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
-    <Mixing>False</Mixing>
     <Collapsed>True</Collapsed>
     <Disabled>True</Disabled>
     <Frame Caption="Fincher" ID="97">
@@ -3871,7 +3958,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="195" Y="40" Width="980" Height="660"/>
+     <WindowState Visible="True" X="235" Y="45" Width="980" Height="660"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -4467,8 +4554,22 @@
       </Slider>
      </Frame>
     </Frame>
+    <Button Caption="Face" ID="100" Icon="">
+     <WindowState Visible="True" X="1470" Y="50" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="101"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="72"/>
+    </Button>
     <Slider Caption="Smoke" ID="99" WidgetStyle="Knob" InvertedAppearance="false">
-     <WindowState Visible="True" X="1420" Y="50" Width="60" Height="90"/>
+     <WindowState Visible="True" X="1610" Y="70" Width="60" Height="90"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4483,22 +4584,8 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Button Caption="Face" ID="100" Icon="">
-     <WindowState Visible="True" X="1360" Y="50" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="101"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-     <Input Universe="0" Channel="72"/>
-    </Button>
     <Button Caption="Blinder" ID="19" Icon="">
-     <WindowState Visible="True" X="1365" Y="150" Width="75" Height="75"/>
+     <WindowState Visible="True" X="1545" Y="145" Width="75" Height="75"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4510,7 +4597,7 @@
      <Action Override="0" ForceLTP="0">Flash</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-   </SoloFrame>
+   </Frame>
    <Clock Type="Clock" Caption="" ID="7">
     <WindowState Visible="True" X="0" Y="40" Width="160" Height="30"/>
     <Appearance>
@@ -4562,7 +4649,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="0" Y="75" Width="1490" Height="885"/>
+    <WindowState Visible="True" X="0" Y="70" Width="1490" Height="885"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -4652,12 +4739,13 @@
        <Reset/>
        <Level LowLimit="0" HighLimit="255" Value="0">
         <Channel Fixture="34">0</Channel>
+        <Channel Fixture="35">0</Channel>
        </Level>
        <Playback>
         <Function>4294967295</Function>
        </Playback>
       </Slider>
-      <Slider Caption="#3" ID="42" WidgetStyle="Slider" InvertedAppearance="false">
+      <Slider Caption="#4" ID="43" WidgetStyle="Slider" InvertedAppearance="false">
        <WindowState Visible="True" X="110" Y="35" Width="60" Height="200"/>
        <Appearance>
         <FrameStyle>Sunken</FrameStyle>
@@ -4669,32 +4757,15 @@
        <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
        <Reset/>
        <Level LowLimit="0" HighLimit="255" Value="0">
-        <Channel Fixture="35">0</Channel>
-       </Level>
-       <Playback>
-        <Function>4294967295</Function>
-       </Playback>
-      </Slider>
-      <Slider Caption="#4" ID="43" WidgetStyle="Slider" InvertedAppearance="false">
-       <WindowState Visible="True" X="165" Y="35" Width="60" Height="200"/>
-       <Appearance>
-        <FrameStyle>Sunken</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>Default</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-       <Reset/>
-       <Level LowLimit="0" HighLimit="255" Value="0">
         <Channel Fixture="36">0</Channel>
+        <Channel Fixture="40">0</Channel>
        </Level>
        <Playback>
         <Function>4294967295</Function>
        </Playback>
       </Slider>
       <Slider Caption="#5" ID="45" WidgetStyle="Slider" InvertedAppearance="false">
-       <WindowState Visible="True" X="220" Y="35" Width="60" Height="200"/>
+       <WindowState Visible="True" X="165" Y="35" Width="60" Height="200"/>
        <Appearance>
         <FrameStyle>Sunken</FrameStyle>
         <ForegroundColor>Default</ForegroundColor>
@@ -4723,7 +4794,7 @@
        <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
        <Reset/>
        <Level LowLimit="0" HighLimit="255" Value="0">
-        <Channel Fixture="40">0</Channel>
+        <Channel Fixture="2">2</Channel>
        </Level>
        <Playback>
         <Function>4294967295</Function>
@@ -4738,15 +4809,15 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <WindowState Visible="True" X="470" Y="70" Width="320" Height="70"/>
-      <AllowChildren>False</AllowChildren>
-      <AllowResize>False</AllowResize>
+      <WindowState Visible="True" X="450" Y="50" Width="320" Height="120"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
       <ShowHeader>False</ShowHeader>
       <ShowEnableButton>True</ShowEnableButton>
       <Mixing>False</Mixing>
       <Collapsed>False</Collapsed>
       <Disabled>True</Disabled>
-      <Button Caption="COLORado #1 Blanc" ID="111" Icon="">
+      <Button Caption="COLORado Blanc" ID="111" Icon="">
        <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4755,11 +4826,11 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="293"/>
+       <Function ID="174"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="COLORado #1 Bleu" ID="112" Icon="">
+      <Button Caption="COLORado Bleu" ID="112" Icon="">
        <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4768,11 +4839,11 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="292"/>
+       <Function ID="153"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="COLORado #1 Cyan" ID="113" Icon="">
+      <Button Caption="COLORado Cyan" ID="113" Icon="">
        <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4781,11 +4852,11 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="294"/>
+       <Function ID="154"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="COLORado #1 Magenta" ID="114" Icon="">
+      <Button Caption="COLORado Magenta" ID="114" Icon="">
        <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4794,11 +4865,11 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="295"/>
+       <Function ID="157"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="COLORado #1 Orange" ID="115" Icon="">
+      <Button Caption="COLORado Orange" ID="115" Icon="">
        <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4807,11 +4878,11 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="296"/>
+       <Function ID="160"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="COLORado #1 Rouge" ID="116" Icon="">
+      <Button Caption="COLORado Rouge" ID="116" Icon="">
        <WindowState Visible="True" X="260" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4820,12 +4891,38 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="291"/>
+       <Function ID="167"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado Cyan/Amber" ID="73" Icon="">
+       <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4279918516</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="190"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="COLORado Blue/Magenta" ID="74" Icon="">
+       <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4292643549</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="192"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
      </SoloFrame>
-     <SoloFrame Caption="" ID="123">
+     <SoloFrame Caption="" ID="71">
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -4833,7 +4930,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <WindowState Visible="True" X="470" Y="140" Width="320" Height="70"/>
+      <WindowState Visible="True" X="470" Y="200" Width="320" Height="70"/>
       <AllowChildren>False</AllowChildren>
       <AllowResize>False</AllowResize>
       <ShowHeader>False</ShowHeader>
@@ -4841,7 +4938,7 @@
       <Mixing>False</Mixing>
       <Collapsed>False</Collapsed>
       <Disabled>True</Disabled>
-      <Button Caption="COLORado #2 Blanc" ID="117" Icon="">
+      <Button Caption="Clubwash - Blanc" ID="65" Icon="">
        <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4850,11 +4947,11 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="299"/>
+       <Function ID="184"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="COLORado #2 Bleu" ID="118" Icon="">
+      <Button Caption="Clubwash - Bleu" ID="66" Icon="">
        <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4863,11 +4960,11 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="298"/>
+       <Function ID="182"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="COLORado #2 Cyan" ID="119" Icon="">
+      <Button Caption="Clubwash - Cyan" ID="67" Icon="">
        <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4876,11 +4973,11 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="300"/>
+       <Function ID="177"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="COLORado #2 Magenta" ID="120" Icon="">
+      <Button Caption="Clubwash - Magenta" ID="68" Icon="">
        <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4889,11 +4986,11 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="301"/>
+       <Function ID="188"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="COLORado #2 Orange" ID="121" Icon="">
+      <Button Caption="Clubwash - Amber" ID="69" Icon="">
        <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4902,11 +4999,11 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="302"/>
+       <Function ID="176"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
-      <Button Caption="COLORado #2 Rouge" ID="122" Icon="">
+      <Button Caption="Clubwash - Rouge" ID="70" Icon="">
        <WindowState Visible="True" X="260" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -4915,387 +5012,7 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>Default</Font>
        </Appearance>
-       <Function ID="297"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-     </SoloFrame>
-     <SoloFrame Caption="" ID="130">
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <WindowState Visible="True" X="470" Y="210" Width="320" Height="70"/>
-      <AllowChildren>False</AllowChildren>
-      <AllowResize>False</AllowResize>
-      <ShowHeader>False</ShowHeader>
-      <ShowEnableButton>True</ShowEnableButton>
-      <Mixing>False</Mixing>
-      <Collapsed>False</Collapsed>
-      <Disabled>True</Disabled>
-      <Button Caption="COLORado #3 Blanc" ID="124" Icon="">
-       <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>Default</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="305"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #3 Bleu" ID="125" Icon="">
-       <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4279918516</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="304"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #3 Cyan" ID="126" Icon="">
-       <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4278241535</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="306"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #3 Magenta" ID="127" Icon="">
-       <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4292643549</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="307"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #3 Orange" ID="128" Icon="">
-       <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4294932480</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="308"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #3 Rouge" ID="129" Icon="">
-       <WindowState Visible="True" X="260" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4292877092</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="303"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-     </SoloFrame>
-     <SoloFrame Caption="" ID="137">
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <WindowState Visible="True" X="470" Y="280" Width="320" Height="70"/>
-      <AllowChildren>False</AllowChildren>
-      <AllowResize>False</AllowResize>
-      <ShowHeader>False</ShowHeader>
-      <ShowEnableButton>True</ShowEnableButton>
-      <Mixing>False</Mixing>
-      <Collapsed>False</Collapsed>
-      <Disabled>True</Disabled>
-      <Button Caption="COLORado #4 Blanc" ID="131" Icon="">
-       <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>Default</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="311"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #4 Bleu" ID="132" Icon="">
-       <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4279918516</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="310"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #4 Cyan" ID="133" Icon="">
-       <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4278241535</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="312"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #4 Magenta" ID="134" Icon="">
-       <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4292643549</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="313"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #4 Orange" ID="135" Icon="">
-       <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4294932480</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="314"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #4 Rouge" ID="136" Icon="">
-       <WindowState Visible="True" X="260" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4292877092</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="309"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-     </SoloFrame>
-     <SoloFrame Caption="" ID="144">
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <WindowState Visible="True" X="470" Y="350" Width="320" Height="70"/>
-      <AllowChildren>False</AllowChildren>
-      <AllowResize>False</AllowResize>
-      <ShowHeader>False</ShowHeader>
-      <ShowEnableButton>True</ShowEnableButton>
-      <Mixing>False</Mixing>
-      <Collapsed>False</Collapsed>
-      <Disabled>True</Disabled>
-      <Button Caption="COLORado #5 Blanc" ID="138" Icon="">
-       <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>Default</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="329"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #5 Bleu" ID="139" Icon="">
-       <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4279918516</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="328"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #5 Cyan" ID="140" Icon="">
-       <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4278241535</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="330"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #5 Magenta" ID="141" Icon="">
-       <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4292643549</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="331"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #5 Orange" ID="142" Icon="">
-       <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4294932480</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="332"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #5 Rouge" ID="143" Icon="">
-       <WindowState Visible="True" X="260" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4292877092</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="327"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-     </SoloFrame>
-     <SoloFrame Caption="" ID="151">
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <WindowState Visible="True" X="470" Y="420" Width="320" Height="70"/>
-      <AllowChildren>False</AllowChildren>
-      <AllowResize>False</AllowResize>
-      <ShowHeader>False</ShowHeader>
-      <ShowEnableButton>True</ShowEnableButton>
-      <Mixing>False</Mixing>
-      <Collapsed>False</Collapsed>
-      <Disabled>True</Disabled>
-      <Button Caption="COLORado #6 Blanc" ID="145" Icon="">
-       <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>Default</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="335"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #6 Bleu" ID="146" Icon="">
-       <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4279918516</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="334"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #6 Cyan" ID="147" Icon="">
-       <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4278241535</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="336"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #6 Magenta" ID="148" Icon="">
-       <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4292643549</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="337"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #6 Orange" ID="149" Icon="">
-       <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4294932480</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="338"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-      </Button>
-      <Button Caption="COLORado #6 Rouge" ID="150" Icon="">
-       <WindowState Visible="True" X="260" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>Default</ForegroundColor>
-        <BackgroundColor>4292877092</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>Default</Font>
-       </Appearance>
-       <Function ID="333"/>
+       <Function ID="181"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
       </Button>
@@ -5315,7 +5032,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Frame Caption="COLORado" ID="4">
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -5330,7 +5047,7 @@
       <ShowHeader>True</ShowHeader>
       <ShowEnableButton>True</ShowEnableButton>
       <Collapsed>False</Collapsed>
-      <Disabled>False</Disabled>
+      <Disabled>True</Disabled>
       <Slider Caption="#1" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
        <WindowState Visible="True" X="0" Y="35" Width="60" Height="200"/>
        <Appearance>
@@ -5620,7 +5337,7 @@
      </SpeedDial>
     </Frame>
     <Button Caption="Face" ID="29" Icon="">
-     <WindowState Visible="True" X="1375" Y="45" Width="50" Height="50"/>
+     <WindowState Visible="True" X="1345" Y="45" Width="75" Height="70"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5634,7 +5351,7 @@
      <Input Universe="0" Channel="72"/>
     </Button>
     <Slider Caption="Smoke" ID="27" WidgetStyle="Knob" InvertedAppearance="false">
-     <WindowState Visible="True" X="1430" Y="45" Width="60" Height="90"/>
+     <WindowState Visible="True" X="1425" Y="45" Width="60" Height="90"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5650,7 +5367,7 @@
      </Playback>
     </Slider>
     <Button Caption="Blinder" ID="101" Icon="">
-     <WindowState Visible="True" X="1415" Y="140" Width="75" Height="75"/>
+     <WindowState Visible="True" X="1345" Y="120" Width="75" Height="75"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5663,7 +5380,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Strob OFF" ID="63" Icon="">
-     <WindowState Visible="True" X="1325" Y="45" Width="50" Height="50"/>
+     <WindowState Visible="True" X="1345" Y="200" Width="75" Height="70"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5675,6 +5392,25 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
+    <Slider Caption="Slider 72" ID="72" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="1185" Y="70" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="0">0</Channel>
+      <Channel Fixture="1">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
    </Frame>
   </Frame>
   <Properties>
