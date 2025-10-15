@@ -3,7 +3,7 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.13.1</Version>
+  <Version>4.14.3</Version>
   <Author>thoma</Author>
  </Creator>
  <Manufacturer>Ayrton</Manufacturer>
@@ -20,6 +20,10 @@
  <Channel Name="Strobe" Preset="ShutterStrobeSlowFast"/>
  <Channel Name="Macro couleur" Preset="ColorMacro"/>
  <Channel Name="Dimmer" Preset="IntensityDimmer"/>
+ <Channel Name="Red" Preset="IntensityRed"/>
+ <Channel Name="Green" Preset="IntensityGreen"/>
+ <Channel Name="Blue" Preset="IntensityBlue"/>
+ <Channel Name="White" Preset="IntensityWhite"/>
  <Mode Name="Mode 6">
   <Channel Number="0">Rouge tronçon 1</Channel>
   <Channel Number="1">Vert tronçon 1</Channel>
@@ -32,6 +36,15 @@
   <Channel Number="8">Strobe</Channel>
   <Channel Number="9">Macro couleur</Channel>
   <Channel Number="10">Dimmer</Channel>
+ </Mode>
+ <Mode Name="Mode 3">
+  <Channel Number="0" ActsOn="0">Red</Channel>
+  <Channel Number="1" ActsOn="1">Green</Channel>
+  <Channel Number="2" ActsOn="2">Blue</Channel>
+  <Channel Number="3" ActsOn="3">White</Channel>
+  <Channel Number="4" ActsOn="4">Strobe</Channel>
+  <Channel Number="5" ActsOn="5">Macro couleur</Channel>
+  <Channel Number="6" ActsOn="6">Dimmer</Channel>
  </Mode>
  <Physical>
   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
