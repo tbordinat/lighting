@@ -1464,6 +1464,7 @@
    <Step Number="6">612</Step>
    <Step Number="7">610</Step>
    <Step Number="8">611</Step>
+   <Step Number="9">421</Step>
   </Function>
   <Function ID="77" Type="Collection" Name="Fougasse - H - 🟣🔵 - Outro 1 - Début du bazar" Path="Fougasse - 🟣🔵 - Magenta-Bleu">
    <Step Number="0">49</Step>
@@ -1632,6 +1633,7 @@
    <Step Number="13">619</Step>
    <Step Number="14">618</Step>
    <Step Number="15">611</Step>
+   <Step Number="16">421</Step>
   </Function>
   <Function ID="104" Type="Scene" Name="MH1 - Gobo #1" Path="Grillen/Rush MH1/Gobo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1655,6 +1657,7 @@
    <Step Number="6">426</Step>
    <Step Number="7">95</Step>
    <Step Number="8">246</Step>
+   <Step Number="9">421</Step>
   </Function>
   <Function ID="106" Type="Collection" Name="40 days - I - 🔵⚪️ - Ca pète wesh" Path="40 days - 🔵⚪️ - Cyan-Blanc">
    <Step Number="0">49</Step>
@@ -1691,6 +1694,7 @@
    <Step Number="8">603</Step>
    <Step Number="9">416</Step>
    <Step Number="10">422</Step>
+   <Step Number="11">601</Step>
   </Function>
   <Function ID="109" Type="Collection" Name="Year of the Light - A - Intro" Path="Year of the Light - HORS SET">
    <Step Number="0">49</Step>
@@ -1817,11 +1821,9 @@
    <Step Number="4">25</Step>
    <Step Number="5">445</Step>
    <Step Number="6">31</Step>
-   <Step Number="7">138</Step>
-   <Step Number="8">223</Step>
-   <Step Number="9">203</Step>
-   <Step Number="10">120</Step>
-   <Step Number="11">132</Step>
+   <Step Number="7">421</Step>
+   <Step Number="8">392</Step>
+   <Step Number="9">422</Step>
   </Function>
   <Function ID="134" Type="Collection" Name="Anonyme - B - 🟠 - Pêche" Path="Anonyme - 🟠⚪️ - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -2937,7 +2939,7 @@
    <Step Number="1">51</Step>
    <Step Number="2">254</Step>
    <Step Number="3">164</Step>
-   <Step Number="4">96</Step>
+   <Step Number="4">425</Step>
   </Function>
   <Function ID="258" Type="Scene" Name="Edenwood side - DIM Strob ON" Path="RDB Fest/Edenwood side">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -3081,6 +3083,7 @@
    <Step Number="10">13</Step>
    <Step Number="11">423</Step>
    <Step Number="12">415</Step>
+   <Step Number="13">601</Step>
   </Function>
   <Function ID="278" Type="Scene" Name="Opti #1 - #6" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -3114,6 +3117,7 @@
    <Step Number="10">425</Step>
    <Step Number="11">415</Step>
    <Step Number="12">422</Step>
+   <Step Number="13">601</Step>
   </Function>
   <Function ID="281" Type="Collection" Name="Magic System - D - 🟣🔵 - Boom Pont lourd " Path="Magic System - 🟣🔵 - Magenta-Bleu">
    <Step Number="0">49</Step>
@@ -3147,6 +3151,7 @@
    <Step Number="10">619</Step>
    <Step Number="11">618</Step>
    <Step Number="12">621</Step>
+   <Step Number="13">601</Step>
   </Function>
   <Function ID="283" Type="Scene" Name="New Scene" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -3193,6 +3198,7 @@
    <Step Number="12">420</Step>
    <Step Number="13">415</Step>
    <Step Number="14">422</Step>
+   <Step Number="15">421</Step>
   </Function>
   <Function ID="289" Type="Collection" Name="Magic System - H - 🟣🔵 - Déboitage de crâne - 30s" Path="Magic System - 🟣🔵 - Magenta-Bleu">
    <Step Number="0">49</Step>
@@ -3211,6 +3217,7 @@
    <Step Number="13">620</Step>
    <Step Number="14">619</Step>
    <Step Number="15">618</Step>
+   <Step Number="16">421</Step>
   </Function>
   <Function ID="290" Type="Collection" Name="Magic System - I - 🟣🔵 - Outro 1mn" Path="Magic System - 🟣🔵 - Magenta-Bleu">
    <Step Number="0">49</Step>
@@ -3226,6 +3233,7 @@
    <Step Number="10">444</Step>
    <Step Number="11">415</Step>
    <Step Number="12">422</Step>
+   <Step Number="13">421</Step>
   </Function>
   <Function ID="291" Type="Scene" Name="COLORado #1 Rouge" Path="Fotomat/COLORado #1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -4889,7 +4897,7 @@
     <Font>Default</Font>
    </Appearance>
    <Label Caption="- Voir les PAR Yuro Contre (couleur)&#10;- Préparer la face&#10;- Pointer les Mac AURA #6 #7 sur David dans Base-Reset&#10;- Faire les scènes positions&#10;- Vérifier le strob on Rush MH1&#10;- Régler les couleurs pour qu'elles soient belles (orange surtout)&#10;- Check le fader 40 days&#10;- Vérifier les séquences (dimmer)&#10;- Vérifier Anonymous&#10;- Si Blanc MH1 possible, le mettre sur 28j plus tard Bordel 2 + Poutourte Outro au feeling" ID="16">
-    <WindowState Visible="True" X="1285" Y="0" Width="375" Height="245"/>
+    <WindowState Visible="True" X="1220" Y="0" Width="375" Height="245"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -4967,7 +4975,7 @@
     <Reset>
      <Input Universe="0" Channel="74"/>
     </Reset>
-    <Level LowLimit="0" HighLimit="180" Value="0">
+    <Level LowLimit="0" HighLimit="180" Value="90">
      <Channel Fixture="27">0</Channel>
      <Channel Fixture="86">20</Channel>
      <Channel Fixture="87">20</Channel>
@@ -5076,7 +5084,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1185" Y="285" Width="70" Height="115"/>
+    <WindowState Visible="True" X="680" Y="250" Width="70" Height="115"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -5114,7 +5122,7 @@
     </Button>
    </SoloFrame>
    <Button Caption="Yurodivy - 0 - Commun - SP-1500 - Strob " ID="35" Icon="">
-    <WindowState Visible="True" X="1300" Y="405" Width="155" Height="140"/>
+    <WindowState Visible="True" X="1190" Y="335" Width="155" Height="140"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5157,7 +5165,7 @@
     </Appearance>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
     <Reset/>
-    <Level LowLimit="0" HighLimit="180" Value="0">
+    <Level LowLimit="0" HighLimit="180" Value="135">
      <Channel Fixture="26">0</Channel>
      <Channel Fixture="85">20</Channel>
      <Channel Fixture="88">20</Channel>
@@ -5167,7 +5175,7 @@
     </Playback>
    </Slider>
    <Button Caption="0 - Base - Strob OFF" ID="7" Icon="">
-    <WindowState Visible="True" X="1300" Y="245" Width="155" Height="155"/>
+    <WindowState Visible="True" X="1030" Y="200" Width="155" Height="155"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5222,48 +5230,6 @@
      <Channel Fixture="82">20</Channel>
      <Channel Fixture="83">20</Channel>
      <Channel Fixture="84">20</Channel>
-    </Level>
-    <Playback>
-     <Function>4294967295</Function>
-    </Playback>
-   </Slider>
-   <Slider Caption="Robin Floor" ID="10" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="705" Y="615" Width="60" Height="200"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>4294967295</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-    <Reset/>
-    <Level LowLimit="0" HighLimit="255" Value="0">
-     <Channel Fixture="85">20</Channel>
-     <Channel Fixture="86">20</Channel>
-     <Channel Fixture="87">20</Channel>
-     <Channel Fixture="88">20</Channel>
-    </Level>
-    <Playback>
-     <Function>4294967295</Function>
-    </Playback>
-   </Slider>
-   <Slider Caption="MacAura Floor" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="645" Y="615" Width="60" Height="200"/>
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>4294967295</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-    <Reset/>
-    <Level LowLimit="0" HighLimit="255" Value="0">
-     <Channel Fixture="33">1</Channel>
-     <Channel Fixture="33">20</Channel>
-     <Channel Fixture="34">1</Channel>
-     <Channel Fixture="34">20</Channel>
     </Level>
     <Playback>
      <Function>4294967295</Function>
@@ -5406,9 +5372,9 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="935" Y="245" Width="160" Height="235"/>
+    <WindowState Visible="True" X="835" Y="245" Width="160" Height="60"/>
     <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
+    <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
     <Mixing>False</Mixing>
@@ -5453,74 +5419,9 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Blinder Chase" ID="23" Icon="">
-     <WindowState Visible="True" X="5" Y="60" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="628"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-    <Button Caption="PAR Sine" ID="27" Icon="">
-     <WindowState Visible="True" X="5" Y="115" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="62"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-    <Button Caption="PAR Sine low - 28-46" ID="28" Icon="">
-     <WindowState Visible="True" X="55" Y="115" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="81"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-    <Button Caption="Wash RGB - Noise" ID="29" Icon="">
-     <WindowState Visible="True" X="5" Y="170" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="6"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
-    <Button Caption="Wash RGB - Sine - 2/3" ID="30" Icon="">
-     <WindowState Visible="True" X="55" Y="170" Width="50" Height="50"/>
-     <Appearance>
-      <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="47"/>
-     <Action>Toggle</Action>
-     <Intensity Adjust="False">100</Intensity>
-    </Button>
    </SoloFrame>
    <Button Caption="Rush MH1 - Strob ON" ID="24" Icon="">
-    <WindowState Visible="True" X="1455" Y="245" Width="85" Height="75"/>
+    <WindowState Visible="True" X="1190" Y="250" Width="85" Height="75"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5533,7 +5434,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="MacAura - Strob ON" ID="25" Icon="">
-    <WindowState Visible="True" X="1455" Y="325" Width="85" Height="75"/>
+    <WindowState Visible="True" X="1275" Y="250" Width="85" Height="75"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5546,7 +5447,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="Arcaline Strob ON" ID="26" Icon="">
-    <WindowState Visible="True" X="1545" Y="285" Width="85" Height="75"/>
+    <WindowState Visible="True" X="1365" Y="250" Width="85" Height="75"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5559,7 +5460,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="PAR Contre Color 2 Low" ID="32" Icon="">
-    <WindowState Visible="True" X="1180" Y="405" Width="75" Height="70"/>
+    <WindowState Visible="True" X="755" Y="250" Width="75" Height="70"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -5591,6 +5492,430 @@
      <Function>4294967295</Function>
     </Playback>
    </Slider>
+   <SoloFrame Caption="" ID="2">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="975" Y="500" Width="220" Height="70"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Arcaline White" ID="13" Icon="">
+     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="615"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Arcaline Amber" ID="38" Icon="">
+     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="424"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Arcaline Cyan" ID="39" Icon="">
+     <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="626"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Arcaline Magenta" ID="40" Icon="">
+     <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="427"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SoloFrame Caption="" ID="46">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="975" Y="570" Width="270" Height="70"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="MacAura - Amber" ID="48" Icon="">
+     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="630"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="MacAura - Bleu-magenta" ID="49" Icon="">
+     <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="612"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="MacAura - White" ID="50" Icon="">
+     <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="609"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="MacAura - White-Cyan" ID="51" Icon="">
+     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="624"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SoloFrame Caption="" ID="52">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="975" Y="640" Width="165" Height="70"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Robin #1 - #4 - Blue-amber" ID="53" Icon="">
+     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="631"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Robin #1 - #4 - Blue-magenta" ID="54" Icon="">
+     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="621"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Robin #1 - #4 - White" ID="56" Icon="">
+     <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="620"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SoloFrame Caption="" ID="64">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="975" Y="710" Width="220" Height="70"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Rush MH1 - Ambre" ID="65" Icon="">
+     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="392"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Rush MH1 - Ambre/Bleu" ID="66" Icon="">
+     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="412"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Rush MH1 - Bleu/Magenta" ID="67" Icon="">
+     <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="415"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Rush MH1 - Cyan" ID="68" Icon="">
+     <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="416"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SoloFrame Caption="" ID="77">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="835" Y="365" Width="110" Height="60"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>False</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Wash RGB - Noise" ID="75" Icon="">
+     <WindowState Visible="True" X="5" Y="5" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="6"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Wash RGB - Sine - 2/3" ID="76" Icon="">
+     <WindowState Visible="True" X="55" Y="5" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="47"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <Button Caption="Blinder Chase" ID="72" Icon="">
+    <WindowState Visible="True" X="950" Y="305" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="628"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <SoloFrame Caption="" ID="83">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="835" Y="305" Width="110" Height="60"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>False</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="PAR Sine" ID="81" Icon="">
+     <WindowState Visible="True" X="5" Y="5" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="62"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="PAR Sine low - 28-46" ID="82" Icon="">
+     <WindowState Visible="True" X="55" Y="5" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="81"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <Button Caption="0 - Commun - Strobe complet" ID="84" Icon="">
+    <WindowState Visible="True" X="1355" Y="340" Width="155" Height="130"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="88"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="White David Dim 100" ID="85" Icon="">
+    <WindowState Visible="True" X="845" Y="645" Width="80" Height="75"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="242"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Label Caption="You've fed me with a lie&#10;Too good to be true&#10;You gain nothing at all&#10;except millions of views&#10;&#10;Keep on staging &#10;your infinite goodness&#10;Keep on staging &#10;All this sadness&#10;&#10;all of that pain&#10;Infantilize them&#10;Almost human&#10;when you scream&#10;&#10;and you cry&#10;Tears as well as money &#10;in the spotlight of your lack of self-esteem&#10;Locked in a ring, &#10;Tears as well as money &#10;I know what you want, but no one will remember you &#10;&#10;A rich white knight &#10;Playing with &#10;people's misery&#10;Following the thread&#10;again and again&#10;Love forgotten&#10;One more time&#10;&#10;Stuck in the light&#10;of your networks&#10;Look for the light&#10;whatever the cost&#10;No matter the noise, you live in silence" ID="10">
+    <WindowState Visible="True" X="1595" Y="0" Width="255" Height="690"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4292643549</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Label>
+   <Button Caption="Robin #1 - #4 - DIM High" ID="55" Icon="">
+    <WindowState Visible="True" X="1145" Y="650" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="629"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="MacAura - #6 #7 - White-Cyan" ID="47" Icon="">
+    <WindowState Visible="True" X="920" Y="580" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="623"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
   </Frame>
   <Properties>
    <Size Width="1865" Height="2000"/>
