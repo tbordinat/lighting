@@ -4,18 +4,28 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.14.3</Version>
-  <Author>Thomas</Author>
+  <Author>thoma</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
-    <Input Plugin="MIDI" UID="Midi Through Port-0" Line="0"/>
-    <Output Plugin="DMX USB" UID="None" Line="0"/>
-    <Feedback Plugin="MIDI" UID="input" Line="1"/>
+    <Input Plugin="MIDI" UID="BCF2000" Line="0"/>
+    <Output Plugin="DMX USB" UID="DMXIS - Sortie DMX 1 - (S/N: ENVVVCOF)" Line="0">
+     <PluginParameters UniverseChannels="499"/>
+    </Output>
+    <Feedback Plugin="MIDI" UID="BCF2000" Line="1"/>
    </Universe>
-   <Universe Name="Universe 2" ID="1"/>
-   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 2" ID="1">
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: AV0LQ5VD)" Line="1">
+     <PluginParameters UniverseChannels="502"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 3" ID="2">
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: A8T4XAOK)" Line="2">
+     <PluginParameters UniverseChannels="176"/>
+    </Output>
+   </Universe>
    <Universe Name="Universe 4" ID="3"/>
   </InputOutputMap>
   <Fixture>
@@ -908,7 +918,8 @@
   <Function ID="2" Type="Scene" Name="Wild Wash David Dim Low" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="42">0,70</FixtureVal>
-   <FixtureVal ID="9">0,70</FixtureVal>
+   <FixtureVal ID="1">0,70</FixtureVal>
+   <FixtureVal ID="2">0,70</FixtureVal>
   </Function>
   <Function ID="3" Type="Scene" Name="empty" Hidden="True" Path="Demi-Lune/COLORado #1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -926,8 +937,9 @@
   </Function>
   <Function ID="5" Type="Scene" Name="Wild Wash David Dim Medium" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="42">0,137</FixtureVal>
-   <FixtureVal ID="9">0,120</FixtureVal>
+   <FixtureVal ID="42">0,120</FixtureVal>
+   <FixtureVal ID="1">0,120</FixtureVal>
+   <FixtureVal ID="2">0,120</FixtureVal>
   </Function>
   <Function ID="6" Type="Sequence" Name="Wash RGB - Noise" Path="Yuro - Effets/Wash" BoundScene="4">
    <Speed FadeIn="272" FadeOut="272" Duration="272"/>
@@ -955,7 +967,8 @@
   <Function ID="9" Type="Scene" Name="Wild Wash David Dim High" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="42">0,255</FixtureVal>
-   <FixtureVal ID="9">0,170</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
   </Function>
   <Function ID="10" Type="Collection" Name="Parasite - J - 🟠 - STOP kick #1" Path="Parasite - 🟠 - Ambre">
    <Step Number="0">49</Step>
@@ -990,15 +1003,15 @@
   </Function>
   <Function ID="13" Type="Scene" Name="Rush MH1 - Strob ON" Path="Grillen/Rush MH1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="15">6,121</FixtureVal>
-   <FixtureVal ID="16">6,121</FixtureVal>
-   <FixtureVal ID="17">6,121</FixtureVal>
-   <FixtureVal ID="18">6,121</FixtureVal>
-   <FixtureVal ID="19">6,121</FixtureVal>
-   <FixtureVal ID="20">6,121</FixtureVal>
-   <FixtureVal ID="21">6,121</FixtureVal>
-   <FixtureVal ID="22">6,121</FixtureVal>
-   <FixtureVal ID="23">6,121</FixtureVal>
+   <FixtureVal ID="15">6,130</FixtureVal>
+   <FixtureVal ID="16">6,130</FixtureVal>
+   <FixtureVal ID="17">6,130</FixtureVal>
+   <FixtureVal ID="18">6,130</FixtureVal>
+   <FixtureVal ID="19">6,130</FixtureVal>
+   <FixtureVal ID="20">6,130</FixtureVal>
+   <FixtureVal ID="21">6,130</FixtureVal>
+   <FixtureVal ID="22">6,130</FixtureVal>
+   <FixtureVal ID="23">6,130</FixtureVal>
   </Function>
   <Function ID="14" Type="Scene" Name="Rush MH1 - Strob OFF" Path="Grillen/Rush MH1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1113,7 +1126,6 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41">0,120</FixtureVal>
    <FixtureVal ID="0">0,120</FixtureVal>
-   <FixtureVal ID="1">0,120</FixtureVal>
   </Function>
   <Function ID="26" Type="Collection" Name="Pessimist - I - 🟠⚪️ - Ding" Path="Pessimist - 🟠 - Ambre">
    <Step Number="0">49</Step>
@@ -1130,8 +1142,7 @@
   <Function ID="27" Type="Scene" Name="Wild Wash Jerem Dim High" Path="0 - Commun/Wash/Jerem">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41">0,170</FixtureVal>
-   <FixtureVal ID="0">0,170</FixtureVal>
-   <FixtureVal ID="1">0,170</FixtureVal>
+   <FixtureVal ID="0">0,255,3,255</FixtureVal>
   </Function>
   <Function ID="28" Type="Scene" Name="Maxi Spot #1 - Bleu" Path="RDB Fest/Maxi Spot #1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1139,7 +1150,6 @@
   <Function ID="29" Type="Scene" Name="Wild Wash Julien Dim Low" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43">0,70</FixtureVal>
-   <FixtureVal ID="2">0,70</FixtureVal>
    <FixtureVal ID="3">0,70</FixtureVal>
   </Function>
   <Function ID="30" Type="Scene" Name="Maxi Spot #1 - Cyan" Path="RDB Fest/Maxi Spot #1">
@@ -1148,7 +1158,6 @@
   <Function ID="31" Type="Scene" Name="Wild Wash Julien Dim Medium" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43">0,120</FixtureVal>
-   <FixtureVal ID="2">0,120</FixtureVal>
    <FixtureVal ID="3">0,120</FixtureVal>
   </Function>
   <Function ID="32" Type="Collection" Name="Pessimist - K - 🟠 - Break" Path="Pessimist - 🟠 - Ambre">
@@ -1176,8 +1185,7 @@
   <Function ID="34" Type="Scene" Name="Wild Wash Julien Dim High" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43">0,170</FixtureVal>
-   <FixtureVal ID="2">0,170</FixtureVal>
-   <FixtureVal ID="3">0,170</FixtureVal>
+   <FixtureVal ID="3">0,255</FixtureVal>
   </Function>
   <Function ID="35" Type="Scene" Name="Maxi Spot #1 - Magenta" Path="RDB Fest/Maxi Spot #1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1246,8 +1254,9 @@
   </Function>
   <Function ID="46" Type="Scene" Name="Wild Wash David Strob ON" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="42">1,225</FixtureVal>
-   <FixtureVal ID="9">2,121</FixtureVal>
+   <FixtureVal ID="42">2,121</FixtureVal>
+   <FixtureVal ID="1">2,121</FixtureVal>
+   <FixtureVal ID="2">2,121</FixtureVal>
   </Function>
   <Function ID="47" Type="Sequence" Name="Wash RGB - Sine - 2/3" Path="Yuro - Effets/Wash" BoundScene="43">
    <Speed FadeIn="456" FadeOut="456" Duration="544"/>
@@ -1260,8 +1269,9 @@
   </Function>
   <Function ID="48" Type="Scene" Name="Wild Wash David Strob OFF" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="42">1,0</FixtureVal>
-   <FixtureVal ID="9">2,12</FixtureVal>
+   <FixtureVal ID="42">2,12</FixtureVal>
+   <FixtureVal ID="1">2,12</FixtureVal>
+   <FixtureVal ID="2">2,12</FixtureVal>
   </Function>
   <Function ID="49" Type="Collection" Name="0 - Base - Reset">
    <Step Number="0">166</Step>
@@ -1556,6 +1566,7 @@
    <Step Number="10">619</Step>
    <Step Number="11">611</Step>
    <Step Number="12">618</Step>
+   <Step Number="13">602</Step>
   </Function>
   <Function ID="87" Type="Scene" Name="Maxi Spot #1 - Gobo #5 Shake" Path="RDB Fest/Maxi Spot #1/Gobo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1583,8 +1594,8 @@
   </Function>
   <Function ID="95" Type="Scene" Name="Blinder Floor ON" Path="Grillen">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="29">0,180</FixtureVal>
-   <FixtureVal ID="28">0,180</FixtureVal>
+   <FixtureVal ID="29">0,100</FixtureVal>
+   <FixtureVal ID="28">0,100</FixtureVal>
   </Function>
   <Function ID="96" Type="Scene" Name="RDB - PAR Contre DIM Medium" Path="RDB Fest/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1634,6 +1645,7 @@
    <Step Number="14">618</Step>
    <Step Number="15">611</Step>
    <Step Number="16">421</Step>
+   <Step Number="17">602</Step>
   </Function>
   <Function ID="104" Type="Scene" Name="MH1 - Gobo #1" Path="Grillen/Rush MH1/Gobo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1823,7 +1835,6 @@
    <Step Number="6">31</Step>
    <Step Number="7">421</Step>
    <Step Number="8">392</Step>
-   <Step Number="9">422</Step>
   </Function>
   <Function ID="134" Type="Collection" Name="Anonyme - B - 🟠 - Pêche" Path="Anonyme - 🟠⚪️ - Ambre-Blanc">
    <Step Number="0">49</Step>
@@ -1996,7 +2007,7 @@
   <Function ID="159" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 0% 75% 75% 0%" Path="0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="26">0,0</FixtureVal>
-   <FixtureVal ID="27">0,135</FixtureVal>
+   <FixtureVal ID="27">0,75</FixtureVal>
    <FixtureVal ID="85">20,0</FixtureVal>
    <FixtureVal ID="86">20,135</FixtureVal>
    <FixtureVal ID="87">20,135</FixtureVal>
@@ -2024,7 +2035,7 @@
   </Function>
   <Function ID="162" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 100% 0% 0% 100%" Path="0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,180</FixtureVal>
+   <FixtureVal ID="26">0,100</FixtureVal>
    <FixtureVal ID="27">0,0</FixtureVal>
    <FixtureVal ID="85">20,180</FixtureVal>
    <FixtureVal ID="86">20,0</FixtureVal>
@@ -2044,8 +2055,8 @@
   </Function>
   <Function ID="164" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 75% 50% 50% 75%" Path="0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,135</FixtureVal>
-   <FixtureVal ID="27">0,90</FixtureVal>
+   <FixtureVal ID="26">0,75</FixtureVal>
+   <FixtureVal ID="27">0,50</FixtureVal>
    <FixtureVal ID="85">20,135</FixtureVal>
    <FixtureVal ID="86">20,90</FixtureVal>
    <FixtureVal ID="87">20,90</FixtureVal>
@@ -2065,15 +2076,15 @@
   <Function ID="166" Type="Scene" Name="TODO - Base - Reset">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>0,0</ChannelGroupsVal>
-   <FixtureVal ID="20">6,12</FixtureVal>
-   <FixtureVal ID="21">6,12</FixtureVal>
-   <FixtureVal ID="22">6,12</FixtureVal>
-   <FixtureVal ID="23">6,12</FixtureVal>
-   <FixtureVal ID="15">6,12</FixtureVal>
-   <FixtureVal ID="16">6,12</FixtureVal>
-   <FixtureVal ID="17">6,12</FixtureVal>
-   <FixtureVal ID="18">6,12</FixtureVal>
-   <FixtureVal ID="19">6,12</FixtureVal>
+   <FixtureVal ID="20">15,0,16,90</FixtureVal>
+   <FixtureVal ID="21">15,0,16,90</FixtureVal>
+   <FixtureVal ID="22">15,0,16,90</FixtureVal>
+   <FixtureVal ID="23">15,0,16,90</FixtureVal>
+   <FixtureVal ID="15">15,0,16,90</FixtureVal>
+   <FixtureVal ID="16">15,0,16,90</FixtureVal>
+   <FixtureVal ID="17">15,0,16,90</FixtureVal>
+   <FixtureVal ID="18">15,0,16,90</FixtureVal>
+   <FixtureVal ID="19">15,0,16,90</FixtureVal>
    <FixtureVal ID="0">2,12</FixtureVal>
    <FixtureVal ID="1">2,12</FixtureVal>
    <FixtureVal ID="2">2,12</FixtureVal>
@@ -2086,12 +2097,12 @@
    <FixtureVal ID="10">2,12</FixtureVal>
    <FixtureVal ID="11">2,12</FixtureVal>
    <FixtureVal ID="14">2,12</FixtureVal>
-   <FixtureVal ID="85">7,255,8,0,9,50,10,0,11,0,12,0,13,0,14,0,19,32</FixtureVal>
-   <FixtureVal ID="86">7,255,8,0,9,50,10,0,11,0,12,0,13,0,14,0,19,32</FixtureVal>
-   <FixtureVal ID="87">7,255,8,0,9,50,10,0,11,0,12,0,13,0,14,0,19,32</FixtureVal>
-   <FixtureVal ID="88">7,255,8,0,9,50,10,0,11,0,12,0,13,0,14,0,19,32</FixtureVal>
-   <FixtureVal ID="33">3,0,4,0,5,0,6,0</FixtureVal>
-   <FixtureVal ID="34">3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="85">0,128,2,46,6,4,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,16,0,19,32</FixtureVal>
+   <FixtureVal ID="86">0,128,2,46,6,4,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,16,0,19,32</FixtureVal>
+   <FixtureVal ID="87">0,128,2,46,6,4,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,16,0,19,32</FixtureVal>
+   <FixtureVal ID="88">0,128,2,46,6,4,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,16,0,19,32</FixtureVal>
+   <FixtureVal ID="33">2,255,3,54,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="34">2,255,3,32,4,0,5,0,6,0</FixtureVal>
   </Function>
   <Function ID="167" Type="Collection" Name="COLORado - Rouge" Path="0 - Fotomat">
    <Step Number="0">291</Step>
@@ -2494,6 +2505,7 @@
    <Step Number="6">610</Step>
    <Step Number="7">609</Step>
    <Step Number="8">611</Step>
+   <Step Number="9">415</Step>
   </Function>
   <Function ID="200" Type="Scene" Name="Edenwood Drums - Rouge" Path="RDB Fest/Edenwood drums">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -2780,8 +2792,8 @@
   </Function>
   <Function ID="238" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - x4 - 100%" Path="0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,180</FixtureVal>
-   <FixtureVal ID="27">0,180</FixtureVal>
+   <FixtureVal ID="26">0,100</FixtureVal>
+   <FixtureVal ID="27">0,100</FixtureVal>
    <FixtureVal ID="85">20,180</FixtureVal>
    <FixtureVal ID="86">20,180</FixtureVal>
    <FixtureVal ID="87">20,180</FixtureVal>
@@ -2819,9 +2831,9 @@
   </Function>
   <Function ID="242" Type="Scene" Name="Yurodivy - 0 - Commun - White David Dim 100" Path="0 - Commun/Wash/White">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="12"/>
-   <FixtureVal ID="33">1,255,9,255,10,255,11,255,12,255,20,200,22,255,23,255,24,255</FixtureVal>
-   <FixtureVal ID="34">1,255,9,255,10,255,11,255,12,255,20,200,22,255,23,255,24,255</FixtureVal>
+   <FixtureVal ID="12">1,69</FixtureVal>
+   <FixtureVal ID="33">1,0,5,0,9,255,10,255,11,255,12,255,20,0,22,255,23,255,24,255</FixtureVal>
+   <FixtureVal ID="34">1,0,5,0,9,255,10,255,11,255,12,255,20,0,22,255,23,255,24,255</FixtureVal>
   </Function>
   <Function ID="243" Type="Scene" Name="Yurodivy - 0 - Commun - White David Strob 221" Path="0 - Commun/Wash/White">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -2843,8 +2855,8 @@
   </Function>
   <Function ID="246" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - x4 - 50%" Path="0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,90</FixtureVal>
-   <FixtureVal ID="27">0,90</FixtureVal>
+   <FixtureVal ID="26">0,50</FixtureVal>
+   <FixtureVal ID="27">0,50</FixtureVal>
    <FixtureVal ID="85">20,90</FixtureVal>
    <FixtureVal ID="86">20,90</FixtureVal>
    <FixtureVal ID="87">20,90</FixtureVal>
@@ -2870,8 +2882,8 @@
   </Function>
   <Function ID="249" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - x4 - 25%" Path="0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,45</FixtureVal>
-   <FixtureVal ID="27">0,45</FixtureVal>
+   <FixtureVal ID="26">0,25</FixtureVal>
+   <FixtureVal ID="27">0,25</FixtureVal>
    <FixtureVal ID="85">20,45</FixtureVal>
    <FixtureVal ID="86">20,45</FixtureVal>
    <FixtureVal ID="87">20,45</FixtureVal>
@@ -2910,10 +2922,10 @@
    <Step Number="13">620</Step>
    <Step Number="14">618</Step>
    <Step Number="15">619</Step>
-   <Step Number="16">415</Step>
-   <Step Number="17">13</Step>
-   <Step Number="18">414</Step>
-   <Step Number="19">95</Step>
+   <Step Number="16">13</Step>
+   <Step Number="17">414</Step>
+   <Step Number="18">95</Step>
+   <Step Number="19">632</Step>
   </Function>
   <Function ID="253" Type="Scene" Name="Yurodivy - 0 - Commun - SP-1500 - Strob " Path="0 - Commun/Stroboscope - SP-1500">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -2927,6 +2939,11 @@
   <Function ID="254" Type="Scene" Name="Yurodivy - 0 - Commun - SP-1500 - Off" Path="0 - Commun/Stroboscope - SP-1500">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="13">0,0,1,0</FixtureVal>
+   <FixtureVal ID="57">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="58">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="59">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="60">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="61">0,0,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="255" Type="Scene" Name="Edenwood side - DIM medium" Path="RDB Fest/Edenwood side">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -2964,8 +2981,8 @@
   </Function>
   <Function ID="263" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - 25% 50% 50% 25%" Path="0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,45</FixtureVal>
-   <FixtureVal ID="27">0,90</FixtureVal>
+   <FixtureVal ID="26">0,25</FixtureVal>
+   <FixtureVal ID="27">0,50</FixtureVal>
    <FixtureVal ID="85">20,45</FixtureVal>
    <FixtureVal ID="86">20,90</FixtureVal>
    <FixtureVal ID="87">20,90</FixtureVal>
@@ -2985,8 +3002,8 @@
   </Function>
   <Function ID="265" Type="Scene" Name="Yurodivy - 0 - Commun - PAR Contre - x4 - 75%" Path="0 - Commun/PAR Contre">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,135</FixtureVal>
-   <FixtureVal ID="27">0,135</FixtureVal>
+   <FixtureVal ID="26">0,75</FixtureVal>
+   <FixtureVal ID="27">0,75</FixtureVal>
    <FixtureVal ID="85">20,135</FixtureVal>
    <FixtureVal ID="86">20,135</FixtureVal>
    <FixtureVal ID="87">20,135</FixtureVal>
@@ -3177,6 +3194,7 @@
    <Step Number="5">441</Step>
    <Step Number="6">603</Step>
    <Step Number="7">425</Step>
+   <Step Number="8">416</Step>
   </Function>
   <Function ID="287" Type="Scene" Name="Basse seule" Path="Yurodivy/Anonyme">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -3727,15 +3745,15 @@
    <Step Number="6">48</Step>
    <Step Number="7">454</Step>
    <Step Number="8">456</Step>
-   <Step Number="9">415</Step>
-   <Step Number="10">13</Step>
-   <Step Number="11">414</Step>
-   <Step Number="12">609</Step>
-   <Step Number="13">613</Step>
-   <Step Number="14">610</Step>
-   <Step Number="15">611</Step>
-   <Step Number="16">616</Step>
-   <Step Number="17">615</Step>
+   <Step Number="9">13</Step>
+   <Step Number="10">414</Step>
+   <Step Number="11">609</Step>
+   <Step Number="12">613</Step>
+   <Step Number="13">610</Step>
+   <Step Number="14">611</Step>
+   <Step Number="15">616</Step>
+   <Step Number="16">615</Step>
+   <Step Number="17">632</Step>
   </Function>
   <Function ID="408" Type="Collection" Name="28 jours plus tard - F - 🔵🟣 - Blackout" Path="28 jours plus tard - 🔵🟣 - Bleu-Magenta">
    <Step Number="0">49</Step>
@@ -3792,7 +3810,7 @@
    <Step Number="10">422</Step>
   </Function>
   <Function ID="414" Type="Sequence" Name="Rush MH1 - Thunder" Path="Grillen" BoundScene="226">
-   <Speed FadeIn="0" FadeOut="0" Duration="150"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="75"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -3844,13 +3862,16 @@
    <Step Number="6">138</Step>
    <Step Number="7">224</Step>
    <Step Number="8">425</Step>
+   <Step Number="9">421</Step>
+   <Step Number="10">392</Step>
+   <Step Number="11">51</Step>
   </Function>
   <Function ID="418" Type="Scene" Name="Blinder" Path="0 - Commun">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="26">0,255</FixtureVal>
-   <FixtureVal ID="27">0,255</FixtureVal>
-   <FixtureVal ID="28">0,255</FixtureVal>
-   <FixtureVal ID="29">0,255</FixtureVal>
+   <FixtureVal ID="26">0,110</FixtureVal>
+   <FixtureVal ID="27">0,110</FixtureVal>
+   <FixtureVal ID="28">0,110</FixtureVal>
+   <FixtureVal ID="29">0,110</FixtureVal>
   </Function>
   <Function ID="419" Type="Scene" Name="Robin #6 #7 - Blanc" Path="Grillen/Robin">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -3867,17 +3888,17 @@
    <Step Number="2" FadeIn="500" Hold="0" FadeOut="500" Values="9">15:5,255:16:5,200:17:5,145:18:5,200:19:5,255:20:5,145:21:5,200:22:5,200:23:5,145</Step>
    <Step Number="3" FadeIn="500" Hold="0" FadeOut="500" Values="9">15:5,200:16:5,145:17:5,200:18:5,200:19:5,145:20:5,200:21:5,255:22:5,255:23:5,200</Step>
   </Function>
-  <Function ID="421" Type="Scene" Name="TODO - MH1 Grill P#1" Path="Grillen/Rush MH1/Position">
+  <Function ID="421" Type="Scene" Name="MH1 Grill P#1" Path="Grillen/Rush MH1/Position">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="15">0,155,2,150</FixtureVal>
-   <FixtureVal ID="16">0,155,2,150</FixtureVal>
-   <FixtureVal ID="17">0,155,2,150</FixtureVal>
-   <FixtureVal ID="18">0,155,2,150</FixtureVal>
-   <FixtureVal ID="19">0,155,2,150</FixtureVal>
-   <FixtureVal ID="20">0,155,2,150</FixtureVal>
-   <FixtureVal ID="21">0,155,2,150</FixtureVal>
-   <FixtureVal ID="22">0,155,2,150</FixtureVal>
-   <FixtureVal ID="23">0,155,2,150</FixtureVal>
+   <FixtureVal ID="15">0,106,2,186</FixtureVal>
+   <FixtureVal ID="16">0,159,2,100</FixtureVal>
+   <FixtureVal ID="17">0,85,2,181</FixtureVal>
+   <FixtureVal ID="18">0,186,2,90</FixtureVal>
+   <FixtureVal ID="19">0,231,2,182</FixtureVal>
+   <FixtureVal ID="20">0,91,2,239</FixtureVal>
+   <FixtureVal ID="21">0,96,2,255</FixtureVal>
+   <FixtureVal ID="22">0,155,2,0</FixtureVal>
+   <FixtureVal ID="23">0,67,2,238</FixtureVal>
   </Function>
   <Function ID="422" Type="Scene" Name="Rush MH1 - DIM Low" Path="Grillen/Rush MH1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -3911,8 +3932,7 @@
   </Function>
   <Function ID="425" Type="Scene" Name="PAR Contre Color 2 Low" Path="Grillen/PAR">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="54">0,100</FixtureVal>
-   <FixtureVal ID="55">0,100</FixtureVal>
+   <FixtureVal ID="63">0,170</FixtureVal>
   </Function>
   <Function ID="426" Type="Scene" Name="Arcaline High" Path="Grillen/Arcaline">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -3930,102 +3950,96 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41"/>
    <FixtureVal ID="0">3,255,4,0,5,0</FixtureVal>
-   <FixtureVal ID="1">3,255,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="429" Type="Scene" Name="Wild Wash Jerem Bleu" Path="0 - Commun/Wash/Jerem">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41"/>
    <FixtureVal ID="0">3,0,4,0,5,255</FixtureVal>
-   <FixtureVal ID="1">5,255</FixtureVal>
   </Function>
   <Function ID="430" Type="Scene" Name="Wild Wash Jerem Blanc" Path="0 - Commun/Wash/Jerem">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41"/>
    <FixtureVal ID="0">3,255,4,255,5,255</FixtureVal>
-   <FixtureVal ID="1">3,255,4,255,5,255</FixtureVal>
   </Function>
   <Function ID="431" Type="Scene" Name="Wild Wash Jerem Cyan" Path="0 - Commun/Wash/Jerem">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41"/>
    <FixtureVal ID="0">3,0,4,137,5,255</FixtureVal>
-   <FixtureVal ID="1">3,0,4,137,5,255</FixtureVal>
   </Function>
   <Function ID="432" Type="Scene" Name="Wild Wash Jerem Magenta" Path="0 - Commun/Wash/Jerem">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41"/>
    <FixtureVal ID="0">3,226,4,97,5,255</FixtureVal>
-   <FixtureVal ID="1">3,226,4,97,5,255</FixtureVal>
   </Function>
   <Function ID="433" Type="Scene" Name="Wild Wash Jerem Ambre" Path="0 - Commun/Wash/Jerem">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41"/>
    <FixtureVal ID="0">3,255,4,120,5,0</FixtureVal>
-   <FixtureVal ID="1">3,255,4,120,5,0</FixtureVal>
   </Function>
   <Function ID="434" Type="Scene" Name="Wild Wash David Rouge" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="42">2,6</FixtureVal>
-   <FixtureVal ID="9">3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="42"/>
+   <FixtureVal ID="1">3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="2">3,255,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="435" Type="Scene" Name="Wild Wash David Bleu" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="42">2,62</FixtureVal>
-   <FixtureVal ID="9">5,255</FixtureVal>
+   <FixtureVal ID="42"/>
+   <FixtureVal ID="1">5,255</FixtureVal>
+   <FixtureVal ID="2">5,255</FixtureVal>
   </Function>
   <Function ID="436" Type="Scene" Name="Wild Wash David Blanc" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="42">2,110</FixtureVal>
-   <FixtureVal ID="9">3,255,4,255,5,255</FixtureVal>
+   <FixtureVal ID="42"/>
+   <FixtureVal ID="1">3,255,4,255,5,255</FixtureVal>
+   <FixtureVal ID="2">3,255,4,255,5,255</FixtureVal>
   </Function>
   <Function ID="437" Type="Scene" Name="Wild Wash David Cyan" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="42">2,54</FixtureVal>
-   <FixtureVal ID="9">3,0,4,137,5,255</FixtureVal>
+   <FixtureVal ID="42"/>
+   <FixtureVal ID="1">3,0,4,137,5,255</FixtureVal>
+   <FixtureVal ID="2">3,0,4,137,5,255</FixtureVal>
   </Function>
   <Function ID="438" Type="Scene" Name="Wild Wash David Magenta" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="42">2,86</FixtureVal>
-   <FixtureVal ID="9">3,226,4,97,5,255</FixtureVal>
+   <FixtureVal ID="42"/>
+   <FixtureVal ID="1">3,226,4,97,5,255</FixtureVal>
+   <FixtureVal ID="2">3,226,4,97,5,255</FixtureVal>
   </Function>
   <Function ID="439" Type="Scene" Name="Wild Wash David Ambre" Path="0 - Commun/Wash/David">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="42">2,18</FixtureVal>
-   <FixtureVal ID="9">3,255,4,120,5,0</FixtureVal>
+   <FixtureVal ID="42"/>
+   <FixtureVal ID="1">3,255,4,120,5,0</FixtureVal>
+   <FixtureVal ID="2">3,255,4,120,5,0</FixtureVal>
   </Function>
   <Function ID="440" Type="Scene" Name="Wild Wash Julien Rouge" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43"/>
-   <FixtureVal ID="2">3,255,4,0,5,0</FixtureVal>
    <FixtureVal ID="3">3,255,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="441" Type="Scene" Name="Wild Wash Julien Bleu" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43"/>
-   <FixtureVal ID="2">3,0,4,0,5,255</FixtureVal>
    <FixtureVal ID="3">3,0,4,0,5,255</FixtureVal>
   </Function>
   <Function ID="442" Type="Scene" Name="Wild Wash Julien Blanc" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43"/>
-   <FixtureVal ID="2">3,255,4,255,5,255</FixtureVal>
    <FixtureVal ID="3">3,255,4,255,5,255</FixtureVal>
   </Function>
   <Function ID="443" Type="Scene" Name="Wild Wash Julien Cyan" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43"/>
-   <FixtureVal ID="2">3,0,4,137,5,255</FixtureVal>
    <FixtureVal ID="3">3,0,4,137,5,255</FixtureVal>
   </Function>
   <Function ID="444" Type="Scene" Name="Wild Wash Julien Magenta" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43"/>
-   <FixtureVal ID="2">3,226,4,97,5,255</FixtureVal>
    <FixtureVal ID="3">3,226,4,97,5,255</FixtureVal>
   </Function>
   <Function ID="445" Type="Scene" Name="Wild Wash Julien Ambre" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43"/>
-   <FixtureVal ID="2">3,255,4,120,5,0</FixtureVal>
    <FixtureVal ID="3">3,255,4,120,5,0</FixtureVal>
   </Function>
   <Function ID="446" Type="Collection" Name="0 - Commun - Wild Wash x3 - Dim Medium" Path="0 - Commun/Wild Wash x3">
@@ -4072,24 +4086,20 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41">2,121</FixtureVal>
    <FixtureVal ID="0">2,121</FixtureVal>
-   <FixtureVal ID="1">2,121</FixtureVal>
   </Function>
   <Function ID="455" Type="Scene" Name="Wild Wash Jerem Strob OFF" Path="0 - Commun/Wash/Jerem">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41">2,12</FixtureVal>
    <FixtureVal ID="0">2,12</FixtureVal>
-   <FixtureVal ID="1">2,12</FixtureVal>
   </Function>
   <Function ID="456" Type="Scene" Name="Wild Wash Julien Strob ON" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43">2,121</FixtureVal>
-   <FixtureVal ID="2">2,121</FixtureVal>
    <FixtureVal ID="3">2,121</FixtureVal>
   </Function>
   <Function ID="457" Type="Scene" Name="Wild Wash Julien Strob OFF" Path="0 - Commun/Wash/Julien">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="43">2,12</FixtureVal>
-   <FixtureVal ID="2">2,12</FixtureVal>
    <FixtureVal ID="3">2,12</FixtureVal>
   </Function>
   <Function ID="458" Type="Collection" Name="0 - Commun - Wild Wash x3 - Strob ON" Path="0 - Commun/Wild Wash x3">
@@ -4555,17 +4565,17 @@
    <Step Number="4">567</Step>
    <Step Number="5">594</Step>
   </Function>
-  <Function ID="601" Type="Scene" Name="TODO - MH1 Grill P#2" Path="Grillen/Rush MH1/Position">
+  <Function ID="601" Type="Scene" Name="MH1 Grill P#2" Path="Grillen/Rush MH1/Position">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="15">0,155,2,150</FixtureVal>
-   <FixtureVal ID="16">0,155,2,150</FixtureVal>
-   <FixtureVal ID="17">0,155,2,150</FixtureVal>
-   <FixtureVal ID="18">0,155,2,150</FixtureVal>
-   <FixtureVal ID="19">0,155,2,150</FixtureVal>
-   <FixtureVal ID="20">0,155,2,150</FixtureVal>
-   <FixtureVal ID="21">0,155,2,150</FixtureVal>
-   <FixtureVal ID="22">0,155,2,150</FixtureVal>
-   <FixtureVal ID="23">0,155,2,150</FixtureVal>
+   <FixtureVal ID="15">0,81,2,170</FixtureVal>
+   <FixtureVal ID="16">0,199,2,76</FixtureVal>
+   <FixtureVal ID="17">0,85,2,164</FixtureVal>
+   <FixtureVal ID="18">0,142,2,76</FixtureVal>
+   <FixtureVal ID="19">0,255,2,176</FixtureVal>
+   <FixtureVal ID="20">0,86,2,198</FixtureVal>
+   <FixtureVal ID="21">0,101,2,255</FixtureVal>
+   <FixtureVal ID="22">0,155,2,0</FixtureVal>
+   <FixtureVal ID="23">0,79,2,198</FixtureVal>
   </Function>
   <Function ID="602" Type="Scene" Name="MH1 - Gobo OFF" Path="Grillen/Rush MH1/Gobo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -4583,7 +4593,6 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="41">0,70</FixtureVal>
    <FixtureVal ID="0">0,70</FixtureVal>
-   <FixtureVal ID="1">0,70</FixtureVal>
   </Function>
   <Function ID="604" Type="Scene" Name="Rush MH1 - Noise" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -4655,26 +4664,26 @@
   </Function>
   <Function ID="610" Type="Scene" Name="MacAura - DIM High" Path="Grillen/MacAura">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="24">1,255,20,255</FixtureVal>
-   <FixtureVal ID="25">1,255,20,255</FixtureVal>
-   <FixtureVal ID="30">1,255,20,255</FixtureVal>
-   <FixtureVal ID="31">1,255,20,255</FixtureVal>
-   <FixtureVal ID="32">1,255,20,255</FixtureVal>
+   <FixtureVal ID="24">1,131,20,117</FixtureVal>
+   <FixtureVal ID="25">1,131,20,117</FixtureVal>
+   <FixtureVal ID="30">1,131,20,117</FixtureVal>
+   <FixtureVal ID="31">1,131,20,117</FixtureVal>
+   <FixtureVal ID="32">1,131,20,117</FixtureVal>
   </Function>
   <Function ID="611" Type="Scene" Name="MacAura - Position #1" Path="Grillen/MacAura">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="24">3,0,4,0,5,0,6,0</FixtureVal>
-   <FixtureVal ID="25">3,0,4,0,5,0,6,0</FixtureVal>
-   <FixtureVal ID="30">3,0,4,0,5,0,6,0</FixtureVal>
-   <FixtureVal ID="31">3,0,4,0,5,0,6,0</FixtureVal>
-   <FixtureVal ID="32">3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="24">2,255,3,158,4,0,5,177,6,0</FixtureVal>
+   <FixtureVal ID="25">2,255,3,58,4,0,5,79,6,0</FixtureVal>
+   <FixtureVal ID="30">2,255,3,42,4,0,5,76,6,0</FixtureVal>
+   <FixtureVal ID="31">2,255,3,29,4,0,5,79,6,0</FixtureVal>
+   <FixtureVal ID="32">2,255,3,100,4,0,5,178,6,0</FixtureVal>
   </Function>
   <Function ID="612" Type="Scene" Name="MacAura - Bleu-magenta" Path="Grillen/MacAura">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="24">9,0,10,0,11,255,12,0,22,0,23,120,24,255</FixtureVal>
-   <FixtureVal ID="25">9,0,10,0,11,255,12,0,22,0,23,120,24,255</FixtureVal>
+   <FixtureVal ID="25">9,255,10,0,11,255,12,0,22,0,23,120,24,255</FixtureVal>
    <FixtureVal ID="30">9,0,10,0,11,255,12,0,22,0,23,120,24,255</FixtureVal>
-   <FixtureVal ID="31">9,0,10,0,11,255,12,0,22,0,23,120,24,255</FixtureVal>
+   <FixtureVal ID="31">9,255,10,0,11,255,12,0,22,0,23,120,24,255</FixtureVal>
    <FixtureVal ID="32">9,0,10,0,11,255,12,0,22,0,23,120,24,255</FixtureVal>
   </Function>
   <Function ID="613" Type="Scene" Name="MacAura - Strob ON" Path="Grillen/MacAura">
@@ -4713,17 +4722,17 @@
   </Function>
   <Function ID="618" Type="Scene" Name="Robin #1 - #4 - Position focus drum" Path="Grillen/Robin">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="81">0,128,1,0,2,128,3,0</FixtureVal>
-   <FixtureVal ID="82">0,128,1,0,2,128,3,0</FixtureVal>
-   <FixtureVal ID="83">0,128,1,0,2,128,3,0</FixtureVal>
-   <FixtureVal ID="84">0,128,1,0,2,128,3,0</FixtureVal>
+   <FixtureVal ID="81">0,156,1,0,2,49,3,0</FixtureVal>
+   <FixtureVal ID="82">0,54,1,0,2,208,3,0</FixtureVal>
+   <FixtureVal ID="83">0,102,1,0,2,45,3,0</FixtureVal>
+   <FixtureVal ID="84">0,106,1,0,2,38,3,0</FixtureVal>
   </Function>
   <Function ID="619" Type="Scene" Name="Robin #1 - #4 - DIM Medium" Path="Grillen/Robin">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="81">20,190</FixtureVal>
-   <FixtureVal ID="82">20,190</FixtureVal>
-   <FixtureVal ID="83">20,190</FixtureVal>
-   <FixtureVal ID="84">20,190</FixtureVal>
+   <FixtureVal ID="81">19,32,20,190</FixtureVal>
+   <FixtureVal ID="82">19,32,20,190</FixtureVal>
+   <FixtureVal ID="83">19,32,20,190</FixtureVal>
+   <FixtureVal ID="84">19,32,20,190</FixtureVal>
   </Function>
   <Function ID="620" Type="Scene" Name="Robin #1 - #4 - White" Path="Grillen/Robin">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -4762,11 +4771,11 @@
   </Function>
   <Function ID="624" Type="Scene" Name="MacAura - White-Cyan" Path="Grillen/MacAura">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="24">9,255,10,255,11,255,12,0,22,0,23,130,24,255</FixtureVal>
+   <FixtureVal ID="24">9,0,10,255,11,255,12,0,22,0,23,130,24,255</FixtureVal>
    <FixtureVal ID="25">9,255,10,255,11,255,12,0,22,0,23,130,24,255</FixtureVal>
-   <FixtureVal ID="30">9,255,10,255,11,255,12,0,22,0,23,130,24,255</FixtureVal>
+   <FixtureVal ID="30">9,0,10,255,11,255,12,0,22,0,23,130,24,255</FixtureVal>
    <FixtureVal ID="31">9,255,10,255,11,255,12,0,22,0,23,130,24,255</FixtureVal>
-   <FixtureVal ID="32">9,255,10,255,11,255,12,0,22,0,23,130,24,255</FixtureVal>
+   <FixtureVal ID="32">9,0,10,255,11,255,12,0,22,0,23,130,24,255</FixtureVal>
   </Function>
   <Function ID="625" Type="Collection" Name="0 - 1 Test grillen Cyan">
    <Step Number="0">624</Step>
@@ -4798,25 +4807,25 @@
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="PerStep"/>
-   <Step Number="0" FadeIn="0" Hold="80" FadeOut="0" Values="4">28:0,255</Step>
-   <Step Number="1" FadeIn="0" Hold="80" FadeOut="0" Values="4">26:0,255:28:0,255</Step>
-   <Step Number="2" FadeIn="0" Hold="80" FadeOut="0" Values="4">26:0,255:27:0,255:28:0,255</Step>
-   <Step Number="3" FadeIn="0" Hold="15000" FadeOut="0" Values="4">26:0,255:27:0,255:28:0,255:29:0,255</Step>
+   <Step Number="0" FadeIn="0" Hold="80" FadeOut="0" Values="4">28:0,110</Step>
+   <Step Number="1" FadeIn="0" Hold="80" FadeOut="0" Values="4">26:0,110:28:0,110</Step>
+   <Step Number="2" FadeIn="0" Hold="80" FadeOut="0" Values="4">26:0,110:27:0,110:28:0,110</Step>
+   <Step Number="3" FadeIn="0" Hold="15000" FadeOut="0" Values="4">26:0,110:27:0,110:28:0,110:29:0,110</Step>
   </Function>
   <Function ID="629" Type="Scene" Name="Robin #1 - #4 - DIM High" Path="Grillen/Robin">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="81">20,255</FixtureVal>
-   <FixtureVal ID="82">20,255</FixtureVal>
-   <FixtureVal ID="83">20,255</FixtureVal>
-   <FixtureVal ID="84">20,255</FixtureVal>
+   <FixtureVal ID="81">19,32,20,255</FixtureVal>
+   <FixtureVal ID="82">19,32,20,255</FixtureVal>
+   <FixtureVal ID="83">19,32,20,255</FixtureVal>
+   <FixtureVal ID="84">19,32,20,255</FixtureVal>
   </Function>
   <Function ID="630" Type="Scene" Name="MacAura - Amber" Path="Grillen/MacAura">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="24">9,255,10,120,11,0,12,0,22,255,23,120,24,0</FixtureVal>
-   <FixtureVal ID="25">9,255,10,120,11,0,12,0,22,255,23,120,24,0</FixtureVal>
-   <FixtureVal ID="30">9,255,10,120,11,0,12,0,22,255,23,120,24,0</FixtureVal>
-   <FixtureVal ID="31">9,255,10,120,11,0,12,0,22,255,23,120,24,0</FixtureVal>
-   <FixtureVal ID="32">9,255,10,120,11,0,12,0,22,255,23,120,24,0</FixtureVal>
+   <FixtureVal ID="24">9,255,10,60,11,0,12,0,22,255,23,120,24,0</FixtureVal>
+   <FixtureVal ID="25">9,255,10,60,11,0,12,0,22,255,23,120,24,0</FixtureVal>
+   <FixtureVal ID="30">9,255,10,60,11,0,12,0,22,255,23,120,24,0</FixtureVal>
+   <FixtureVal ID="31">9,255,10,60,11,0,12,0,22,255,23,120,24,0</FixtureVal>
+   <FixtureVal ID="32">9,255,10,60,11,0,12,0,22,255,23,120,24,0</FixtureVal>
   </Function>
   <Function ID="631" Type="Scene" Name="Robin #1 - #4 - Blue-amber" Path="Grillen/Robin">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -4825,8 +4834,20 @@
    <FixtureVal ID="83">6,2,7,255,8,0,9,120,10,0,11,0,12,0,13,0,14,0,15,0</FixtureVal>
    <FixtureVal ID="84">6,2,7,0,8,0,9,0,10,0,11,255,12,255,13,0,14,0,15,0</FixtureVal>
   </Function>
+  <Function ID="632" Type="Scene" Name="Rush MH1 - White" Path="Grillen/Rush MH1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="15">7,0,8,0</FixtureVal>
+   <FixtureVal ID="16">7,0,8,0</FixtureVal>
+   <FixtureVal ID="17">7,0,8,0</FixtureVal>
+   <FixtureVal ID="18">7,0,8,0</FixtureVal>
+   <FixtureVal ID="19">7,0,8,0</FixtureVal>
+   <FixtureVal ID="20">7,0,8,0</FixtureVal>
+   <FixtureVal ID="21">7,0,8,0</FixtureVal>
+   <FixtureVal ID="22">7,0,8,0</FixtureVal>
+   <FixtureVal ID="23">7,0,8,0</FixtureVal>
+  </Function>
   <Monitor DisplayMode="1" ShowLabels="1">
-   <Font>Ubuntu Sans,11,-1,5,50,0,0,0,0,0</Font>
+   <Font>Ubuntu Sans,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
    <Grid Width="8" Height="3" Depth="10" Units="0"/>
@@ -4917,9 +4938,6 @@
     </Appearance>
     <Visibility>4</Visibility>
     <AbsoluteValue Minimum="0" Maximum="1000"/>
-    <Tap>
-     <Input Universe="0" Channel="92"/>
-    </Tap>
     <Time>272</Time>
     <Function FadeIn="0" FadeOut="0" Duration="7">47</Function>
     <Function FadeIn="6" FadeOut="6" Duration="6">6</Function>
@@ -4962,7 +4980,7 @@
     </Preset>
    </SpeedDial>
    <Slider Caption="PAR Yuro #2" ID="31" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="75" Y="425" Width="75" Height="250"/>
+    <WindowState Visible="True" X="70" Y="415" Width="75" Height="250"/>
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4975,8 +4993,7 @@
     <Reset>
      <Input Universe="0" Channel="74"/>
     </Reset>
-    <Level LowLimit="0" HighLimit="180" Value="90">
-     <Channel Fixture="27">0</Channel>
+    <Level LowLimit="0" HighLimit="180" Value="138">
      <Channel Fixture="86">20</Channel>
      <Channel Fixture="87">20</Channel>
     </Level>
@@ -4985,7 +5002,7 @@
     </Playback>
    </Slider>
    <Slider Caption="40 days" ID="33" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="335" Y="440" Width="75" Height="215"/>
+    <WindowState Visible="True" X="560" Y="450" Width="75" Height="215"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -4993,9 +5010,9 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Input Universe="0" Channel="87"/>
+    <Input Universe="0" Channel="88"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Level LowLimit="0" HighLimit="255" Value="120">
      <Channel Fixture="12">0</Channel>
      <Channel Fixture="24">1</Channel>
      <Channel Fixture="24">20</Channel>
@@ -5047,7 +5064,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Input Universe="0" Channel="8"/>
+    <Input Universe="0" Channel="7"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="52">0</Channel>
@@ -5135,8 +5152,8 @@
     <Intensity Adjust="False">100</Intensity>
     <Input Universe="0" Channel="91"/>
    </Button>
-   <Slider Caption="Blinder" ID="1" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-    <WindowState Visible="True" X="210" Y="455" Width="80" Height="205"/>
+   <Slider Caption="Blinder" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="425" Y="445" Width="80" Height="205"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5144,9 +5161,14 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
+    <Input Universe="0" Channel="87"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-    <Reset/>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Reset>
+     <Input Universe="0" Channel="79"/>
+    </Reset>
+    <Level LowLimit="0" HighLimit="120" Value="0">
+     <Channel Fixture="26">0</Channel>
+     <Channel Fixture="27">0</Channel>
      <Channel Fixture="28">0</Channel>
      <Channel Fixture="29">0</Channel>
     </Level>
@@ -5154,8 +5176,8 @@
      <Function>4294967295</Function>
     </Playback>
    </Slider>
-   <Slider Caption="PAR Yuro #1" ID="6" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-    <WindowState Visible="True" X="0" Y="425" Width="75" Height="250"/>
+   <Slider Caption="PAR Yuro #1" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="0" Y="415" Width="75" Height="250"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5163,15 +5185,17 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
+    <Input Universe="0" Channel="81"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-    <Reset/>
-    <Level LowLimit="0" HighLimit="180" Value="135">
-     <Channel Fixture="26">0</Channel>
+    <Reset>
+     <Input Universe="0" Channel="73"/>
+    </Reset>
+    <Level LowLimit="0" HighLimit="180" Value="94">
      <Channel Fixture="85">20</Channel>
      <Channel Fixture="88">20</Channel>
     </Level>
     <Playback>
-     <Function>4294967295</Function>
+     <Function>162</Function>
     </Playback>
    </Slider>
    <Button Caption="0 - Base - Strob OFF" ID="7" Icon="">
@@ -5186,9 +5210,10 @@
     <Function ID="51"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="92"/>
    </Button>
-   <Slider Caption="MacAura" ID="8" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-    <WindowState Visible="True" X="645" Y="415" Width="60" Height="200"/>
+   <Slider Caption="MacAura" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="200" Y="450" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5196,9 +5221,12 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
+    <Input Universe="0" Channel="84"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-    <Reset/>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Reset>
+     <Input Universe="0" Channel="76"/>
+    </Reset>
+    <Level LowLimit="0" HighLimit="255" Value="120">
      <Channel Fixture="24">1</Channel>
      <Channel Fixture="24">20</Channel>
      <Channel Fixture="25">1</Channel>
@@ -5214,8 +5242,8 @@
      <Function>4294967295</Function>
     </Playback>
    </Slider>
-   <Slider Caption="Robin" ID="9" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-    <WindowState Visible="True" X="710" Y="415" Width="60" Height="200"/>
+   <Slider Caption="Robin" ID="9" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="260" Y="450" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5223,9 +5251,12 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
+    <Input Universe="0" Channel="85"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-    <Reset/>
-    <Level LowLimit="0" HighLimit="255" Value="0">
+    <Reset>
+     <Input Universe="0" Channel="77"/>
+    </Reset>
+    <Level LowLimit="0" HighLimit="255" Value="255">
      <Channel Fixture="81">20</Channel>
      <Channel Fixture="82">20</Channel>
      <Channel Fixture="83">20</Channel>
@@ -5236,7 +5267,7 @@
     </Playback>
    </Slider>
    <Slider Caption="MH1" ID="18" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="580" Y="415" Width="60" Height="200"/>
+    <WindowState Visible="True" X="140" Y="450" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5244,8 +5275,11 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
+    <Input Universe="0" Channel="83"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-    <Reset/>
+    <Reset>
+     <Input Universe="0" Channel="75"/>
+    </Reset>
     <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="15">5</Channel>
      <Channel Fixture="16">5</Channel>
@@ -5289,6 +5323,7 @@
      <Function ID="421"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="188"/>
     </Button>
     <Button Caption="TODO - MH1 Grill P#2" ID="5" Icon="">
      <WindowState Visible="True" X="85" Y="40" Width="80" Height="75"/>
@@ -5302,6 +5337,7 @@
      <Function ID="601"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="189"/>
     </Button>
    </SoloFrame>
    <SoloFrame Caption="Robin" ID="14">
@@ -5332,6 +5368,7 @@
      <Function ID="618"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="190"/>
     </Button>
    </SoloFrame>
    <SoloFrame Caption="Mac Aura" ID="17">
@@ -5362,6 +5399,7 @@
      <Function ID="611"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="191"/>
     </Button>
    </SoloFrame>
    <SoloFrame Caption="" ID="19">
@@ -5473,7 +5511,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Slider Caption="Arcaline" ID="37" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="True" X="765" Y="415" Width="60" Height="200"/>
+    <WindowState Visible="True" X="320" Y="450" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -5481,8 +5519,11 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
+    <Input Universe="0" Channel="86"/>
     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
-    <Reset/>
+    <Reset>
+     <Input Universe="0" Channel="78"/>
+    </Reset>
     <Level LowLimit="0" HighLimit="255" Value="0">
      <Channel Fixture="35">6</Channel>
      <Channel Fixture="36">6</Channel>
@@ -5916,6 +5957,21 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
+   <Slider Caption="Fader 11" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="715" Y="470" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>425</Function>
+    </Playback>
+   </Slider>
   </Frame>
   <Properties>
    <Size Width="1865" Height="2000"/>
