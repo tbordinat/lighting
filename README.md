@@ -27,7 +27,6 @@ Feel free to explore, suggest improvements, or reach out if you have questions!
 - 2025-11-08 - 🇫🇷 Strasbourg - Molodoi - The Ultimate Soul Grinding Festival - Inhumate last show - Vari-lite FLX S24
 - 2025-10-30 - 🇫🇷 Colmar - Grillen - Yurodivy w/ Conjurer
 - 2025-10-18 - 🇫🇷 Strasbourg - Molodoi 360° - Fincher + LOBA + The Raindrops
-- 2025-09-20 - 🇫🇷 La Fare-les-Oliviers - RDB Fest 2025 - Yurodivy + Fincher
 - 2025-10-16 - 🇫🇷 Dinsheim-sur-Bruche - Ruby's Burlesque Club #3
 - 2025-09-20 - 🇫🇷 La Fare-les-Oliviers - RDB Fest 2025 - Yurodivy + Fincher
 - 2025-09-19 - 🇫🇷 Clermont-Ferrand - Le Fotomat - Yurodivy + Fincher
