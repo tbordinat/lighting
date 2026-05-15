@@ -18,6 +18,12 @@ Feel free to explore, suggest improvements, or reach out if you have questions!
 
 ## Shows
 
+- 2026-05-14 - 🇫🇷 Strasbourg - Pelpass Festival - Fincher - grandMA3
+- 2026-05-09 - 🇫🇷 Strasbourg - Molodoi - Concert Solidaire Abribus - Kalory + Nast + Margarita Tempête + Boum Baby Gang + Yojimbo - Vari-lite FLX S24
+- 2026-05-06 - 🇫🇷 Strasbourg - Kawati Studios - Itawak Show - Edhochuli + Tromblon + Brach
+- 2026-04-05 - 🇫🇷 Strasbourg - Kawati Studios - Itawak Show - Poisse + Hellthorn
+- 2026-04-05 - 🇫🇷 Strasbourg - Kawati Studios - Poisse + Hellthorn
+- 2026-01-17 - 🇫🇷 Strasbourg - Molodoi - Itawak Show - Heimberg + -ii-
 - 2025-11-08 - 🇫🇷 Strasbourg - Molodoi - The Ultimate Soul Grinding Festival - Inhumate last show - Vari-lite FLX S24
 - 2025-10-30 - 🇫🇷 Colmar - Grillen - Yurodivy w/ Conjurer
 - 2025-10-18 - 🇫🇷 Strasbourg - Molodoi 360° - Fincher + LOBA + The Raindrops
