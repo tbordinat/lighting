@@ -18,8 +18,8 @@ Feel free to explore, suggest improvements, or reach out if you have questions!
 
 ## Shows
 
-- 2026-05-14 - 🇫🇷 Strasbourg - Pelpass Festival - Fincher - grandMA3
-- 2026-05-09 - 🇫🇷 Strasbourg - Molodoi - Concert Solidaire Abribus - Kalory + Nast + Margarita Tempête + Boum Baby Gang + Yojimbo - Vari-lite FLX S24
+- [2026-05-14 - 🇫🇷 Strasbourg - Pelpass Festival - Fincher - grandMA3](https://pelpass.net/pelpass-festival/)
+- [2026-05-09 - 🇫🇷 Strasbourg - Molodoi - Concert Solidaire Abribus - Kalory + Nast + Margarita Tempête + Boum Baby Gang + Yojimbo - Vari-lite FLX S24](http://www.association-abribus.fr/)
 - 2026-05-06 - 🇫🇷 Strasbourg - Kawati Studios - Itawak Show - Edhochuli + Tromblon + Brach
 - 2026-04-05 - 🇫🇷 Strasbourg - Kawati Studios - Itawak Show - Poisse + Hellthorn
 - 2026-01-17 - 🇫🇷 Strasbourg - Molodoi - Itawak Show - Heimberg + -ii-
@@ -30,7 +30,7 @@ Feel free to explore, suggest improvements, or reach out if you have questions!
 - 2025-10-16 - 🇫🇷 Dinsheim-sur-Bruche - Ruby's Burlesque Club #3
 - 2025-09-20 - 🇫🇷 La Fare-les-Oliviers - RDB Fest 2025 - Yurodivy + Fincher
 - 2025-09-19 - 🇫🇷 Clermont-Ferrand - Le Fotomat - Yurodivy + Fincher
-- 2025-08-22 - 🇫🇷 Kolbsheim - Demi-Lune Festival III - Yurodivy
+- [2025-08-22 - 🇫🇷 Kolbsheim - Demi-Lune Festival III - Yurodivy](https://demilunefestival.fr/)
 - 2025-08-20 - 🇫🇷 Lingolsheim - Maison des Arts - Résidence Fincher / Enregistrement vidéo
 - [2025-06-12 - 🇫🇷 Strasbourg - Molodoi - Itawak Fest VI - Yarostan + Wormrot + Bleachdrinker + The Man And The Abyss + Oak + more](https://itawak.com/itawak-fest-2025/)
 - 2025-04-25 - 🇫🇷 Dinsheim-sur-Bruche - Ruby's Burlesque Club #2
