@@ -21,6 +21,7 @@ Feel free to explore, suggest improvements, or reach out if you have questions!
 - [2026-05-14 - 🇫🇷 Strasbourg - Pelpass Festival - Fincher](https://pelpass.net/pelpass-festival/) - grandMA3
 - [2026-05-09 - 🇫🇷 Strasbourg - Molodoi - Concert Solidaire Abribus - Kalory + Nast + Margarita Tempête + Boum Baby Gang + Yojimbo](http://www.association-abribus.fr/) - Vari-lite FLX S24
 - 2026-05-06 - 🇫🇷 Strasbourg - Kawati Studios - Itawak Show - Edhochuli + Tromblon + Brach
+- [2026-04-09 - 🇫🇷 Dinsheim-sur-Bruche - Ruby's Burlesque Club #4](https://www.dna.fr/culture-loisirs/2026/04/03/le-ruby-s-burlesque-club-revient-ce-jeudi-9-avril)
 - 2026-04-05 - 🇫🇷 Strasbourg - Kawati Studios - Itawak Show - Poisse + Hellthorn
 - 2026-01-17 - 🇫🇷 Strasbourg - Molodoi - Itawak Show - Heimberg + -ii-
 - 2025-11-08 - 🇫🇷 Strasbourg - Molodoi - The Ultimate Soul Grinding Festival - Inhumate last show - Vari-lite FLX S24
